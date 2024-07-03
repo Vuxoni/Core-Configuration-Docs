@@ -35,6 +35,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Push to add proper logo.
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [1.0.0~prerelease] - 2024-07-03
+
+### Added
+- Nothing changed.
+
+### Changed
+- Replaced web page favicon and logo asset with bespoke version by cerbiscode.
+
+### Fixed
+- Nothing changed.
+
+### Deprecated
+- Nothing changed.
+
+### Removed
+- Nothing changed.
+
+### Security
+- Nothing changed.
+
+---
+
 ## Initial Push of bare bones layout.
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX

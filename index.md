@@ -59,7 +59,7 @@ permalink: /
 </style>
 
 <p align="center">
-  <img src="./assets/CarnationsLogo.png" width="40%" height="40%" class="alignment_img">
+  <img src="./assets/Carnations_logo_1000px.png" width="40%" height="40%" class="alignment_img">
 </p>
 
 <p align="center">
