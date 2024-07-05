@@ -1,7 +1,8 @@
 ---
 layout: default
-title: AMD CPUs
-nav_order: 3
+title: AMD Desktop CPUs
+parent: AMD CPUs
+nav_order: 1
 has_children: true
 has_toc: true
 ---

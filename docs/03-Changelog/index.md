@@ -35,6 +35,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Push to restructure AMD plist and BIOS sections
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [1.0.0~prerelease] - 2024-07-05
+
+### Added
+- Separate sections for AMD desktop and laptop/mobile CPUs with separate generations.
+
+### Changed
+- Renamed ASUS Strix BIOS section to B450.
+- Edited roadmap file to match new structure of AMD plist section.
+
+### Fixed
+- Nothing changed.
+
+### Deprecated
+- Nothing changed.
+
+### Removed
+- Nothing changed.
+
+### Security
+- Nothing changed.
+
+---
+
 ## Push to add proper logo.
 ### Prerelease@CarnationsInternal
 #### By cerbiscode

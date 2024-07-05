@@ -52,19 +52,29 @@ Configuring Config.plist
             -> Completion
         -> Example Generation Name (Laptop)
         -> Example Generation Name
-    -> AMD Generations
-        -> Example Generation Name
-        -> Example Generation Name (Laptop)
-            -> ACPI
-            -> Booter
-            -> Device Properties
-            -> Kernel
-            -> Miscellaneous
-            -> NVRAM
-            -> PlatformInfo
-            -> UEFI
-            -> Completion
-        -> Example Generation Name
+    -> AMD category
+        -> Desktops category
+            -> Example Generation Name
+                -> ACPI
+                -> Booter
+                -> Device Properties
+                -> Kernel
+                -> Miscellaneous
+                -> NVRAM
+                -> PlatformInfo
+                -> UEFI
+                -> Completion
+        -> Laptops and Mobile category
+            -> Example Generation Name
+                -> ACPI
+                -> Booter
+                -> Device Properties
+                -> Kernel
+                -> Miscellaneous
+                -> NVRAM
+                -> PlatformInfo
+                -> UEFI
+                -> Completion
 
 Installation of OS X / macOS
     -> Planning your install disk
@@ -92,3 +102,4 @@ Post Installation
     -> a shit load of writeups for so much information post install
 
 ~ RGX @ June 26th
+~ cerbiscode @ July 5th
