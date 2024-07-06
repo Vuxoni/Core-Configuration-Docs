@@ -35,6 +35,36 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Push to add config info for Ryzen 5000 and fix asset paths
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [1.0.0~prerelease] - 2024-07-06
+
+### Added
+- Begun work on the config.plist documentation for Ryzen 5000 series:
+- Introduction page.
+- Short explanation of ACPI quirks.
+- Booter configuration recommended defaults for X570 (non-S) and MMIO whitelist explanation.
+- Introduction page for Ryzen 7000 series.
+
+### Changed
+- Nothing changed.
+
+### Fixed
+- Corrected some paths to header graphics.
+
+### Deprecated
+- Nothing changed.
+
+### Removed
+- Nothing changed.
+
+### Security
+- Nothing changed.
+
+---
+
 ## Push to restructure AMD plist and BIOS sections
 ### Prerelease@CarnationsInternal
 #### By cerbiscode

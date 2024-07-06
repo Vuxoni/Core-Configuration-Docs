@@ -2,6 +2,7 @@
 layout: default
 title: Ryzen 2000 series
 parent: AMD Desktop CPUs
+grand_parent: AMD CPUs
 nav_order: 3
 has_children: true
 has_toc: true
@@ -21,7 +22,7 @@ has_toc: true
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../../assets/Header-Placeholder.png">
 </p>
 
 {: .warning }

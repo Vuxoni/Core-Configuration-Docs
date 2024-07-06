@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Ryzen 7000 series laptop and mobile CPUs
-parent: AMD Laptop and Mobile CPUs
+title: Ryzen 7000 mobile series 
+parent: AMD Laptop and mobile CPUs 
+grand_parent: AMD CPUs
 nav_order: 6
 has_children: true
 has_toc: true

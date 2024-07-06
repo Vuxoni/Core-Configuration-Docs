@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Ryzen 4000 series laptop and mobile CPUs
-parent: AMD Laptop and Mobile CPUs
+title: Ryzen 4000 mobile series 
+parent: AMD Laptop and mobile CPUs 
+grand_parent: AMD CPUs
 nav_order: 4
 has_children: true
 has_toc: true

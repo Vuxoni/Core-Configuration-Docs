@@ -41,22 +41,23 @@ This section of the config is meant to expose the various ACPI in your OC folder
 
 This blocks certain ACPI tables from loading, for us, we can ignore this.
 
+
 <h2 class="key-title">Patch</h2>
 
 This section allows us to dynamically modify parts of the ACPI (DSDT, SSDT, etc.) via OpenCore. For us, our patches are handled by our SSDTs. This is a much cleaner solution as this will allow us to boot Windows and other OSes with OpenCore for dual or multi-boot configurations.
 
 <h2 class="key-title">Quirks</h2>
 
-Placeholder text for this section
+This section has settings related to compatibility and workarounds for issues in firmware or OS handling of ACPI.
 
-| Key | Type | Value |
-| --- | --- | --- |
-| FadtEnableReset | Boolean | False |
-| NormalizeHeaders | Boolean | False |
-| RebaseRegions | Boolean | False |
-| ResetHwSig | Boolean | False |
-| ResetLogoStatus | Boolean | True |
-| SyncTableIds | Boolean | False |
+|        Key        |   Type    |  Value  |
+| ----------------- | --------- | ------- |
+|  FadtEnableReset  |  Boolean  |  False  |
+|  NormalizeHeaders |  Boolean  |  False  |
+|  RebaseRegions    |  Boolean  |  False  |
+|  ResetHwSig       |  Boolean  |  False  |
+|  ResetLogoStatus  |  Boolean  |  True   |
+|  SyncTableIds     |  Boolean  |  False  |
 
 <h2 align="center">
   <br>

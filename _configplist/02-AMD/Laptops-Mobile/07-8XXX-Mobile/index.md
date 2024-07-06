@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Ryzen 8000 series laptop and mobile CPUs
-parent: AMD Laptop and Mobile CPUs
+title: Ryzen 8000 series 
+parent: AMD Laptop and mobile CPUs 
+grand_parent: AMD CPUs
 nav_order: 7
 has_children: true
 has_toc: true
