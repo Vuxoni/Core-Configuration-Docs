@@ -37,7 +37,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## Robots.txt and file exclusion
+## robots.txt and file exclusion
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
