@@ -19,14 +19,6 @@ check_uncommitted_changes() {
   fi
 }
 
-# Function to check if there are any commits to push
-check_commits_to_push() {
-  if git diff-index --quiet HEAD -- && git diff --cached --quiet; then
-    echo "No changes to push."
-    exit 0
-  fi
-}
-
 # Function to attempt to push changes
 attempt_push() {
   if git push; then
@@ -42,9 +34,6 @@ check_tracking
 
 # Check for uncommitted changes
 check_uncommitted_changes
-
-# Check if there are any commits to push
-check_commits_to_push
 
 # Attempt to push changes
 attempt_push
