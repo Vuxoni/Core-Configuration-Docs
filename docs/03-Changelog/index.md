@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Robots.txt and file exclusion
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [Version~Type] - 2024-07-17
+
+### Added
+- Robots.txt to discourage too-early web crawling of docs.
+
+### Changed
+- Added a file exclusion to .gitignore.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Connect Config.plist Section, Various Assets + Updates
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
