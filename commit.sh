@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check if there are any changes to commit
-if git diff-index --quiet HEAD --; then
-  echo "No changes to commit."
-  exit 0
-fi
-
 # Stage all changes
 git add --all
 
