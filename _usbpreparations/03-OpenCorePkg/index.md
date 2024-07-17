@@ -20,10 +20,15 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-FetchingOCPkg.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Explain how to get the latest OpenCorePkg release from the GitHub.
 
 <h2 align="center">
   <br>

@@ -20,14 +20,16 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-InitialInspection.png">
 </p>
 
 <h4 align="center">This page is a stub, but this page should:</h4>
 <br>
 
 1. Help the user do initial inspection of their hack to check what works and what does not
+
 2. Help the user check Wi-Fi, Ethernet, Bluetooth, USB Mapping, and so on.
+
 3. GPU Acceleration, DRM, and various graphical related issues.
 
 <h2 align="center">

@@ -22,7 +22,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../../assets/Header-Tools-USBMap.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
@@ -30,7 +30,7 @@ has_toc: false
 <h2 align="center">
   <br>
   <div class="next-button-container">
-  <a class="next-button" href="../../../../configfolders/01-Introduction/index/">Next Page &rarr;</a>
+  <a class="next-button" href="">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

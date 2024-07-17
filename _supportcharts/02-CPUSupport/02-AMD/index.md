@@ -21,10 +21,17 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../assets/Header-AMDBased.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
+# Example Entry
+
+{: .note }
+A Temporary Note ready for usage if needed
+
+| Product Name | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| AMD Generation XXXX | Catalina (10.15.0) | Sonoma (14) | Requires AMD Vanilla Patches. |
 
 <h2 align="center">
   <br>

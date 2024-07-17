@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deciding Target Install
+title: Deciding Install Target
 nav_order: 8
 has_children: false
 has_toc: false
@@ -20,10 +20,19 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-DecidingInstallTarget.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Help the user comprehensively decide on what version of OS X / macOS they should install.
+
+2. Help the user consider the hardware compatibility, and where and what versions start or stop supporting their hardware, resulting in a limit as to what OS they can use.
+
+3. Any other critial info required to make a proper decision of the right version to install.
 
 <h2 align="center">
   <br>

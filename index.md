@@ -59,15 +59,15 @@ permalink: /
 </style>
 
 <p align="center">
-  <img src="./assets/Carnations_logo_1000px.png" width="40%" height="40%" class="alignment_img">
+  <img src="./assets/Carnations_logo_1000px.png" alt="A Carnation drawn by Cerbis for Carnations Botanica. It features a 2D Vector styled Pinkish Carnation with gradients between the petals." width="40%" height="40%" class="alignment_img">
 </p>
 
 <p align="center">
-  <img width="650" height="200" src="./assets/CarnationsCCDHeader.png" class="alignment_img_alt">
+  <img width="650" height="200" src="./assets/Header-Title.png" alt="Core Configuration Docs" class="alignment_img_alt">
 </p>
 
 <h3 class="tagline">An Advanced Guide for running Mac OS X / macOS on Non-Apple Hardware.</h3>
-<h5 class="help-text">If you run into any issues, you can join <a href="https://discord.gg/eDptbT9NcV">The Botánica</a> Discord server! Feel free to ping the <span style="color: #d48dff;">@Helpers</span> role within a help channel for support. <a href="https://github.com/royalgraphx/Hexley">Hexley</a> provides our discord users with a multitude of commands to assist anyone who may need specific actions performed.</h5>
+<h5 class="help-text">If you run into any issues, you can join <a href="https://discord.gg/eDptbT9NcV">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Helpers</span> role within a help channel for support. <a href="https://github.com/royalgraphx/Hexley">Hexley</a> provides our discord users with a multitude of commands to assist anyone who may need specific actions performed.</h5>
 <div style="display: flex; justify-content: center; align-items: center;">
     <iframe src="https://discord.com/widget?id=1256314323240882236&theme=dark" width="400" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </div>

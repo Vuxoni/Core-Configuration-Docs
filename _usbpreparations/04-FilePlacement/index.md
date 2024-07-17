@@ -20,10 +20,17 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-FilePlacement.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Explain how to browse through the unzipped OpenCore Package, and correctly add what needs to be added to the USB
+
+2. This page exists because there is both an x32 and x64 folder, along with various samples, so we should take the time to help the users move things over before clean-up.
 
 <h2 align="center">
   <br>

@@ -3,7 +3,7 @@ layout: default
 title: Resources
 nav_order: 5
 has_children: true
-has_toc: true
+has_toc: false
 ---
 
 <style>
@@ -20,19 +20,19 @@ has_toc: true
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../assets/Header-OpenCore-Resources.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
 
-
-<h4 align="center">This page is a stub, we have enabled the ToC for the moment, but this page should:</h4>
+<h4 align="center">This page is a stub, but this page should:</h4>
 <br>
 
 1. Explain Resources Folder
 2. Discourage configuration until post install
-3. Explain OpenCanopy
+3. Explain OpenCanopy lightly, going over its a Driver thats required to use this folder.
 4. Format subpages in a way where we explain every folder and its contents
+5. Assist the user downloading a theme they want, and installing it in the following pages.
 
 <h2 align="center">
   <br>

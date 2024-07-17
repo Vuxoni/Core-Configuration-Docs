@@ -21,10 +21,17 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../assets/Header-IntelBased.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
+# Example Entry
+
+{: .note }
+A Temporary Note ready for usage if needed
+
+| Product Name | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Core iX XXXX | Big Sur (11) | Sonoma (14) | Requires a dedicated GPU. |
 
 <h2 align="center">
   <br>

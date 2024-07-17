@@ -26,5 +26,6 @@ Temporary Items
 .apdisk
 
 # Jekyll Related Stuff
-.jekyll-cache
+.jekyll-cache/
+.bundle/
 _site/

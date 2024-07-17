@@ -20,10 +20,17 @@ has_toc: true
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-MiscSupportChart.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Help aid in non-standard help that would otherwise not fit in the above sections.
+
+2. Have a nice list with links directly to specific issues.
 
 <h2 align="center">
   <br>

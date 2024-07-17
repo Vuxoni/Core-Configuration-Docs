@@ -20,8 +20,17 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-OCUSBPrep.png">
 </p>
+
+<h2 align="center">Placeholder Text</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Explain what this section is about, and its purpose.
+
+2. It is critical the user is aware of how OpenCore is structured, and how its used properly.
 
 <h2 align="center">
   <br>

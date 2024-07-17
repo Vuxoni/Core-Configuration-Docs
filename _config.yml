@@ -115,9 +115,9 @@ include:
 
 # External navigation links
 nav_external_links:
-#  - title: Support via Discord
-#    url: https://discord.gg/
-#    hide_icon: false
+  - title: Support via Discord
+    url: https://discord.gg/eDptbT9NcV
+    hide_icon: false
 
 # Aux links for the upper right navigation
 aux_links:
@@ -125,4 +125,5 @@ aux_links:
     - "//github.com/Carnations-Botanica/Core-Configuration-Docs/tree/main"
 
 # Makes Aux links open in a new tab. Default is false
+# This is required for smooth operation of interlinked pages for navigation
 aux_links_new_tab: false

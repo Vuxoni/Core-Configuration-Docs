@@ -19,7 +19,7 @@ nav_order: 3
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../assets/Header-SettingExpectations.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>

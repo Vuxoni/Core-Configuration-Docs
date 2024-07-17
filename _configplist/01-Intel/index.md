@@ -32,6 +32,5 @@ has_toc: true
 2. Show a column of status, confirmed, untested, theoretically working
 3. offer nicer links to specific CPU generations, the ToC is temporary.
 
-
 <h4 align="center">This page does not contain a next button.</h4>
 <br>

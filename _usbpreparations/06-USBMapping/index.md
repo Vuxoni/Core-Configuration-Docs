@@ -19,12 +19,14 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../../assets/Header-USBMapping.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
 
 <h4 align="center">This page is a stub, due to information that has clarified the process of USB Mapping, we will now only provide base information here, and when people run into problems, they can solve that in the respective post install USB mapping section.</h4>
+
+This section may get removed entirely as it no longer makes much sense here.
 
 <h2 align="center">
   <br>

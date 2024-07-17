@@ -20,10 +20,13 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../assets/Header-ChipsetSupportChart.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Help the user find out if the motherboard their CPU is paired with, is compatible with macOS, not too sure how we'll do this section or if it gets scrapped.
 
 <h2 align="center">
   <br>

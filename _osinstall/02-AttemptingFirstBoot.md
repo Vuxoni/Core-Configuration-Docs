@@ -20,15 +20,18 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-FirstBootAttempt.png">
 </p>
 
 <h4 align="center">This page is a stub, but this page should:</h4>
 <br>
 
 1. Walk the user through the process of attempting the first boot of OpenCore
+
 2. Help the user identify where they are in the attempt
+
 3. Help them decide where to go depending on any issues arising
+
 4. Finally, explain a successful boot and the process of handling a successful boot
 
 <h2 align="center">

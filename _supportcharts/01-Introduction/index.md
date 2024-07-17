@@ -20,10 +20,17 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-HardwareSanityCheck.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<br>
+
+1. Help the user understand that now that they understand the hardware in their system, they must individually check if the components the user has, works in OS X / macOS or not.
+
+2. Help users pick out problematic hardware, if need be.
 
 <h2 align="center">
   <br>

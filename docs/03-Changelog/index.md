@@ -12,8 +12,10 @@ has_toc: false
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Always maintain a temporary Commit entry at the top of this file. Maintain using Prerelease@BranchName and continue with using 1.0.0 while the Docs are still not released as 1.0.0 officially.
 
 ## [Commit Name]
-### Prerelease@CarnationsInternal
-#### By 
+### Version@Branch
+#### By Commit Author
+
+## [Version~Type] - YYYY-MM-DD
 
 ### Added
 - 
@@ -29,6 +31,37 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Removed
 - 
+
+### Security
+- 
+
+---
+
+## Connect Config.plist Section, Various Assets + Updates
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-07-17
+
+### Added
+- Several Header images for various pages.
+- Navigation bars to several pages in an effort to finish page connections.
+- Commit Bash script.
+
+### Changed
+- Push Bash Script is now split into two different scripts, one specifically for committing changes multiple times before pushing to the remote repository.
+- The styling of Headers, and cleaned up Assets folder.
+- Almost all sections were touched up a bit, with more Stubs added, and various guiding principles in those sections.
+- Hex Colors were modified for the Helper role, as well as the "link" color, which dictates the color of the text.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- CarnationsCCDHeader.png/psd were removed.
 
 ### Security
 - 

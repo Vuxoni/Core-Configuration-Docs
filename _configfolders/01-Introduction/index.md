@@ -20,10 +20,19 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../assets/Header-ConfiguringFolders.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+
+<h4 align="center">This page is a stub, but should:</h4>
+<br>
+
+1. Help the user understand how this section is broken up.
+
+2. Outline the importance of understanding what each folder is for, and how to configure that folder for the types of files it accepts.
+
+3. Optimally, prefer that users start with bare minimum to boot recoveryOS, and they can slowly build and add onto their files as need be. The least bloat the better chance we can practically assist a user diagnose their issues.
 
 <h2 align="center">
   <br>

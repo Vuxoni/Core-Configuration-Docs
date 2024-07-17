@@ -22,7 +22,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-Placeholder.png">
+  <img width="650" height="200" src="../../../../assets/Header-Wireless.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
