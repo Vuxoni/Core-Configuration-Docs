@@ -71,49 +71,50 @@ These settings control various boot behaviours for OpenCore and its boot picker.
 
 <h2 class="key-title">Debug</h2>
 
-Helpful for debugging OpenCore boot issues.
+These are various settings for debugging and logging.
 
-| Key  | Type | Value | 
-| ----- | ----- | ----- |
-| AppleDebug | Boolean | False |
-| ApplePanic | Boolean | False |
-| DisableWatchDog | Boolean | False |
-| DisplayDelay | Number | 0 |
-| DisplayLevel | Number | 0 |
-| LogModules | String | Placeholder |
-| SysReport | Boolean | False |
-| Target | Number | 0 |
+| Key  | Type | Value | Description |
+| ----- | ----- | ----- | ----- |
+| AppleDebug | Boolean | False | Recommended set True. When enabled, writes the boot.efi debug log to the OpenCore log. Does not apply to the full macOS kernel log. |
+| ApplePanic | Boolean | False | Recommended set True. This quirk writes kernel panic logs to the OpenCore root partition, i.e. the EFI partition or USB drive in the event of a macOS kernel panic. See Configuration.pdf for complete details. |
+| DisableWatchDog | Boolean | False | Should be set False. Some firmwares have a boot watchdog timer, where boot will be aborted if a boot process takes too long. Setting this True works around such timeouts for particularly slow booting systems. |
+| DisplayDelay | Number | 0 | Adds a delay after every line of log output printed to the screen. Can make it easier to read output for troubleshooting, in exchange for much longer boot times. |
+| DisplayLevel | Number | 0 | Bitmask for what information to show on screen during OpenCore boot. Requires a suitable `Target` value to be set. |
+| LogModules | String | Placeholder | Filters which internal OpenCore components logging is visible on screen and in the OpenCore log files. See Configuration.pdf for complete details. |
+| SysReport | Boolean | False | When set True, this quirk asks OpenCore debug builds to write a system report to the OpenCore root partition under a `SysReport` folder. Very useful when debugging and creating ACPI patches and SSDTs on systems that cannot dump ACPI normally such as with the SSDTTime tool. |
+| Target | Number | 0 | Recommended set `67`. This is a bitmask that sets the logging OpenCore will perform to the screen and the log file. The value 67 gives comprehensive on-screen and log file logging to aid in troubleshooting. |
 
 <h2 class="key-title">Entries</h2>
 
-Used for specifying irregular boot paths that can't be found naturally with OpenCore.
+This section allows for manually specifing boot entries that OpenCore doesn't find automatically. See Configuration.pdf for complete details.
 
 <h2 class="key-title">Security</h2>
 
-Security is pretty self-explanatory, <b>do not skip</b>. We'll be changing the following:
+This section controls various parts of both OpenCore and macOS boot security. These settings are very important for booting later versions of macOS and for later on securing the boot process on computers that others may have access to.
 
 {: .warning }
-Optional is a word, you must type it out. It IS case-sensitive.
+For the Vault setting, `Optional` is a word, you must type it out. It IS case-sensitive. This is also the case for SecureBootModel and its `Disabled` and `Default` settings.
 
-| Key  | Type | Value | 
-| ----- | ----- | ----- |
-| AllowSetDefault | Boolean | True |
-| ApECID | Number | 0 |
-| AuthRestart | Boolean | False |
-| BlacklistAppleUpdate | Boolean | False |
-| DmgLoading | String | Placeholder |
-| EnablePassword | Boolean | False |
-| ExposeSensitiveData | Number | 0 |
-| HaltLevel | Number | 0 |
-| PasswordHash | Data | <> |
-| PasswordSalt | Data | <> |
-| ScanPolicy | Number | 0 |
-| SecureBootModel | String | Default |
-| Vault | String | <span style="color:red">Optional</span> |
+| Key  | Type | Value | Description
+| ----- | ----- | ----- | ----- |
+| AllowSetDefault | Boolean | True | Recommended set True. This setting allows the default boot entry in the OpenCore boot picker to be changed by holding the +/= key (on a US keyboard) or with the Ctrl+Enter key combination. If the `PollAppleHotKeys` settings in config.plist is enabled, Shift+Enter and Shift+Index combinations can also be used. |
+| ApECID | Number | 0 | Recommended set `0`. This value is part of the Apple Secure Boot (distinct from UEFI Secure Boot) process. Its purpose is to prevent taking the drive with macOS on it and booting it on another computer. Using this in macOS 14 Sonoma and later is **not** recommended due to the necessity of disabling SecureBootModel during installation and updates. See Configuration.pdf for complete details. |
+| AuthRestart | Boolean | False | Recommended set False. This setting allows for rebooting a FileVault-protected macOS install without re-entering the password. As VirtualSMC achieves this by putting the volume password into the motherboard RTC and NVRAM temporarily during the restart, it may be a security issue and users may want to keep this disabled. |
+| BlacklistAppleUpdate | Boolean | False | Should be set False. When enabled, prevents running boot-time updating of firmware for Apple peripherals. Useful if you for some reason don't want your Magic Trackpad firmware updated. |
+| DmgLoading | String | Signed | Should be set to the word `Signed`. This tells OpenCore which Disk Images (DMG) are permitted to load. Most users can leave this as `Signed`. |
+| EnablePassword | Boolean | False | Should be set False. An in-development protection feature that requires a password for various sensitive operations in OpenCore. See Configuration.pdf for complete details. |
+| ExposeSensitiveData | Number | 4 | Recommended set `4`. A bitmask that controls how certain OpenCore and system data is made visible and available. Setting this to `4` will show the OpenCore version in the OpenCore boot picker. |
+| HaltLevel | Number | 0 | Should be set `0`. Used to stop (halt) boot when the specified message type is seen. See Configuration.pdf for complete details.|
+| PasswordHash | Data | <> | Manually specifies the hash to use for EnablePassword above. You can ignore this. |
+| PasswordSalt | Data | <> | Manually specifies the salt used with EnablePassword. You can ignore this.|
+| ScanPolicy | Number | 0 | Should be set `0`. This is a bitmask that tells OpenCore where to look for bootable entries. For initial boot, this should be set `0` to tell OpenCore to look for and show all options. |
+| SecureBootModel | String | Disabled |  Should be set to the word `Disabled` exactly as shown. When installing and updating macOS 14.4 Sonoma and later, there is an issue where macOS will reboot before it can finish installing if this isn't set `Disabled`. When macOS has finished installing or updating, this can and should be set back to the word `Default` to re-enable boot process security. |
+| Vault | String | <span style="color:red">Optional</span> | Should be set to the word `Optional`. This setting controls the OpenCore Vault feature, used for securing OpenCore's part of the boot process. Users wanting to set this up should do so AFTER macOS has been successfully installed. The process will be detailed later on in the guide. See Configuration.pdf for complete details. |
 
 <h2 class="key-title">Serial</h2>
 
-Used for serial debugging (99% of users do not need to touch this area).
+This sections sets up serial debugging of OpenCore and macOS boot. If you don't know what this means you can leave this section alone.
+As always, Configuration.pdf has complete details on this feature.
 
 | Key  | Type | Value | 
 | ----- | ----- | ----- |
@@ -122,7 +123,21 @@ Used for serial debugging (99% of users do not need to touch this area).
 
 <h2 class="key-title">Tools</h2>
 
-This section of the config is meant to expose the various Tools in your OC folder. This along with many of the other sections will be auto-filled by simply going to ``File -> OC Clean Snapshot`` and selecting the root OC folder in your USB. This step may have already been done, no need to redo.
+This section is similar to the previous ACPI>Add and Kernel>Add sections in that it corresponds to files placed in the OpenCore OC folder in your EFI partition, USB drive or other boot device. The best way to fill this out is to place all the desired tools in the correct folder (.e.g /EFI/OC/Tools) and using ProperTree's OC Snapshot feature to allow ProperTree to fill it out for you based on detected files.
+TODO: Explain ProperTree and its features broadly in an earlier section on recommended utilities.
+
+| Key  | Type | Value | Description |
+| ----- | ----- | ----- | ----- |
+| Arguments | String | Placeholder | |
+| Auxiliary | Boolean | False | |
+| Comment | String | Placeholder | |
+| Enabled | Boolean | False | |
+| Flavour | String | Auto | |
+| FullNvramAccess | Boolean | False | |
+| Name | String | Placeholder | |
+| Path | String | Placeholder | |
+| RealPath | Boolean | False | |
+| TextMode | Boolean | False | |
 
 <h2 align="center">
   <br>

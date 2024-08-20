@@ -61,15 +61,15 @@ The only setting here important to AMD CPUs is `DummyPowerManagement`, which nee
 
 <h2 class="key-title">Force</h2>
 
-Used for loading Kexts off system volume, only relevant for older operating systems where certain kexts are not present in the cache, i.e IONetworkingFamily in 10.6.
+Used for loading Kexts off system volume, only relevant for older operating systems where certain kexts are not present in the cache, i.e IONetworkingFamily in Mac OS X 10.6.
 
 <h2 class="key-title">Patch</h2>
 
-Patches both the kernel and Kexts.
+This section is for setting up byte-level patching of the kernel. For AMD CPUs, this is where the AMD vanilla kernel patches are placed.
 
 <h2 class="key-title">Quirks</h2>
 
-Placeholder Text instructing user what to set.
+Quirks are a set of OpenCore settings that are configured to suit specific hardware and operating system combinations.
 
 | Key  | Type | Value | Description 
 | ----- | ----- | ----- | ----- |
@@ -99,16 +99,14 @@ Placeholder Text instructing user what to set.
 
 <h2 class="key-title">Scheme</h2>
 
-Placeholder Text instructing user what to set and why, if needed.
+These are settings related to booting very old versions of macOS, 10.7 and older. You should ignore these.
 
-These are settings related to booting very old versions of macOS. You can ignore these.
-
-| Key  | Type | Value |
+| Key  | Type | Value | Description |
 | ----- | ----- | ----- | ----- |
-| CustomKernel | Boolean | False |
-| FuzzyMatch | Boolean | False |
-| KernelArch | String | Auto |
-| KernelCache | String | Auto |
+| CustomKernel | Boolean | False | Specifies a custom kernel to load.
+| FuzzyMatch | Boolean | False | Permits use of differing kernelcache checksums.
+| KernelArch | String | Auto | Specifies a kernel architecture (e.g. x86_64, i386) to use.
+| KernelCache | String | Auto | Sets the kernel cache type to use.
 
 <h2 align="center">
   <br>

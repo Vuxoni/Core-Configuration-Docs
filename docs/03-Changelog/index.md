@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+
+## Added to Kernel and Misc sections
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+## [Version~Type] - 2024-08-20
+
+### Added
+- Explanations for Kernel->Scheme properties.
+- Added descriptions of various parts of the Misc config.plist section.
+
+### Changed
+- Language and wording for various config.plist configuration sections, most notably in Misc.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Ryzen instructions changes and language pass
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
