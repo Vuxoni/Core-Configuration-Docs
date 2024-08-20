@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Ryzen instructions changes and language pass
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [Version~Type] - 2024-08-20
+
+### Added
+- Appropriate defaults for Kernel Quirks and simple explanations for what each quirk does.
+
+### Changed
+- Various phrasing for instruction pages.
+
+### Fixed
+- Typos.
+- Wrong name for Ryzen 9000 index page.
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## robots.txt and file exclusion
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
