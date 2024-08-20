@@ -35,6 +35,9 @@ This page is not complete! Do not follow until warning has been removed.
 2. Follow a linear process so people can return to previous pages
 3. Maintain seperate pages for easier updating as instructs get confirmed/deconfirmed
 
+These guides have sections that follow the different parts of OpenCore's config.plist file. You will start at the top of the file, and follow each section of the guide in order until you've finished setting up the configuration.
+As always, take your time and look things up if they don't make sense. The Configuration.pdf document found in the Docs folder of your OpenCore download has detailed explanations of what everything in config.plist is for.
+
 <h2 align="center">
   <br>
   <div class="navigation-container">

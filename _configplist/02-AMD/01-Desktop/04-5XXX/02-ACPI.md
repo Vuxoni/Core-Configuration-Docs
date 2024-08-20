@@ -39,7 +39,7 @@ This section of the config is meant to expose the various ACPI in your OC folder
 
 <h2 class="key-title">Delete</h2>
 
-This blocks certain ACPI tables from loading, for us, we can ignore this.
+This blocks certain ACPI tables from loading. For us, we can ignore this.
 
 
 <h2 class="key-title">Patch</h2>
@@ -49,6 +49,7 @@ This section allows us to dynamically modify parts of the ACPI (DSDT, SSDT, etc.
 <h2 class="key-title">Quirks</h2>
 
 This section has settings related to compatibility and workarounds for issues in firmware or OS handling of ACPI.
+The settings can be left as listed below for almost all systems.
 
 |        Key        |   Type    |  Value  |
 | ----------------- | --------- | ------- |

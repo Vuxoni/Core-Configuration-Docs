@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ryzen 7000 Series
+title: Ryzen 9000 Series
 parent: Desktop CPUs
 grand_parent: AMD CPUs
 nav_order: 6

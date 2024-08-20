@@ -68,11 +68,11 @@ THE BELOW IS BASED ON MY X570 BOARD AND WILL NEED DIFFERENT OPTIONS FOR OTHER BO
 | ForceExitBootServices | False | Should be set False. In very rare circumstances, this can help force boot only if nothing else helps. |
 | ProtectMemoryRegions | False | Should be set False. Some rare firmwares may need this set True to fix issues with waking from sleep, boot or other problems. |
 | ProtectSecureBoot | False | Should be set False. Setting this to True will enable reporting of write attempts to firmware Secure Boot variables in NVRAM. Keep set to False if it causes issues. |
-| ProtectUefiServices | False | Should be set False. This quirk when set True may help other quirks related to memory management such as DevirtualiseMmio or RebuildAppeMemoryMap work correctly. |
+| ProtectUefiServices | False | Should be set False. This quirk when set True may help other quirks related to memory management such as DevirtualiseMmio or RebuildAppleMemoryMap work correctly. |
 | ProvideCustomSlide | True | Should be set True. Many firmwares will not support the use of all slide values and this quirk ensures that only usable slide values will be made available to macOS |
 | ProvideMaxSlide | `0` | Should be set to the number `0`. Some firmwares may misbehave even with ProvideCustomSlide set True and require further limiting of slide values. See Configuration.pdf for how to use this. |
-| RebuildAppleMemoryMap | False | Should be set True when MAT support is available. If the firmware does not support MATs or misbehaves, set this False. |
-| ResizeAppleGpuBars | `0` | This quirk needs to be set to the number `0` when Resizable BAR support is enabled in firmware. If Resizable BAR is not enabled on the system, set to `-1`. |
+| RebuildAppleMemoryMap | True | Should be set True when MAT support is available. If the firmware does not support MATs or misbehaves, set this False. |
+| ResizeAppleGpuBars | `-1` | This quirk needs to be set to the number `0` when Resizable BAR support is enabled in firmware. If Resizable BAR is not enabled on the system, set to `-1`. |
 | SetupVirtualMap | False | This should be set False for most recent firmwares, however some systems will need this set True. If everything else seems correct and boot still fails, try changing this. |
 | SignalAppleOS | False | Should be set False. Used with real Macs. |
 | SyncRuntimePermissions | True | Should be set True. One of the quirks related to MAT support in firmware. If MAT support is missing or if the firmware misbehaves, set False. |

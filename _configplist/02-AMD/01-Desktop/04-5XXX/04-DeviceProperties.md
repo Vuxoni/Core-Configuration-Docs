@@ -35,11 +35,15 @@ has_toc: false
 
 <h2 class="key-title">Add</h2>
 
-This allows you to add properties to various devices using its PciRoot address. For now, and in most cases we can ignore this. An example would be: overriding an ethernet controller to appear as built-in so that macOS allows iServices to work.
+This allows you to define properties that should be added to various devices in macOS. For now you can ignore this as it is most often used to fix certain things after macOS has been installed.
+Examples of this would be: Making SSDs and hard drives show up as internal drives rather than removable external ones, or making sure network adapters are set up correctly to enable the use of Apple ID and iCloud features.
+
+In rare cases it is necessary to use this to disable certain devices for compatibility reasons, before installing macOS.
+
 
 <h2 class="key-title">Delete</h2>
 
-This allows you to delete properties of various devices using its PciRoot address. For now, and in most cases we can ignore this.
+This section allows you to define properties that should be *removed* from an indicated device as opposed to added. You can ignore this for now.
 
 <h2 align="center">
   <br>
