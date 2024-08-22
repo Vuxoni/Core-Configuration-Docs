@@ -123,21 +123,22 @@ As always, Configuration.pdf has complete details on this feature.
 
 <h2 class="key-title">Tools</h2>
 
-This section is similar to the previous ACPI>Add and Kernel>Add sections in that it corresponds to files placed in the OpenCore OC folder in your EFI partition, USB drive or other boot device. The best way to fill this out is to place all the desired tools in the correct folder (.e.g /EFI/OC/Tools) and using ProperTree's OC Snapshot feature to allow ProperTree to fill it out for you based on detected files.
-TODO: Explain ProperTree and its features broadly in an earlier section on recommended utilities.
+This section lists any tool programs to be booted through OpenCore, and is similar to the previous ACPI>Add and Kernel>Add sections in that it corresponds to files placed in the OpenCore OC folder in your EFI partition, USB drive or other boot device. The best way to fill this out is to place all the desired tools in the correct folder (.e.g /EFI/OC/Tools) and using ProperTree's OC Snapshot feature to allow ProperTree to fill it out for you based on the detected files.
+The below is provided as a reference and the options should not need to be changed for most users.
+TODO: Link to earlier page explaining tools/ProperTree
 
 | Key  | Type | Value | Description |
 | ----- | ----- | ----- | ----- |
-| Arguments | String | Placeholder | |
-| Auxiliary | Boolean | False | |
-| Comment | String | Placeholder | |
-| Enabled | Boolean | False | |
-| Flavour | String | Auto | |
-| FullNvramAccess | Boolean | False | |
-| Name | String | Placeholder | |
-| Path | String | Placeholder | |
-| RealPath | Boolean | False | |
-| TextMode | Boolean | False | |
+| Arguments | String | Placeholder | Boot arguments for a tool can be placed here to be passed to the tool during load. |
+| Auxiliary | Boolean | False | This sets the visibility of the tool for the HideAuxiliary setting. If set True here, the tool will be hidden by default when HideAuxiliary is set True. |
+| Comment | String | Placeholder | A simple comment field, unused by the system and intended for the user of the config.plist |
+| Enabled | Boolean | False | Sets if the tool is active or not. When set False, the tool will not be available in OpenCore's Boot Picker. |
+| Flavour | String | Auto | Used by OpenCore to select coSsmetic options for the entry. See `PickerAttributes` under Misc>Entry Properties in Configuration.pdf for complete details. |
+| FullNvramAccess | Boolean | False | Controls access to NVRAM. When set True, OpenCore will permit full access to NVRAM by the tool. Use with caution. |
+| Name | String | Placeholder | Provides a name for the entry in the OpenCore boot picker. Whatever is written here will be how the tool shows up in the boot picker. |
+| Path | String | Placeholder | This informs OpenCore of the path to the tool, relative to the OC/Tools directory. |
+| RealPath | Boolean | False | This setting enables informing the tool of its full path when loading. Useful for certain tools but should usually be set False. |
+| TextMode | Boolean | False | Sets the use of Text Mode console output for a tool as opposed to the default graphical mode. |
 
 <h2 align="center">
   <br>

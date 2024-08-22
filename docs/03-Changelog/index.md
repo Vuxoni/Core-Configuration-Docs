@@ -37,6 +37,30 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added to Kernel and Misc sections
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+## [Version~Type] - 2024-08-22
+
+### Added
+- Explanations for the Misc->Tools section.
+
+### Changed
+- Language in the Device Properties page.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
 
 ## Added to Kernel and Misc sections
 ### Prerelease@CarnationsInternal
