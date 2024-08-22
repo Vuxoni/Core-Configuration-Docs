@@ -37,10 +37,17 @@ has_toc: false
 
 <h1 class="section-title">NVRAM</h1>
 
+This section of config.plist controls data placed in NVRAM that is used by both macOS and OpenCore itself. Correct data in NVRAM is critical to the functioning of macOS, and without it macOS may not boot or install at all.
+
+Data stored in NVRAM is known as *variables* and consists of a GUID, a unique identifier, that can have one or more *keys* under itself each with its own associated value.
+
+The variables below are listed by their GUID, the name of the GUID (not stored in NVRAM or in config.plist), its keys, and their values.
+
 <h2 class="key-title">Add</h2>
 
-<h2 class="key-entry">APPLE_VENDOR_VARIABLE_GUID</h2>
-<h3 class="key-entry">4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</h3>
+<h2 class="key-entry">4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</h2>
+<h3 class="key-entry">APPLE_VENDOR_VARIABLE_GUID</h3>
+
 <br>
 
 Placeholder text explaining this Key.
@@ -51,20 +58,19 @@ Placeholder text explaining this Key.
 
 Placeholder information about other information that can be in this key.
 
-<h2 class="key-entry">OC_VENDOR_VARIABLE_GUID</h2>
-<h3 class="key-entry">4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</h3>
+<h2 class="key-entry">4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</h2>
+<h3 class="key-entry">OC_VENDOR_VARIABLE_GUID</h3>
 <br>
 
-Placeholder text explaining this Key.
+Stores a list of memory addresses used by the AppleRtcRam quirk under ProtocolOverrides in the UEFI section of config.plist. This should be ignored by most users.
 
 | Key | Type | Value |
 | --- | --- | --- |
 | rtc-blacklist | Data | <> |
 
-Placeholder information about other information that can be in this key.
 
-<h2 class="key-entry">APPLE_BOOT_VARIABLE_GUID</h2>
-<h3 class="key-entry">7C436110-AB2A-4BBB-A880-FE41995C9F82</h3>
+<h2 class="key-entry">7C436110-AB2A-4BBB-A880-FE41995C9F82</h2>
+<h3 class="key-entry">APPLE_BOOT_VARIABLE_GUID</h3>
 <br>
 
 Placeholder text explaining this Key. We go to explaining the other children first.
@@ -72,18 +78,22 @@ Placeholder text explaining this Key. We go to explaining the other children fir
 | Key | Type | Value |
 | --- | --- | --- |
 | ForceDisplayRotationInEFI | Number | 0 |
-| SystemAudioVolume | Data | <> |
+| SystemAudioVolume | Data | <46> |
 
-``ForceDisplayRotationInEFI`` is a 32-bit integer defining display rotation. Can be 0 for no rotation or any of 90, 180, 270 for matching rotation in degrees.
+``ForceDisplayRotationInEFI`` can be used to set display rotation in the EFI graphics output mode used by OpenCore and early macOS boot. Useful for non-standard displays that may show wrong rotation by default, or for users with more custom setups such as vertical main displays.
+Takes one of the following rotation values: `0`, `90`, `180` and `270`, which corresponds to the image rotation in degrees.
 
-``SystemAudioVolume`` is a data key that takes an 8-bit unsigned integer. The bit of 0x80 means muted. The remaining bits are used to encode the raw amplifier gain setting to be applied to the audio amplifier in use. Exactly what this value means depends on the codec (and potentially on the specific amplifier within the codec). This value is capped by macOS to the MaximumBootBeepVolume AppleHDA layout value, to avoid over-loud audio playback in the firmware.
+``SystemAudioVolume`` sets the system volume while in UEFI firmware mode, including in the OpenCore boot picker. Most users can leave this alone.
+For specific configuration of this value, refer to Configuration.pdf.
+
 <br>
 
 | Key | Type | Value |
 | ----- | ----- | ----- |
 | boot-args | String | -v keepsyms=1 |
 
-We can use this Key and it's value to modify boot-args. Use the chart below for various arguments required for this CPU. Includes extra information that may be useful later.
+This important key stores the boot arguments used by macOS and is where you will add any necessary boot arguments for your system.
+Commonly used ones are listed below.
 
 <hr>
 <h3 class="key-entry">General Boot Args</h3>
@@ -92,7 +102,7 @@ We can use this Key and it's value to modify boot-args. Use the chart below for 
 | ----- | ----- |
 | -v | This enables verbose mode, which shows all the behind-the-scenes text that scrolls by as you're booting instead of the Apple logo and progress bar. It's invaluable to any Hackintosher, as it gives you an inside look at the boot process, and can help you identify issues, problem kexts, etc. |
 | keepsyms=1 | This is a companion setting to debug=0x100 that tells the OS to also print the symbols on a kernel panic. That can give some more helpful insight as to what's causing the panic itself. |
-| debug=0x100 | This disables macOS's watchdog which helps prevents a reboot on a kernel panic. That way you can hopefully glean some useful info and follow the breadcrumbs to get past the issues. |
+| debug=0x100 | This disables macOS's watchdog which helps prevents a reboot on a kernel panic. That way you can hopefully glean some useful info and follow the breadcrumbs to get past the issues. It can in very rare cases cause the boot to get stuck on a black screen just before loading the macOS desktop. |
 
 <h3 class="key-entry">GPU Related Boot Args</h3>
 
@@ -101,7 +111,8 @@ The following boot-args are Lilu boot args! They require the kext to be in use.
 
 | boot-arg | Description |
 | ----- | ----- |
-| -wegnoegpu | Disables all External/Dedicated GPUs besides the iGPU. |
+| -wegnoegpu | Disables all external/dedicated GPUs besides the iGPU. |
+| -wegnoigpu | Disables any integrated GPU, iGPU, in the system. |
 
 {: .note }
 The following boot-args are WhateverGreen boot args! They require the kext to be in use.
@@ -109,14 +120,14 @@ The following boot-args are WhateverGreen boot args! They require the kext to be
 | boot-arg | Description | 
 | ----- | ----- |
 | agdpmod=vit9696 | Disables board-id check, may be needed for when screen turns black after finishing booting. |
-| agdpmod=pikera | Used for disabling board ID checks on some Navi GPUs (RX 5000 & 6000 series). Don't use if you use NootRX. |
-| radpg=15 | Fixes initialization for HD 7730/7750/7770/R7 250/R7 250X |
-| -raddvi | Fixes DVI connector-type for 290X, 370, etc |
+| agdpmod=pikera | Used for disabling board ID checks on some Navi GPUs (RX 5000 & 6000 series) to fix black screen issues. Don't use if you use NootRX. |
+| radpg=15 | Fixes initialization for Radeon HD 7730/7750/7770, Radeon R7 250/R7 250X GPUs. |
+| -raddvi | Fixes DVI connector-type for Radeon 290X, 370, etc. |
 | -radvesa | Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting. |
-| -igfxvesa | Forces Intel iGPU into VESA mode |
+| -igfxvesa | Forces Intel iGPU into VESA mode. |
 
 {: .note }
-The following boot-args are Apple boot flags and will work without WEG.
+The following boot-args are Apple boot flags and will work without WhateverGreen/WEG.
 
 | boot-arg | Description | 
 | ----- | ----- |
@@ -129,17 +140,24 @@ The following boot-args are Apple boot flags and will work without WEG.
 
 | Key | Type | Value |
 | --- | --- | --- |
-| csr-active-config | Data | <> |
+| csr-active-config | Data | <00000000> |
 | prev-lang:kbd | Data | <> |
 | run-efi-updater | String | No |
 
-``csr-active-config`` is a 32-bit System Integrity Protection bitmask. Declared in XNU source code in [csr.h](https://raw.githubusercontent.com/apple-oss-distributions/xnu/main/bsd/sys/csr.h). Below is a chart of common choices.
+``csr-active-config`` is the 32-bit System Integrity Protection bitmask. Declared in XNU source code in [csr.h](https://raw.githubusercontent.com/apple-oss-distributions/xnu/main/bsd/sys/csr.h). Below is a list of common choices.
 
 | Data Value | Result | Description |
 | --- | --- | --- |
-| Placeholder | Placeholder | Placeholde |
+| Placeholder | Placeholder | Placeholder |
 
-``prev-lang:kbd`` takes a Data or an ASCII string defining default keyboard layout. Format is lang-COUNTRY:keyboard, e.g. ru-RU:252 for Russian locale and ABC keyboard. Also accepts short forms:
+``prev-lang:kbd`` can be set as either type Data or type String. When set to String, it should be filled out with a language and country code, plus the desired keyboard layout. Some examples are:
+`en-US:0` - US English with US standard keyboard.
+`en-US:15000` - US English with US Int'l keyboard layout.
+`sv-SE:7` - Sweden Swedish with Swedish Pro keyboard layout.
+`ru-RU:252`- Russia Russian with a macOS "ABC" layout.
+`pt-BR:71` - Brazil Portuguese with a macOS Brazilian keyboard layout.
+
+takes a Data or an ASCII string defining default keyboard layout. Format is lang-COUNTRY:keyboard, e.g. ru-RU:252 for Russian locale and ABC keyboard. Also accepts short forms:
 ru:252 or ru:0 (U.S. keyboard, compatible with 10.9). Using non-latin keyboard on 10.14 will not enable ABC keyboard, unlike previous and subsequent macOS versions, and is thus not recommended in case 10.14 is needed.
 
 ``run-efi-updater`` overrides EFI firmware updating support in macOS (MultiUpdater, ThorUtil, and so on). Setting this to No or alternative boolean-castable value will prevent any firmware updates in macOS starting with 10.10 at least.

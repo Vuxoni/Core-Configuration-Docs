@@ -37,6 +37,31 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Begun work on NVRAM section
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+## [Version~Type] - 2024-08-22
+
+### Added
+- Introductory blurb for the purpose of the NVRAM section
+- Explanations for various NVRAM variables.
+
+### Changed
+- Swapped order of the GUIDs and their names for better clarity.
+- Improved language of various NVRAM explanations.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
 ## Added to Kernel and Misc sections
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
