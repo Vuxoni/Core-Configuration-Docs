@@ -60,7 +60,7 @@ Placeholder information about other information that can be in this key.
 
 <h2 class="key-entry">4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</h2>
 <h3 class="key-entry">OC_VENDOR_VARIABLE_GUID</h3>
-<br>
+<br, where the first two letters are a language code, and the number is the keyboard layout code.
 
 Stores a list of memory addresses used by the AppleRtcRam quirk under ProtocolOverrides in the UEFI section of config.plist. This should be ignored by most users.
 
@@ -150,15 +150,19 @@ The following boot-args are Apple boot flags and will work without WhateverGreen
 | --- | --- | --- |
 | Placeholder | Placeholder | Placeholder |
 
-``prev-lang:kbd`` can be set as either type Data or type String. When set to String, it should be filled out with a language and country code, plus the desired keyboard layout. Some examples are:
+``prev-lang:kbd`` can be set as either type Data or type String. When set to String, it should be filled out with a language and country code, plus the desired keyboard layout in the format of language code-country code:layout code `lc-CC:123`. Some examples are:
+
 `en-US:0` - US English with US standard keyboard.
 `en-US:15000` - US English with US Int'l keyboard layout.
 `sv-SE:7` - Sweden Swedish with Swedish Pro keyboard layout.
 `ru-RU:252`- Russia Russian with a macOS "ABC" layout.
-`pt-BR:71` - Brazil Portuguese with a macOS Brazilian keyboard layout.
+`pt-BR:128` - Brazil Portuguese with a macOS Brazilian keyboard layout.
 
-takes a Data or an ASCII string defining default keyboard layout. Format is lang-COUNTRY:keyboard, e.g. ru-RU:252 for Russian locale and ABC keyboard. Also accepts short forms:
-ru:252 or ru:0 (U.S. keyboard, compatible with 10.9). Using non-latin keyboard on 10.14 will not enable ABC keyboard, unlike previous and subsequent macOS versions, and is thus not recommended in case 10.14 is needed.
+Short forms such as `ru:252`, `sv:7`, or `en:0` are also possible, where the first two letters are a language code, and the number is the keyboard layout code.
+
+When set as type Data, you take your language, country code and keyboard layout combination and convert it from ASCII to hexadecimal and enter that in.
+
+A list of keyboard layout codes will be added in the future.
 
 ``run-efi-updater`` overrides EFI firmware updating support in macOS (MultiUpdater, ThorUtil, and so on). Setting this to No or alternative boolean-castable value will prevent any firmware updates in macOS starting with 10.10 at least.
 

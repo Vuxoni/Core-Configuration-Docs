@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Changed Brazilian Portuguese keyboard example
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+## [Version~Type] - 2024-08-23
+
+### Added
+- 
+
+### Changed
+- Replaced the example prev-lang:kbd for Brazilian Portuguese with the actual most common Brazilian keyboard layout, ANBT2.
+- Slightly reworded the explanation for prev-lang:kbd.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Begun work on NVRAM section
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
@@ -61,6 +87,8 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Security
 - 
+
+---
 
 ## Added to Kernel and Misc sections
 ### Prerelease@CarnationsInternal
