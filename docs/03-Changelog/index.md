@@ -37,10 +37,38 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Repaired connections between Pages and Images.
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-08-27
+
+### Added
+- New entry to .gitignore for Jekyll Metadata
+
+### Changed
+- Support Chart Numbering
+- Various Changelog Entries to include Versioning
+
+### Fixed
+- Various links between pages for proper function of navigation bar.
+- Various image paths so they display correctly serverside.
+
+### Deprecated
+- 
+
+### Removed
+- [Support Chart] Chipset Support Chart was removed.
+
+### Security
+- 
+
+---
+
 ## Changed Brazilian Portuguese keyboard example
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
-## [Version~Type] - 2024-08-23
+## [1.0.0~prerelease] - 2024-08-23
 
 ### Added
 - 
@@ -66,7 +94,7 @@ All notable changes to this project will be documented in this file. The format 
 ## Begun work on NVRAM section
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
-## [Version~Type] - 2024-08-22
+## [1.0.0~prerelease] - 2024-08-22
 
 ### Added
 - Introductory blurb for the purpose of the NVRAM section
@@ -93,7 +121,7 @@ All notable changes to this project will be documented in this file. The format 
 ## Added to Kernel and Misc sections
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
-## [Version~Type] - 2024-08-22
+## [1.0.0~prerelease] - 2024-08-22
 
 ### Added
 - Explanations for the Misc->Tools section.
@@ -118,7 +146,7 @@ All notable changes to this project will be documented in this file. The format 
 ## Added to Kernel and Misc sections
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
-## [Version~Type] - 2024-08-20
+## [1.0.0~prerelease] - 2024-08-20
 
 ### Added
 - Explanations for Kernel->Scheme properties.
@@ -145,7 +173,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
-## [Version~Type] - 2024-08-20
+## [1.0.0~prerelease] - 2024-08-20
 
 ### Added
 - Appropriate defaults for Kernel Quirks and simple explanations for what each quirk does.
@@ -172,7 +200,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
-## [Version~Type] - 2024-07-17
+## [1.0.0~prerelease] - 2024-07-17
 
 ### Added
 - Robots.txt to discourage too-early web crawling of docs.

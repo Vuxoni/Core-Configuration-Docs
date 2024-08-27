@@ -8,7 +8,7 @@ has_toc: false
 ---
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-HSHTTPFix.png">
+  <img width="650" height="200" src="../../../assets/Header-HSHTTPFix.png">
 </p>
 <br>
 

@@ -20,7 +20,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../assets/Header-FirstBootAttempt.png">
+  <img width="650" height="200" src="../../assets/Header-FirstBootAttempt.png">
 </p>
 
 <h4 align="center">This page is a stub, but this page should:</h4>

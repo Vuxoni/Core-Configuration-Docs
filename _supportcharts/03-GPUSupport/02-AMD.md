@@ -21,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-AMDGPUSupport.png">
+  <img width="650" height="200" src="../../../assets/Header-AMDGPUSupport.png">
 </p>
 
 # Navi 23
@@ -204,7 +204,7 @@ While Navi 21, 22 and Navi 23 are supported, Navi 24 and Navi 3X based graphic c
 <h2 align="center">
   <br>
   <div class="next-button-container">
-  <a class="next-button" href="../../../04-ChipsetSupport/index/">Next Page &rarr;</a>
+  <a class="next-button" href="../../04-StorageSupport/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

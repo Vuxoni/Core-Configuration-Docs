@@ -37,7 +37,7 @@ has_toc: false
   <br>
   <div class="navigation-container">
     <a class="nav-button" href="../../index/">&larr; Back Page</a>
-    <a class="nav-button" href="../01-SSDT-TEST/">SSDT-TEST &rarr;</a>
+    <a class="nav-button" href="../01-SSDT-TEST">SSDT-TEST &rarr;</a>
   </div>
   <br>
 </h2>

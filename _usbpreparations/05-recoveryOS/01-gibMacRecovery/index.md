@@ -41,11 +41,11 @@ has_toc: false
 <h2 align="center">
   <br>
   <div class="windows-next-button-container">
-  <a class="windows-next-button" href="../01-Windows/index/">Windows &rarr;</a>
+  <a class="windows-next-button" href="../01-Windows/">Windows &rarr;</a>
   </div>
   <div class="navigation-container">
-    <a class="nav-button" href="../../../04-FilePlacement/index/">&larr; Back Page</a>
-    <a class="nav-button" href="../02-Linux/index/">Linux &rarr;</a>
+    <a class="nav-button" href="../../../05-recoveryOS/index/">&larr; Back Page</a>
+    <a class="nav-button" href="../02-Linux/">Linux &rarr;</a>
   </div>
   <br>
 </h2>

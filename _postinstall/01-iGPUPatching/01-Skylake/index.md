@@ -8,5 +8,5 @@ has_toc: true
 ---
 
 <p align="center">
-  <img width="650" height="200" src="../../../../../assets/Header-Hardware-SkylakeiGPU.png">
+  <img width="650" height="200" src="../../../../assets/Header-Hardware-SkylakeiGPU.png">
 </p>

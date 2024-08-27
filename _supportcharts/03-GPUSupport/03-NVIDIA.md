@@ -21,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-NVGPUSupport.png">
+  <img width="650" height="200" src="../../../assets/Header-NVGPUSupport.png">
 </p>
 
 {: .warning }
@@ -148,7 +148,7 @@ On a more serious note, these GPUs break NVIDIA's naming scheme. Good job NVIDIA
 <h2 align="center">
   <br>
   <div class="next-button-container">
-  <a class="next-button" href="../../../04-ChipsetSupport/index/">Next Page &rarr;</a>
+  <a class="next-button" href="../../04-StorageSupport/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

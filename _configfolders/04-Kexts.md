@@ -20,7 +20,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-OpenCore-Kexts.png">
+  <img width="650" height="200" src="../../../assets/Header-OpenCore-Kexts.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>

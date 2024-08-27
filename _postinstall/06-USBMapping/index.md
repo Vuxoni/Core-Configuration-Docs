@@ -47,7 +47,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../../assets/Header-USBMapping.png">
+  <img width="650" height="200" src="../../../assets/Header-USBMapping.png">
 </p>
 
 <h2 align="center">To begin, select the operating system of choice:</h2>

@@ -27,6 +27,7 @@ Temporary Items
 
 # Jekyll Related Stuff
 .jekyll-cache/
+.jekyll-metadata
 .bundle/
 _site/
 

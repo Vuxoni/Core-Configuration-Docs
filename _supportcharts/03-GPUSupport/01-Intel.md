@@ -21,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-InteliGPUSupport.png">
+  <img width="650" height="200" src="../../../assets/Header-InteliGPUSupport.png">
 </p>
 
 {: .warning }
@@ -195,7 +195,7 @@ Ventura (13) dropped support for Skylake iGPUs. However, since Skylake and Kaby 
 <h2 align="center">
   <br>
   <div class="next-button-container">
-  <a class="next-button" href="../../../04-ChipsetSupport/index/">Next Page &rarr;</a>
+  <a class="next-button" href="../../04-StorageSupport/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

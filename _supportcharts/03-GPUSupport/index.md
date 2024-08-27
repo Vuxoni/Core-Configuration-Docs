@@ -45,14 +45,14 @@ Reasoning for the order of options in the nav bar is due to people's typical fir
 <h2 align="center">
   <br>
   <div class="intel-next-button-container">
-    <a class="intel-next-button" href="../01-Intel/index/">Intel &rarr;</a>
+    <a class="intel-next-button" href="../01-Intel">Intel &rarr;</a>
   </div>
   <div class="nvidia-next-button-container">
-    <a class="nvidia-next-button" href="../02-AMD/index/">AMD &rarr;</a>
+    <a class="nvidia-next-button" href="../02-AMD">AMD &rarr;</a>
   </div>
   <div class="navigation-container">
-    <a class="nav-button" href="../../02-CPUSupport/index/">&larr; Back Page</a>
-    <a class="nav-button" href="../03-NVIDIA/index/">NVIDIA &rarr;</a>
+    <a class="nav-button" href="../../02-CPUSupport/index">&larr; Back Page</a>
+    <a class="nav-button" href="../03-NVIDIA">NVIDIA &rarr;</a>
   </div>
   <br>
 </h2>
