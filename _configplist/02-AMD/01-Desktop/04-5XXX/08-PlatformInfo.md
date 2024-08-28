@@ -37,40 +37,36 @@ has_toc: false
 
 <h1 class="section-title">Platform Info</h1>
 
-| Key  | Type | Value | 
-| ----- | ----- | ----- |
-| Automatic | Boolean | True |
-| CustomMemory | Boolean | False |
-
-``Automatic`` can be left as default.
-
-``CustomMemory`` can be ignored for now. Documentation in progress.
+| Key  | Type | Value | Description |
+| ----- | ----- | ----- | ----- |
+| Automatic | Boolean | True | ``Automatic`` can be left as default. |
+| CustomMemory | Boolean | False |  ``CustomMemory`` can be ignored for now. Documentation in progress. |
 
 <h2 class="key-title">Generic</h2>
 
 Placeholder text for this Key.
 
-| Key  | Type | Value | 
-| AdviseFeatures | Boolean | False |
-| MLB | String | Placeholder |
-| MaxBIOSVersion | Boolean | False |
-| ProcessorType | Number | 0 |
+| Key  | Type | Value | Description |
+| ----- | ----- | ----- | ----- |
+| AdviseFeatures | Boolean | False | ``AdviseFeatures`` updates FirmwareFeatures with supported bits. Placeholder text explaining if needed or not and why. |
+| MLB | String | Placeholder | 
+| MaxBIOSVersion | Boolean | False | ``MaxBIOSVersion`` sets BIOSVersion to 9999.999.999.999.999, recommended for legacy Macs when using Automatic PlatformInfo, to avoid BIOS updates in unofficially supported macOS versions. Placeholder text explaining if needed or not and why. |
+| ProcessorType | Number | 0 | ``ProcessorType`` sets the detected Processor Type based on the number given derived from [AppleSmBios.h](https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Include/Apple/IndustryStandard/AppleSmBios.h). Convert the Hex to Decimal and use that as the Number value. |
 | ROM | Data | <> |
-| SpoofVendor | Boolean | False |
-| SystemMemoryStatus | String | Placeholder |
+| SpoofVendor | Boolean | False |  ``SpoofVendor`` sets SMBIOS vendor fields to Acidanthera. It can be dangerous to use "Apple" in SMBIOS vendor fields for reasons outlined in the SystemManufacturer description. However, certain firmware may not provide valid values otherwise, which could obstruct the operation of some software. |
+| SystemMemoryStatus | String | Placeholder | ``SystemMemoryStatus`` indicates whether system memory is upgradable in PlatformFeature. This controls the visibility of the Memory tab in "About This Mac". |
 | SystemProductName | String | Placeholder |
 | SystemSerialNumber | String | Placeholder |
 | SystemUUID | String | Placeholder |
 
-``AdviseFeatures`` updates FirmwareFeatures with supported bits. Placeholder text explaining if needed or not and why.
 
-``MaxBIOSVersion`` sets BIOSVersion to 9999.999.999.999.999, recommended for legacy Macs when using Automatic PlatformInfo, to avoid BIOS updates in unofficially supported macOS versions. Placeholder text explaining if needed or not and why.
 
-``ProcessorType`` sets the detected Processor Type based on the number given derived from [AppleSmBios.h](https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Include/Apple/IndustryStandard/AppleSmBios.h). Convert the Hex to Decimal and use that as the Number value.
 
-``SpoofVendor`` sets SMBIOS vendor fields to Acidanthera. It can be dangerous to use "Apple" in SMBIOS vendor fields for reasons outlined in the SystemManufacturer description. However, certain firmware may not provide valid values otherwise, which could obstruct the operation of some software.
 
-``SystemMemoryStatus`` indicates whether system memory is upgradable in PlatformFeature. This controls the visibility of the Memory tab in "About This Mac".
+
+
+
+
 
 <hr>
 

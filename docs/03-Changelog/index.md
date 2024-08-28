@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Giving plist UEFI and PlatformInfo a once-over
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [Version~Type] - 2024-08-28
+
+### Added
+- Short explanation of what APFS is and how it is used by OpenCore.
+- Descriptions and explanations for some configuration options in the UEFI and PlatformInfo sections.
+
+### Changed
+- Formatting and structure of the UEFI and PlatformInfo sections.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Touched up Kernel
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
