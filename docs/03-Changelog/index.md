@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Touched up Kernel
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [Version~Type] - 2024-08-28
+
+### Added
+- 
+
+### Changed
+- Various parts of the Kernel explanations.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## More work on the NVRAM section
 ### Prerelease@CarnationsInternal
 #### By cerbiscode

@@ -35,16 +35,14 @@ has_toc: false
 
 <h2 class="key-title">Add</h2>
 
-This section of the config is meant to expose the various Kexts in your OC folder. This along with many of the other sections will be auto-filled by simply going to ``File -> OC Clean Snapshot`` and selecting the root OC folder in your USB. This step may have already been done, no need to redo.
-
 This section is where OpenCore is told what kernel extensions, kexts, it should look for and load from the Kexts folder in your OpenCore EFI.
-If a kext is not present here, OpenCore will not load it. If a kext is defined here but the file is missing from the folder, OpenCore will stop and inform you of the error.
+If a kext is not present here, OpenCore will not load it. If a kext is defined here but the file is missing from the folder, OpenCore will stop booting and inform you of the error.
 
 This is one of the sections that can be automatically filled out in ProperTree by going to ``File -> OC Clean Snapshot`` and selecting your OC folder.
 
 <h2 class="key-title">Block</h2>
 
-Blocks certain Kexts from loading.
+This is used to block specified kexts from loading, which is sometimes necessary when macOS attempts to load kexts that will cause problems. The need for this is usually explained by guides for enabling specific hardware.
 
 <h2 class="key-title">Emulate</h2>
 
