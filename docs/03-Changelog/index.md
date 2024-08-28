@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Bumped just-the-docs from 0.5.3 -> 0.9.0
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-08-27
+
+### Added
+- ``_includes/nav.html`` has been included to satisfy build requirements
+
+### Changed
+- ``_layouts/default.html`` has been updated to reflect latest JTDs
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- Carnations Core Configuration Docs framework ``just-the-docs`` has been bumped from 0.5.3 -> 0.9.0
+- Switched to incremental builds to improve build times
+
+---
+
 ## Repaired connections between Pages and Images.
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
