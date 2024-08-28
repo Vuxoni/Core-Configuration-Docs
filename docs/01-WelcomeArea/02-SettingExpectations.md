@@ -3,6 +3,7 @@ layout: default
 title: Setting Expectations
 parent: Welcome to the Botánica
 nav_order: 3
+has_toc: false
 ---
 
 <style>

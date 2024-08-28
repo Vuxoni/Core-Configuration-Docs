@@ -3,6 +3,7 @@ layout: default
 title: General DO's & DON'Ts
 parent: Welcome to the Botánica
 nav_order: 4
+has_toc: false
 ---
 
 <style>

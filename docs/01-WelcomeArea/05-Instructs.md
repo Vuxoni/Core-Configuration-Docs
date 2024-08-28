@@ -3,6 +3,7 @@ layout: default
 title: Outlining the Process
 parent: Welcome to the Botánica
 nav_order: 6
+has_toc: false
 ---
 
 <style>

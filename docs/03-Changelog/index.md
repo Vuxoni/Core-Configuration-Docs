@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Mitigate unintended effects from previous bump
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-08-27
+
+### Added
+- 
+
+### Changed
+- ``docs/01-WelcomeArea`` has it's TOCs disabled now.
+- Footer has been updated to reflect latest changes.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Bumped just-the-docs from 0.5.3 -> 0.9.0
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX

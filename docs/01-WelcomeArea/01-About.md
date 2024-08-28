@@ -1,8 +1,10 @@
 ---
 layout: default
 title: About The Docs
+description: This page goes over the purpose and general info about the Carnations Core Configuration Docs
 parent: Welcome to the Botánica
 nav_order: 2
+has_toc: false
 ---
 
 <style>

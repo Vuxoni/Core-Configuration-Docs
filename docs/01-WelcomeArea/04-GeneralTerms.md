@@ -3,6 +3,7 @@ layout: default
 title: General Terminology
 parent: Welcome to the Botánica
 nav_order: 5
+has_toc: false
 ---
 
 <style>
