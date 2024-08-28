@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Expanded on APFS settings
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+
+## [Version~Type] - 2024-08-28
+
+### Added
+- Expanded on the settings for APFS and when they are applicable.
+
+### Changed
+- Minor text editing.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Giving plist UEFI and PlatformInfo a once-over
 ### Prerelease@CarnationsInternal
 #### By cerbiscode

@@ -42,17 +42,26 @@ has_toc: false
 The settings in this section controls how OpenCore finds and uses APFS drivers from macOS. APFS is the current file system for Apple products and provides several modern features, and has been in use since macOS 10.13 High Sierra.
 
 In normal operation, OpenCore uses APFS Jumpstart to look for and load the APFS driver from a macOS APFS container partition in order to ensure that the correct driver for a given version of macOS and APFS is loaded. For security reasons, only a specific range of APFS drivers are permitted to be loaded, starting from macOS 11 Big Sur. As such if the following settings aren't set up as necessary, you may not be able to boot macOS.
+These settings do not apply to any macOS that does not use APFS, which is 10.12 Sierra and older.
 
 | Key  | Type | Value | Description |
 | ----- | ----- | ----- | ----- |
-| EnableJumpstart | Boolean | True | Should be set True. This setting tells OpenCore to use the Jumpstart feature to load the Apple-signed APFS driver included in a bootable APFS container. If set false, boot will fail on any macOS that uses APFS, i.e. 10.13 High Sierra and later. |
+| EnableJumpstart | Boolean | True | Should be set True. This setting tells OpenCore to use the Jumpstart feature to load the Apple-signed APFS driver included in a bootable APFS container. If set False, boot will fail on any macOS that uses APFS, i.e. 10.13 High Sierra and later. |
 | GlobalConnect | Boolean | False | ``GlobalConnect`` performs full device connection during APFS loading. Every handle is connected recursively instead of the partition handle connection typically used for APFS driver loading. This may result in additional time being taken but can sometimes be the only way to access APFS partitions on certain firmware, such as those on older HP laptops. |
 | HideVerbose | Boolean | False | ``HideVerbose`` hides verbose output from APFS driver. |
 | JumpstartHotPlug | Boolean | False | ``JumpstartHotPlug`` permits APFS USB hot plug which enables loading APFS drivers, both at OpenCore startup and during OpenCore picker display. |
 | MinDate | Number | 0 | Should be set to the value `0`. This sets the minimum APFS driver date that is allowed to be loaded from an APFS container. |
 | MinVersion | Number | 0 | Should be set to the value `0`. Similar to MinDate, this sets the minimum allowed APFS driver version that is allowed. |
 
-`MinDate` and `MinVersion` are a security feature built into OpenCore that prevents the use of outdated and potentially vulnerable APFS drivers. OpenCore has built-in default values for what the minimum date and versions are, which are enabled by the use of the value `0` for these settings. These minimum dates and versions will be increased over time with new OpenCore releases, as Apple stops supporting older versions of macOS.
+`MinDate` and `MinVersion` are a security feature built into OpenCore that prevents the use of outdated and potentially vulnerable APFS drivers. OpenCore has built-in default values for what the minimum date and versions are, which are enabled by the use of the value `0` for these settings. These minimum dates and versions will be increased over time with new OpenCore releases, as Apple stops supporting older versions of macOS. The current default setting for this value allows for APFS drivers from Big Sur and newer.
+If older versions of macOS are desired, these values should be changed to dates and versions that include that macOS.
+
+Versions include:
+| macOS | MinDate | MinVersion |
+| 10.15 Catalina | `20200306` | `1412101001000000` |
+| 10.14 Mojave | `20190820` | `945275007000000` |
+| 10.13 High Sierra | `20180621` | `748077008000000` |
+
 
 <h2 class="key-title">AppleInput</h2>
 
