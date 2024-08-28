@@ -37,7 +37,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Commit Name]
+## More work on the NVRAM section
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 ## [Version~Type] - 2024-08-28
