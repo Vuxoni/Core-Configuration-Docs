@@ -41,50 +41,41 @@ This section of config.plist controls data placed in NVRAM that is used by both 
 
 Data stored in NVRAM is known as *variables* and consists of a GUID, a unique identifier, that can have one or more *keys* under itself each with its own associated value.
 
-The variables below are listed by their GUID, the name of the GUID (not stored in NVRAM or in config.plist), its keys, and their values.
+The variables below are from config.plist and are listed in the order they appear, as the GUIDs, their keys and the variables those keys contain. Each GUID is additionally followed by its name, which is not shown or used in config.plist or in NVRAM.
+
+Configuration.pdf contains more details on possible NVRAM variables.
 
 <h2 class="key-title">Add</h2>
 
 <h2 class="key-entry">4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</h2>
-<h3 class="key-entry">APPLE_VENDOR_VARIABLE_GUID</h3>
-
+<h3 class="key-entry">(APPLE_VENDOR_VARIABLE_GUID)</h3>
 <br>
 
-Placeholder text explaining this Key.
-
-| Key | Type | Value |
-| --- | --- | --- |
-| DefaultBackgroundColor | Data | <> |
-
-Placeholder information about other information that can be in this key.
+| Key | Type | Value | Description |
+| --- | --- | --- | --- |
+| DefaultBackgroundColor | Data | <> | Sets the background color for the boot.efi user interface in a BGRA color format, where each letter corresponds to a byte. Standard Mac colors are `BFBFBF00` for Light Gray and `00000000` for Syrah Black, but can be set to other colors as desired. |
 
 <h2 class="key-entry">4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</h2>
-<h3 class="key-entry">OC_VENDOR_VARIABLE_GUID</h3>
-<br, where the first two letters are a language code, and the number is the keyboard layout code.
+<h3 class="key-entry">(OC_VENDOR_VARIABLE_GUID)</h3>
+<br>
 
-Stores a list of memory addresses used by the AppleRtcRam quirk under ProtocolOverrides in the UEFI section of config.plist. This should be ignored by most users.
-
-| Key | Type | Value |
-| --- | --- | --- |
-| rtc-blacklist | Data | <> |
+| Key | Type | Value | Description |
+| --- | --- | --- | --- |
+| rtc-blacklist | Data | <> | Stores a list of memory addresses used by the AppleRtcRam quirk under ProtocolOverrides in the UEFI section of config.plist. This should be ignored by most users. |
 
 
 <h2 class="key-entry">7C436110-AB2A-4BBB-A880-FE41995C9F82</h2>
-<h3 class="key-entry">APPLE_BOOT_VARIABLE_GUID</h3>
+<h3 class="key-entry">(APPLE_BOOT_VARIABLE_GUID)</h3>
 <br>
-
-Placeholder text explaining this Key. We go to explaining the other children first.
 
 | Key | Type | Value |
 | --- | --- | --- |
 | ForceDisplayRotationInEFI | Number | 0 |
 | SystemAudioVolume | Data | <46> |
 
-``ForceDisplayRotationInEFI`` can be used to set display rotation in the EFI graphics output mode used by OpenCore and early macOS boot. Useful for non-standard displays that may show wrong rotation by default, or for users with more custom setups such as vertical main displays.
-Takes one of the following rotation values: `0`, `90`, `180` and `270`, which corresponds to the image rotation in degrees.
+``ForceDisplayRotationInEFI`` can be used to set display rotation in the EFI graphics output mode used by OpenCore and early macOS boot. Useful for non-standard displays that may show wrong rotation by default, or for users with more custom setups such as vertical main displays. Takes one of the following rotation values: `0`, `90`, `180` and `270`, which corresponds to the image rotation in degrees.
 
-``SystemAudioVolume`` sets the system volume while in UEFI firmware mode, including in the OpenCore boot picker. Most users can leave this alone.
-For specific configuration of this value, refer to Configuration.pdf.
+``SystemAudioVolume`` sets the system volume while in UEFI firmware mode, including in the OpenCore boot picker. Most users can leave this alone. For specific configuration of this value, refer to Configuration.pdf.
 
 <br>
 
@@ -144,19 +135,25 @@ The following boot-args are Apple boot flags and will work without WhateverGreen
 | prev-lang:kbd | Data | <> |
 | run-efi-updater | String | No |
 
-``csr-active-config`` is the 32-bit System Integrity Protection bitmask. Declared in XNU source code in [csr.h](https://raw.githubusercontent.com/apple-oss-distributions/xnu/main/bsd/sys/csr.h). Below is a list of common choices.
+``csr-active-config`` controls the current level of System Integrity Protection, SIP. As SIP has granular control over protecting various parts of the system, its current setting is stored as a 32-bit bitmask. The meaning of each bit in the bitmask is defined in the XNU source at [csr.h](https://raw.githubusercontent.com/apple-oss-distributions/xnu/main/bsd/sys/csr.h). Below is a list of common choices.
+
+//TODO
 
 | Data Value | Result | Description |
 | --- | --- | --- |
 | Placeholder | Placeholder | Placeholder |
 
-``prev-lang:kbd`` can be set as either type Data or type String. When set to String, it should be filled out with a language and country code, plus the desired keyboard layout in the format of language code-country code:layout code `lc-CC:123`. Some examples are:
+``prev-lang:kbd`` should be removed from this GUID to force the use of a language picker in the recovery environment.
 
-`en-US:0` - US English with US standard keyboard.
-`en-US:15000` - US English with US Int'l keyboard layout.
-`sv-SE:7` - Sweden Swedish with Swedish Pro keyboard layout.
-`ru-RU:252`- Russia Russian with a macOS "ABC" layout.
-`pt-BR:128` - Brazil Portuguese with a macOS Brazilian keyboard layout.
+It can however be set as either type Data or type String. When set to String, it should be filled out with a language and country code, plus the desired keyboard layout in the format of language code-country code:layout number `lc-CC:123`. Some examples are:
+
+| String | Description|
+| --- | --- |
+| `en-US:0` | US English with US standard keyboard. |
+| `en-US:15000` | US English with US Int'l keyboard layout. |
+| `sv-SE:7` | Sweden Swedish with Swedish Pro keyboard layout. |
+| `ru-RU:252`| Russia Russian with a macOS "ABC" layout. |
+| `pt-BR:128` | Brazil Portuguese with a macOS Brazilian keyboard layout. |
 
 Short forms such as `ru:252`, `sv:7`, or `en:0` are also possible, where the first two letters are a language code, and the number is the keyboard layout code.
 
@@ -164,19 +161,29 @@ When set as type Data, you take your language, country code and keyboard layout 
 
 A list of keyboard layout codes will be added in the future.
 
-``run-efi-updater`` overrides EFI firmware updating support in macOS (MultiUpdater, ThorUtil, and so on). Setting this to No or alternative boolean-castable value will prevent any firmware updates in macOS starting with 10.10 at least.
+``run-efi-updater`` controls if macOS firmware updaters are allowed to run during boot. As you are not on a real Mac, set this to the word `No` or some other value that can be interpreted as False such as `0` to prevent these updaters from running.
 
 <h2 class="key-title">Delete</h2>
 
-Forcibly rewrites NVRAM variables, do note that Add will not overwrite values already present in NVRAM so values like boot-args should be left alone. This section mirrors the Add section, but allows you to sanity check NVRAM variables are being updated.
+This section is used to tell OpenCore to delete variables from NVRAM, using their GUID and key. This is used because OpenCore won't overwrite or replace variables in NVRAM if they are already present, so this allows you to tell OpenCore to remove them so they can be replaced with new variables with new values.
+For example, if you have undesired boot-args you cannot change, it would be because the GUID and key for boot-args is missing from here.
+
+Other uses could be to remove the prev-lang:kbd variable to allow you to put a new one in, in case you have the wrong language in recovery.
 
 <h2 class="key-title">LegacyOverwrite</h2>
 
-Permits overwriting firmware variables from nvram.plist.
+Permits OpenCore to use an nvram.plist file to overwrite firmware variables. Only those firmware variables that would be accessible to an operating system can be overwritten.
 
 <h2 class="key-title">LegacySchema</h2>
 
-Used for assigning NVRAM variables, used with OpenVariableRuntimeDxe.efi. Only needed for systems without native NVRAM. The values under this can be deleted safely.
+Relevant when the OpenCore driver OpenVariableRuntimeDxe.efi is in use, this sets what variables to load from an nvram.plist file. As this file is stored in the EFI partition, it is not secure and can be used to circumvent system security if certain variables such as `boot-args` and `csr-active-config` are included here.
+
+The Sample.plist you copied will have a number of permitted variables already. These can be removed or left as-is.
+
+<h2 class="key-title">WriteFlash</h2>
+Should be set True.
+This setting is what allows OpenCore to attempt to write all variables to the motherboard's NVRAM, which is often a type of non-volatile flash memory.
+On systems with broken NVRAM this should be disabled.
 
 <h2 align="center">
   <br>

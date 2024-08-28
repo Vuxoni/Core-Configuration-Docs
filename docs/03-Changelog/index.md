@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## [Commit Name]
+### Prerelease@CarnationsInternal
+#### By cerbiscode
+## [Version~Type] - 2024-08-28
+
+### Added
+- NVRAM WriteFlash explanation.
+
+### Changed
+- More NVRAM configuration details have been clarified.
+- NVRAM section layout touched up.
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Mitigate unintended effects from previous bump
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
