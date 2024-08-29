@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add ACPI explainations
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-08-29
+
+### Added
+- Add basic explainations about ACPI and SSDTs (to be expanded)
+
+### Changed
+- 
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
+
 ## Expanded on APFS settings
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
