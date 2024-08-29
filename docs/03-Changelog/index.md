@@ -36,6 +36,31 @@ All notable changes to this project will be documented in this file. The format 
 - 
 
 ---
+## Expand compatible AMD processors
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-08-29
+
+### Added
+- List of supported (and unsupported) AMD CPUs. Fusion/FX (and maybe K10) will be added later.
+
+### Changed
+- 
+
+### Fixed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Security
+- 
+
+---
 
 ## Add ACPI explainations
 ### Prerelease@CarnationsInternal
