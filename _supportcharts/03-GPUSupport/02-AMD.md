@@ -98,6 +98,16 @@ Vega 10 GPUs are natively supported in macOS. In this case, they do work on the 
 | Radeon Pro: Vega Frontier Edition | High Sierra (10.13) | Sequoia (15) |  |
 | Radeon Pro WX 9100 | High Sierra (10.13) | Sequoia (15) |  |
 
+# Vega iGPUs
+
+{: .note }
+Requires NootedRed for the iGPUs to function, also potentially needs a VRAM size increase via Smokeless UMAF
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon(TM) Vega * Graphics | Catalina (10.15.7) | Sequoia (15) |  |
+| Radeon(TM) Graphics | Catalina (10.15.7) | Sequoia (15) |  |
+
 # Polaris 10 and 20
 
 {: .note }
@@ -139,7 +149,7 @@ Lexa based GPUs require a device-id property spoof to get the accelerator to mat
 # Legacy GCN
 
 {: .note }
-Apple dropped the following GPUs at macOS Monetery
+Apple dropped the following GPUs at macOS Monterey
 
 ## GCN 3
 
@@ -200,6 +210,102 @@ While Navi 21, 22 and Navi 23 are supported, Navi 24 and Navi 3X based graphic c
 | RX 6500 XT | None | None |  |
 | RX 7900 XT | None | None |  |
 | RX 7900 XTX | None | None |  |
+
+## Phoenix
+
+{: .note }
+No support for these GPUs at all, just like their desktop counterparts.
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon 780M | None | None |  |
+| Radeon 760M | None | None |  |
+| Radeon 740M | None | None |  |
+| Radeon(TM) Graphics | None | None | This is a generic name, always double check your Device ID to be sure. |
+
+## Van Gogh, Rembrandt, Raphael, Granite Ridge, Dragon Range, Rembrandt+, Rembrandt-R, Mendocino, etc.
+
+{: .note }
+No support for these GPUs at all.
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon 680M | None | None |  |
+| Radeon 660M | None | None |  |
+| Radeon 610M | None | None |  |
+| Radeon(TM) Graphics | None | None | This is a generic name, always double check your Device ID to be sure. |
+
+## Kaveri, Kabini, Mullins, Carrizo and Stoney Ridge
+
+{: .note }
+No support for these GPUs, their desktop counterparts of the CIK family are supported however. Perhaps there is still hope.
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon R* Graphics | None | None | Generic name, shouldn't matter too much |
+| Radeon R*E Graohics | None | None | Generic name, shouldn't matter too much |
+| Radeon HD 8180 | None | None |  |
+| Radeon HD 8200 | None | None |  |
+| Radeon HD 8210 | None | None |  |
+| Radeon HD 8210E | None | None |  |
+| Radeon HD 8250 | None | None |  |
+| Radeon HD 8280E | None | None |  |
+| Radeon HD 8330 | None | None |  |
+| Radeon HD 8330E | None | None |  |
+| Radeon HD 8400 | None | None |  |
+| Radeon HD 8400E | None | None |  |
+
+## Iceland/Topaz dGPUs
+
+{: .note }
+No support for these GPUs. AMD got very creative with the naming. Very confusing. These were taken from the Windows driver.
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon R7 260M | None | None |  |
+| Radeon R7 M265DX | None | None | |
+| Radeon R7 M260DX | None | None | |
+| Radeon R6 M255DX | None | None | |
+| Radeon R5 M255 | None | None | |
+| Radeon R7 M360 | None | None | |
+| Radeon R7 M340 | None | None | |
+| Radeon R5 M315 | None | None | |
+| Radeon 530 | None | None | |
+| Radeon R8 M535DX | None | None | |
+| Radeon 625 | None | None | |
+| Radeon 620 | None | None | |
+
+## Hainan dGPUs
+
+{: .note }
+No support for these GPUs.
+
+| Card | Initial Support | Latest Support | Notes |
+| --- | --- | --- | --- |
+| Radeon HD 8600M Series | None | None | |
+| Radeon HD 8500M | None | None | |
+| Radeon R5 M230 Series | None | None | |
+| Radeon R5 M200 Series | None | None | |
+| Radeon R8 M350DX | None | None | |
+| Radeon R6 M340DX | None | None | |
+| Radeon R6 M335DX | None | None | |
+| Radeon R5 M335 | None | None | |
+| Radeon R5 M330 | None | None | |
+| Radeon R5 M320 | None | None | |
+| Radeon R8 M435DX | None | None | |
+| Radeon R6 M435DX | None | None | |
+| Radeon R5 M435 | None | None | |
+| Radeon R5 M430 | None | None | |
+| Radeon R5 430M | None | None | |
+| Radeon R5 M430 | None | None | |
+| Radeon 520 | None | None | This applies to any Radeon 520. |
+| Radeon 610 Series | None | None | Surprise! This GPU has **an over 12 year old architecture** |
+
+
+## Instinct MI* (Aldebaran, Arcturus, etc)
+
+{: .note }
+No support for these GPUs. Who's using a datacenter GPU in a Hackintosh anyways?
 
 <h2 align="center">
   <br>

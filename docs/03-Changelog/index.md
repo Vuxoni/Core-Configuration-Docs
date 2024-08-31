@@ -18,22 +18,49 @@ All notable changes to this project will be documented in this file. The format 
 ## [Version~Type] - YYYY-MM-DD
 
 ### Added
-- 
+-
 
 ### Changed
-- 
+-
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
+
+---
+
+## Add more GPUs to the AMD support chart
+### Prerelease@CarnationsInternal
+#### By Zormeister
+
+## [Version~Type] - 2024-09-1
+
+### Added
+- Added more GPUs, such as, Iceland, rDNA 2 iGPUs, CIK & CZ iGPUs, etc.
+
+### Changed
+- A type where macOS Monterey was macOS Monetery
+- Also my IDE hates spaces after dashes with no content, blame Zed for the changes to the template.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
 
 ---
 ## Expand compatible AMD processors
@@ -46,19 +73,19 @@ All notable changes to this project will be documented in this file. The format 
 - List of supported (and unsupported) AMD CPUs. Fusion/FX (and maybe K10) will be added later.
 
 ### Changed
-- 
+-
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -72,19 +99,19 @@ All notable changes to this project will be documented in this file. The format 
 - Add basic explainations about ACPI and SSDTs (to be expanded)
 
 ### Changed
-- 
+-
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -101,16 +128,16 @@ All notable changes to this project will be documented in this file. The format 
 - Minor text editing.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -128,16 +155,16 @@ All notable changes to this project will be documented in this file. The format 
 - Formatting and structure of the UEFI and PlatformInfo sections.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -148,22 +175,22 @@ All notable changes to this project will be documented in this file. The format 
 ## [Version~Type] - 2024-08-28
 
 ### Added
-- 
+-
 
 ### Changed
 - Various parts of the Kernel explanations.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -180,16 +207,16 @@ All notable changes to this project will be documented in this file. The format 
 - NVRAM section layout touched up.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -200,23 +227,23 @@ All notable changes to this project will be documented in this file. The format 
 ## [1.0.0~prerelease] - 2024-08-27
 
 ### Added
-- 
+-
 
 ### Changed
 - ``docs/01-WelcomeArea`` has it's TOCs disabled now.
 - Footer has been updated to reflect latest changes.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -233,13 +260,13 @@ All notable changes to this project will be documented in this file. The format 
 - ``_layouts/default.html`` has been updated to reflect latest JTDs
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
 - Carnations Core Configuration Docs framework ``just-the-docs`` has been bumped from 0.5.3 -> 0.9.0
@@ -265,13 +292,13 @@ All notable changes to this project will be documented in this file. The format 
 - Various image paths so they display correctly serverside.
 
 ### Deprecated
-- 
+-
 
 ### Removed
 - [Support Chart] Chipset Support Chart was removed.
 
 ### Security
-- 
+-
 
 ---
 
@@ -281,23 +308,23 @@ All notable changes to this project will be documented in this file. The format 
 ## [1.0.0~prerelease] - 2024-08-23
 
 ### Added
-- 
+-
 
 ### Changed
 - Replaced the example prev-lang:kbd for Brazilian Portuguese with the actual most common Brazilian keyboard layout, ANBT2.
 - Slightly reworded the explanation for prev-lang:kbd.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -315,16 +342,16 @@ All notable changes to this project will be documented in this file. The format 
 - Improved language of various NVRAM explanations.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -340,16 +367,16 @@ All notable changes to this project will be documented in this file. The format 
 - Language in the Device Properties page.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -366,16 +393,16 @@ All notable changes to this project will be documented in this file. The format 
 - Language and wording for various config.plist configuration sections, most notably in Misc.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -396,13 +423,13 @@ All notable changes to this project will be documented in this file. The format 
 - Wrong name for Ryzen 9000 index page.
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -419,16 +446,16 @@ All notable changes to this project will be documented in this file. The format 
 - Added a file exclusion to .gitignore.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
-- 
+-
 
 ### Security
-- 
+-
 
 ---
 
@@ -450,16 +477,16 @@ All notable changes to this project will be documented in this file. The format 
 - Hex Colors were modified for the Helper role, as well as the "link" color, which dictates the color of the text.
 
 ### Fixed
-- 
+-
 
 ### Deprecated
-- 
+-
 
 ### Removed
 - CarnationsCCDHeader.png/psd were removed.
 
 ### Security
-- 
+-
 
 ---
 
