@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Fix a changelog typo
+### Prerelease@CarnationsInternal
+#### By Zormeister
+
+## [Version~Type] - 2024-09-1
+
+### Added
+-
+
+### Changed
+- "A typO that macOS Monterey was macOS Monetrey" (type to typo)
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add more GPUs to the AMD support chart
 ### Prerelease@CarnationsInternal
 #### By Zormeister
@@ -47,7 +73,7 @@ All notable changes to this project will be documented in this file. The format 
 - Added more GPUs, such as, Iceland, rDNA 2 iGPUs, CIK & CZ iGPUs, etc.
 
 ### Changed
-- A type where macOS Monterey was macOS Monetery
+- A typo where macOS Monterey was macOS Monetery
 - Also my IDE hates spaces after dashes with no content, blame Zed for the changes to the template.
 
 ### Fixed
@@ -63,6 +89,7 @@ All notable changes to this project will be documented in this file. The format 
 -
 
 ---
+
 ## Expand compatible AMD processors
 ### Prerelease@CarnationsInternal
 #### By Tammo
