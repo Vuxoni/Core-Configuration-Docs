@@ -35,6 +35,10 @@ has_toc: false
   <img width="650" height="200" src="../../../assets/Header-CPUNameAndGeneration.png">
 </p>
 
+# ToDo:
+ 
+- Educate the user about CPU instruction sets and the consequences if they are missing. More precisely: RDAND, AVX, SSE, etc.
+
 <h2 align="center">To begin, select the operating system of choice:</h2>
 <br>
 

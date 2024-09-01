@@ -41,6 +41,8 @@ has_toc: false
 1. Explain to the user the intent of this page is to select the best description closest to their motherboard chipset, or their actual motherboard if it's here.
 2. Lead people to choose starting from their CPU brand
 
+- Add note to educate the user about legacy and UEFI systems
+  
 <h2 align="center">
   <br>
   <div class="intel-next-button-container">

@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add driver information
+### Prerelease@CarnationsInternal
+#### Tammo
+
+## [Version~Type] - 2024-09-01
+### Added
+- General informations about drivers included and not included with OpenCorePkg (more information needed)
+- Added reminder to _notinghardware/02-CPU/index.md to add informations about CPU instruction sets
+- Added reminder to _notinghardware/08-BIOS/index.md to educate the user about legacy and UEFI systems
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Fix a changelog typo
 ### Prerelease@CarnationsInternal
 #### By Zormeister
