@@ -37,6 +37,31 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Update driver notes
+### Prerelease@CarnationsInternal
+#### By hg13
+
+## [Version~Type] - 2024-09-03
+### Added
+- Additional notes for some drivers
+
+### Changed
+- Some pre-existing drivers with addditional notes
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add driver information
 ### Prerelease@CarnationsInternal
 #### Tammo
