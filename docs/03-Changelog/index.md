@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add tool table
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-03
+
+### Added
+- Basic table with all tools included in OpenCorePkg - More information needed
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Update driver notes
 ### Prerelease@CarnationsInternal
 #### By hg13

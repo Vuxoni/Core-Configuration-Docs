@@ -32,6 +32,28 @@ has_toc: false
 
 2. Note what, hopefully, all tools do, even if they're not needed; Having the information in a central page will be useful for those who want to think for themselves.
 
+## Tools included in OpenCorePkg
+| Tool           | What does it do?                                                   | Do I need it? | Notes |
+| -------------- | ------------------------------------------------------------------ | ------------- | ----- |
+| BootKicker     |                                                                    | ❌            |       |
+| ChipTune       |                                                                    | ❌            |       |
+| CleanNvram     |                                                                    | ❌            |       |
+| ControlMsrE2   |                                                                    | ❌            |       |
+| CsrUtil        |                                                                    | ❌            |       |
+| FontTester     |                                                                    | ❌            |       |
+| GopStop        |                                                                    | ❌            |       |
+| KeyTester      |                                                                    | ❌            |       |
+| ListPartitions |                                                                    | ❌            |       |
+| MmapDump       |                                                                    | ❌            |       |
+| OpenControl    |                                                                    | ❌            |       |
+| OpenShell      | UEFI shell adapted to OpenCore that offers a very simple interface | Optional      |       |
+| ResetSystem    |                                                                    | ❌            |       |
+| RtcRw          |                                                                    | ❌            |       |
+| TmpInfo        |                                                                    | ❌            |       |
+
+## ToDo
+Link to SmokelessUMAF
+
 <h2 align="center">
   <br>
   <div class="next-button-container">
