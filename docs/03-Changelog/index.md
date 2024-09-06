@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add general kext informations, Lilu and VirtualSMC
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-06
+
+### Added
+- General informations about kexts, added VirtualSMC and Lilu
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add tool table
 ### Prerelease@CarnationsInternal
 #### By Tammo
