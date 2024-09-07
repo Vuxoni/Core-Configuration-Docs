@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Edit kext notes
+### Prerelease@CarnationsInternal
+#### By hg13
+
+## [Version~Type] - 2024-09-08
+
+### Added
+-
+
+### Changed
+- Notes on some kexts
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add list of VirtualSMC plugins
 ### Prerelease@CarnationsInternal
 #### By Tammo
