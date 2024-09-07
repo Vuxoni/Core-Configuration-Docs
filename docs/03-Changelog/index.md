@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add list of VirtualSMC plugins
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-07
+
+### Added
+- List of all VirtualSMC plugins (known to me)
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add general kext informations, Lilu and VirtualSMC
 ### Prerelease@CarnationsInternal
 #### By Tammo
