@@ -57,7 +57,7 @@ Add later, probably in troubleshooting/panic section: Why does VirtualSMC show i
 In most cases VirtualSMC is unrelated to any kernel panic you experience. The reason it is present in stacktrace is becauase VirtualSMC wraps kernel_trap to emulate SMC device.
 
 ### SMCBatteryManager
-SMCBatteryManager is a VirtualSMC that provides detailed battery information, including the current percentage. As the name suggests, it requires you to have a battery, therefore you shouldn't use it on Desktops.
+SMCBatteryManager is a VirtualSMC plugin that provides detailed battery information, including the current percentage. As the name suggests, it requires you to have a battery, therefore you shouldn't use it on Desktops.
 SMCBatteryManager supports all macOS versions (OS X 10.4 Tiger to macOS 14 Sonoma).
 
 ### SMCDellSensors
@@ -65,7 +65,7 @@ SMCDellSensors is a plugin for VirtualSMC. This plugin is specifically designed 
 SMCDellSensors supports OS X 10.7 Lion to macOS 14 Sonoma.
 
 ### SMCLightSensor
-SMCLighSensor is a plugin for VirtualSMC. This plugin is specifically designed to provide ambient light sensor data to macOS, allowing the system to adjust screen brightness and other settings based on the surrounding light conditions. This kext requires a light sensor, which is typically found only in higher-end laptops. If your laptop doesn’t support automatic brightness adjustment in Windows, this kext won’t function. When in doubt, it’s best to skip it.
+SMCLightSensor is a plugin for VirtualSMC. This plugin is specifically designed to provide ambient light sensor data to macOS, allowing the system to adjust screen brightness and other settings based on the surrounding light conditions. This kext requires a light sensor, which is typically found only in higher-end laptops. If your laptop doesn’t support automatic brightness adjustment in Windows, this kext won’t function. When in doubt, it’s best to skip it.
 SMCLightSensor supports OS X 10.6 Snow Leopard to macOS 14 Sonoma.
 
 ### SMCProcessor
@@ -82,10 +82,10 @@ In theory, SMCAMDProcessor and AMDRyzenCPUPowerManagement support OS X 10.8 Moun
 
 ### <a href="https://github.com/macos86/SMCProcessorAMD">SMCProcessorAMD</a>
 SMCProcessorAMD is very similar to SMCAMDProcessor. The key difference is that SMCAMDProcessor is dependent on AMDRyzenCPUPowerManagement - if you don't want to use AMDRyzenCPUPowerManagement for some reason (e.g. you own a laptop), you can use SMCProcessorAMD.
-SMCDellSensors supports OS X 10.7 Mountain Lion High Sierra to macOS 14 Sonoma.
+SMCProcessorAMD supports OS X 10.7 Mountain Lion up to macOS 14 Sonoma. However, AMD support (without a lot of patching) is only available in macOS 10.13 High Sierra to macOS 14 Sonoma.
 
 ### <a href="https://github.com/hieplpvip/AsusSMC">AsusSMC</a>
-AsusSMC is a VirtualSMC plugin that provides support for built-in Ambient Light Sensors (ALS), keyboard backlight controll, battery sensors and Fn key support on Asus laptops. As the name suggests, this only applies to Asus laptops.
+AsusSMC is a VirtualSMC plugin that provides support for built-in Ambient Light Sensors (ALS), keyboard backlight control, battery sensors and Fn key support on Asus laptops. As the name suggests, this only applies to Asus laptops.
 In theory, AsusSMC supports OS X 10.8 Mountain Lion up to macOS 14 Sonoma.
 
 ### <a href="https://github.com/zhen-zen/YogaSMC">YogaSMC</a> 
