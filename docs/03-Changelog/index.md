@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+# [Commit Name]
+### Version@Branch
+#### By Commit Author
+
+## [Version~Type] - YYYY-MM-DD
+
+### Added
+- Added explainations to known graphic kexts
+
+### Changed
+- Adjusted the layout for the kext section - It should increase the readability.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Edit kext notes
 ### Prerelease@CarnationsInternal
 #### By hg13
