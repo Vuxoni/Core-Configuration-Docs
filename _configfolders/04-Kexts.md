@@ -144,6 +144,73 @@ NootedRed provides support for Vega-based APUs. Oversimplified, it patches exist
 ### <a href="https://github.com/ChefKissInc/NootRX">NootedRX</a> 
 NootRX is a kext providing patches for Navi21, -22 and -23 based GPUs. Just as NootedRed, NootRX comes with issues. WhateverGreen is able to provide patches for Navi21 and -23, NootRX is only necessary for Navi22. Just as for NootedRed, the author of the kext disabled the issue section - you're on your own using this kext.
 
+## Networking kexts
+Using your computer without internet will be difficult. Unfortunately, MacOS is sometimes very picky when it comes to internet and especially WiFi.
+
+### Ethernet
+Unfortunately, macOS hardly supports Ethernet controllers, apart from some [Aquantia controllers](https://www.insanelymac.com/forum/topic/330614-marvell-aquantia-10-gb-ethernet-support-thread/). Fortunately, various kexts have been written in the community. Make sure to read the ReadMe to make sure that your controller is actually supported.
+
+{: .note }
+The documentation for Ethernet extensions is old, scattered and sometimes very confusing. Therefore, without owning test equipment, it is not really possible to say from which version and up to which controllers are supported. If you find out something, feel free to let us know.
+If you have a really rare internet controller that is not listed here and is not considered completely unsupported, feel free to descend the [rabbithole on Insanelymac](https://www.insanelymac.com/forum/files/category/5-lan-and-wireless/?sortby=file_name&sortdirection=asc). Maybe you will find a kext.
+
+#### [AppleIGB](https://github.com/Shaneee/AppleIGB)
+Adds support for some Intel controllers commonly found on AMD mainboards. Unfortunately [known for its instability](https://github.com/Shaneee/AppleIGB?tab=readme-ov-file#known-current-issues). If you end up having issues, it's recommended to use a [custom fork of IntelMausi](https://github.com/mbarbierato/IntelMausi/tree/Intgegration)
+
+---
+
+#### [AppleIntelE1000e](https://www.insanelymac.com/forum/files/file/505-appleintele1000ekext/)
+Adds support for Intel1000e based controllers.
+
+---
+
+#### [AppleRTL8169Ethernet](https://www.insanelymac.com/forum/files/file/370-applertl8169ethernetkext/)
+Adds support for old controllers (RTL8101E, RTL8131E, RTL8168, RTL8169/RTL8110) that were dropped with an update for [IONetworkingFamily](https://github.com/koush/IONetworkingFamily.kext) in OS X 10.6 Snow Leopard.
+
+---
+
+#### [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet)
+Adds support for Qualcomm Atheros Killer E2200 controllers.
+
+---
+
+#### [AtherosL1cEthernet](https://github.com/al3xtjames/AtherosL1cEthernet)
+Adds support for Qualcomm Atheros AR813x/815x controllers.
+
+---
+
+#### [BCM5722D](https://github.com/chris1111/BCM5722D)
+Adds support for Broadcom BCM5722 NetXtreme and NetLink family controllers.
+
+---
+
+#### [IntelMausi](https://github.com/acidanthera/IntelMausi)
+Derived from [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet), this kext adds support for a large amount of Intel Ethernet controllers. Take a look at the ReadMe to see if your controller is included. IntelMausi comes bundled with IntelSnowMausi, which provides support for older OS X versions.
+IntelMausi supports OS X 10.9 Mavericks to macOS 14 Sonoma, while IntelSnowMausi supports OS X 10.6 Snow Leopard to OS X Mountain Lion.
+
+---
+  
+#### [RealtekRTL8100](https://github.com/Mieze/RealtekRTL8100)
+Adds support for Realtek RTL8100 based controllers.
+
+--- 
+
+#### [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+Adds support for RTL8111/8168 based controllers. Make sure to read the documentation if you want to boot older macOS versions.
+
+---
+
+#### [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet)
+A kext specifically designed for Realtek RTL8125 2.5GBit Ethernet controllers.
+
+## WiFi
+
+### Other networking kexts
+Wireless USB BigSur Adapter https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter
+Mediatek https://github.com/chris1111/D-LinkUtility-Package
+Horndis https://github.com/Edwardwich/HoRNDIS
+
+
 <h2 align="center">
   <br>
   <div class="next-button-container">

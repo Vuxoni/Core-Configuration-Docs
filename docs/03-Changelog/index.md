@@ -37,11 +37,39 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-# [Commit Name]
-### Version@Branch
-#### By Commit Author
+## Add Ethernet kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
 
-## [Version~Type] - YYYY-MM-DD
+## [Version~Type] - 2024-09-11
+
+### Added
+- Added explainations to known Ethernet kexts
+- Added some notes for additional networking tools/kexts - to be expanded
+
+### Changed
+- Last changelog entry completed
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+
+## Add kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-09
 
 ### Added
 - Added explainations to known graphic kexts
