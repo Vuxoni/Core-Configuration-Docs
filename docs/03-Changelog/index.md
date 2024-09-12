@@ -44,6 +44,32 @@ All notable changes to this project will be documented in this file. The format 
 ## [Version~Type] - 2024-09-11
 
 ### Added
+- Additional informations to the ACPI section of R5000, mainly derived from the laptop guide
+
+### Changed
+- Swapped out Dortania placeholdes
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Add Ethernet kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-11
+
+### Added
 - Added explainations to known Ethernet kexts
 - Added some notes for additional networking tools/kexts - to be expanded
 
