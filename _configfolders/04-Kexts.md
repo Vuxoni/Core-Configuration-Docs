@@ -211,6 +211,20 @@ Mediatek https://github.com/chris1111/D-LinkUtility-Package
 Horndis https://github.com/Edwardwich/HoRNDIS
 
 
+## Storage kexts
+
+#### [NVMeFix](https://github.com/acidanthera/NVMeFix)
+NVMeFix is a set of patches designed to improve the compatibility of non-Apple NVMe SSDs with macOS. It works by modifying the Apple NVMe storage driver, known as IONVMeFamily. 
+
+#### [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext)
+A codeless kext adding a variety of SATA personalities to macOS.
+
+#### [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
+Just as Sata-unsupported, this kext adds a variety of SATA controllers. Note that this kext contains needed binaries for some entirely unsupported controllers - if SATA-unsupported does not work on your system, you may want to try this kext.
+
+#### [RyzenSata](https://github.com/Carnations-Botanica/RyzenSata)
+Similar to SATA-unsupported, this kext adds SATA personalities to macOS. Corresponding SATA personalities are often found on AMD laptops. If you own an AMD laptop with a SATA interface, you will probably benefit from this kext.
+
 <h2 align="center">
   <br>
   <div class="next-button-container">

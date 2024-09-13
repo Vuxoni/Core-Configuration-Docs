@@ -37,11 +37,37 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add storage kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-14
+
+### Added
+- Additional notes for storage kexts
+
+### Changed
+- 
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add Ethernet kext notes
 ### Prerelease@CarnationsInternal
 #### By Tammo
 
-## [Version~Type] - 2024-09-11
+## [Version~Type] - 2024-09-12
 
 ### Added
 - Additional informations to the ACPI section of R5000, mainly derived from the laptop guide
