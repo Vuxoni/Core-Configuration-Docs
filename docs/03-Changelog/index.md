@@ -39,9 +39,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add Ethernet kext notes
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-11
+## [1.0.0~prerelease] - 2024-09-11
 
 ### Added
 - Additional informations to the ACPI section of R5000, mainly derived from the laptop guide
@@ -93,9 +93,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add kext notes
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-09
+## [1.0.0~prerelease] - 2024-09-09
 
 ### Added
 - Added explainations to known graphic kexts
@@ -119,9 +119,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Edit kext notes
 ### Prerelease@CarnationsInternal
-#### By hg13
+#### By hg13bs
 
-## [Version~Type] - 2024-09-08
+## [1.0.0~prerelease] - 2024-09-08
 
 ### Added
 -
@@ -145,9 +145,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add list of VirtualSMC plugins
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-07
+## [1.0.0~prerelease] - 2024-09-07
 
 ### Added
 - List of all VirtualSMC plugins (known to me)
@@ -171,9 +171,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add general kext informations, Lilu and VirtualSMC
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-06
+## [1.0.0~prerelease] - 2024-09-06
 
 ### Added
 - General informations about kexts, added VirtualSMC and Lilu
@@ -197,9 +197,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add tool table
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-03
+## [[1.0.0~prerelease] - 2024-09-03
 
 ### Added
 - Basic table with all tools included in OpenCorePkg - More information needed
@@ -223,9 +223,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Update driver notes
 ### Prerelease@CarnationsInternal
-#### By hg13
+#### By hg13bs
 
-## [Version~Type] - 2024-09-03
+## [1.0.0~prerelease] - 2024-09-03
 ### Added
 - Additional notes for some drivers
 
@@ -248,9 +248,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add driver information
 ### Prerelease@CarnationsInternal
-#### Tammo
+#### tammo03
 
-## [Version~Type] - 2024-09-01
+## [1.0.0~prerelease] - 2024-09-01
 ### Added
 - General informations about drivers included and not included with OpenCorePkg (more information needed)
 - Added reminder to _notinghardware/02-CPU/index.md to add informations about CPU instruction sets
@@ -277,7 +277,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By Zormeister
 
-## [Version~Type] - 2024-09-1
+## [1.0.0~prerelease] - 2024-09-1
 
 ### Added
 -
@@ -303,7 +303,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By Zormeister
 
-## [Version~Type] - 2024-09-1
+## [1.0.0~prerelease] - 2024-09-1
 
 ### Added
 - Added more GPUs, such as, Iceland, rDNA 2 iGPUs, CIK & CZ iGPUs, etc.
@@ -328,9 +328,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Expand compatible AMD processors
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-08-29
+## [1.0.0~prerelease] - 2024-08-29
 
 ### Added
 - List of supported (and unsupported) AMD CPUs. Fusion/FX (and maybe K10) will be added later.
@@ -354,9 +354,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add ACPI explainations
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-08-29
+## [1.0.0~prerelease] - 2024-08-29
 
 ### Added
 - Add basic explainations about ACPI and SSDTs (to be expanded)
@@ -382,7 +382,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
-## [Version~Type] - 2024-08-28
+## [1.0.0~prerelease] - 2024-08-28
 
 ### Added
 - Expanded on the settings for APFS and when they are applicable.
@@ -408,7 +408,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
-## [Version~Type] - 2024-08-28
+## [1.0.0~prerelease] - 2024-08-28
 
 ### Added
 - Short explanation of what APFS is and how it is used by OpenCore.
@@ -435,7 +435,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
 
-## [Version~Type] - 2024-08-28
+## [1.0.0~prerelease] - 2024-08-28
 
 ### Added
 -
@@ -460,7 +460,7 @@ All notable changes to this project will be documented in this file. The format 
 ## More work on the NVRAM section
 ### Prerelease@CarnationsInternal
 #### By cerbiscode
-## [Version~Type] - 2024-08-28
+## [1.0.0~prerelease] - 2024-08-28
 
 ### Added
 - NVRAM WriteFlash explanation.
