@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added general plist editing informations & Added kernel patching guide 
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-15
+
+### Added
+- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
+- Added a guide for installing kernel patches on AMD systems using Corp's tool
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add storage kext notes
 ### Prerelease@CarnationsInternal
 #### By Tammo

@@ -44,6 +44,39 @@ has_toc: false
 
 2. Take the user to either a Desktop or Laptop/Mobile section.
 
+## Before we start platform-specific configurations
+Maybe you've already noticed that there isn't a single Mac with an AMD CPU. Therefore you have to patch the kernel. To do this, we use another tool from CorpNewt.
+
+[AMDVanillaPatches](https://github.com/corpnewt/AMDVanillaPatches/) allows us to merge the required kernel patches without problems. It's pretty self-explanatory. However, you should read the ReadMe of the [kernel patches](https://github.com/AMD-OSX/AMD_Vanilla) to understand what is actually happening. 
+First of all, we have to get the tool itself. We can simply download the main branch or clone the repository.
+
+<p align="center">
+  <img width="1583" height="1279" src="/assets/KernelPatches/AMDVanillaPatchesRepo.png">
+</p>
+
+Once we have the repository (you may need to unzip it), we should see the following files.
+
+<p align="center">
+  <img width="533" height="340" src="/assets/KernelPatches/AMDVanillaPatchesRepoFiles.png">
+</p>
+
+You can now choose the appropriate script depending on your platform (Windows users should choose the ``.bat`` file).
+
+We should now be greeted something like this.
+
+<p align="center">
+  <img width="697" height="483" src="/assets/KernelPatches/AMDVanillaPatches.command.png">
+</p>
+
+First we want to select option 1). We then choose option 2) and drag and drop our config.plist into it. We then confirm it with enter. 
+After that we choose option 3) - Here we have to enter the number of CPU cores of our target system (**NOT** threads).
+
+<p align="center">
+  <img width="697" height="483" src="/assets/KernelPatches/CPUCores.png">
+</p>
+
+Now we can close the program and continue with the platform-specific configuration.
+
 <h2 align="center">To begin, select your hardware type:</h2>
 <br>
 
