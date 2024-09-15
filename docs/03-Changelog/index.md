@@ -1,4 +1,4 @@
----
+0---
 layout: default
 title: Changelog
 nav_order: 3
@@ -22,6 +22,112 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Changed
 -
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Added general plist editing informations & Added kernel patching guide 
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-15
+
+### Added
+- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
+- Added a guide for installing kernel patches on AMD systems using Corp's tool
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Add storage kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-14
+
+### Added
+- Additional notes for storage kexts
+
+### Changed
+- 
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Added general plist editing informations & Added kernel patching guide 
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-15
+
+### Added
+- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
+- Added a guide for installing kernel patches on AMD systems using Corp's tool
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Add storage kext notes
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-14
+
+### Added
+- Additional notes for storage kexts
+
+### Changed
+- 
 
 ### Fixed
 -
@@ -98,7 +204,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By tammo03
 
-## [1.0.0~prerelease] - 2024-09-11
+## [1.0.0~prerelease] - 2024-09-12
 
 ### Added
 - Additional informations to the ACPI section of R5000, mainly derived from the laptop guide
