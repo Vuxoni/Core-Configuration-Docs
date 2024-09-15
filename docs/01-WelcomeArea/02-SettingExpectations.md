@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Setting Expectations
+description: Focused on explaining the kind of experience you can expect depending on your hardware.
 parent: Welcome to the Botánica
 nav_order: 3
 has_toc: false
@@ -24,6 +25,7 @@ has_toc: false
 </p>
 
 <h2 align="center">Placeholder Information</h2>
+<h5 align="center">Placeholder text for this information.</h5>
 
 <h2 align="center">
   <br>

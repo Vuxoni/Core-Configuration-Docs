@@ -9,7 +9,7 @@ has_toc: false
 # Changelog
 <br>
 
-All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Always maintain a temporary Commit entry at the top of this file. Maintain using Prerelease@BranchName and continue with using 1.0.0 while the Docs are still not released as 1.0.0 officially.
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Always maintain a temporary Commit entry at the top of this file. Maintain using Prerelease@BranchName and continue with using 1.0.0 while the Docs are still not released as 1.0.0 officially. This note will change in the future.
 
 ## [Commit Name]
 ### Version@Branch
@@ -37,7 +37,64 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## Add Ethernet kext notes
+## Update README.md, index.md, and About page.
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-09-15
+
+### Added
+-
+
+### Changed
+- README.md for GitHub has been given a nice base layout for starters.
+- index.md for Docs has had its wording around invitation to Discord fixed.
+- Welcome Area -> About has a new entry.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Repair Changelog Entry Convention
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-09-13
+
+### Added
+-
+
+### Changed
+-
+
+### Fixed
+- Changelog entries that were missing any of the following correct information:
+    - [Version@Branch]
+    - [Version~Type]
+    - [By] -> Use Github usernames for authoring changelog commits
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Additional informations to the ACPI section of R5000
 ### Prerelease@CarnationsInternal
 #### By tammo03
 
@@ -65,9 +122,9 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add Ethernet kext notes
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
-## [Version~Type] - 2024-09-11
+## [1.0.0~prerelease] - 2024-09-11
 
 ### Added
 - Added explainations to known Ethernet kexts
@@ -199,7 +256,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Prerelease@CarnationsInternal
 #### By tammo03
 
-## [[1.0.0~prerelease] - 2024-09-03
+## [1.0.0~prerelease] - 2024-09-03
 
 ### Added
 - Basic table with all tools included in OpenCorePkg - More information needed
