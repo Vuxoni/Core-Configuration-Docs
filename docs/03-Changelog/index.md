@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+<<<<<<< HEAD
 ## Touch up Color Scheme
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
@@ -104,6 +105,46 @@ All notable changes to this project will be documented in this file. The format 
 - README.md for GitHub has been given a nice base layout for starters.
 - index.md for Docs has had its wording around invitation to Discord fixed.
 - Welcome Area -> About has a new entry.
+=======
+## Added visual explanations for downloading recovery using gibMacRecovery
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-16
+
+### Added
+- Added informations about gibMacRecovery and its usage - general information about the recovery enviroment is still needed.
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+- Windows and Linux section - there's no point in having both since gibMacRecovery is a cross-platform script
+- Buttons - they will have to be added again.
+
+### Security
+-
+
+---
+
+## Added visual explanations for downloading and Using ProperTree
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-16
+
+### Added
+- Added explanations and assets for taking snapshots, downloading ProperTree and using it properly
+  
+### Changed
+-
+>>>>>>> 289aa96f3451e165df482e5e15a26d74323c5751
 
 ### Fixed
 -
