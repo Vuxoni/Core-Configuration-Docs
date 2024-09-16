@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added visual explanations for downloading and Using ProperTree
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-16
+
+### Added
+- Added explanations and assets for taking snapshots, downloading ProperTree and using it properly
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Added general plist editing informations & Added kernel patching guide 
 ### Prerelease@CarnationsInternal
 #### By Tammo
