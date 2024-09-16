@@ -1,4 +1,4 @@
-0---
+---
 layout: default
 title: Changelog
 nav_order: 3
@@ -37,18 +37,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## Added general plist editing informations & Added kernel patching guide 
+## Touch up Color Scheme
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By RoyalGraphX
 
-## [Version~Type] - 2024-09-15
+## [1.0.0~prerelease] - 2024-09-16
 
 ### Added
-- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
-- Added a guide for installing kernel patches on AMD systems using Corp's tool
-  
-### Changed
 -
+
+### Changed
+- Updated Footer text
+- Custom CSS has been updated
+- YML Configuration has been updated
 
 ### Fixed
 -
@@ -64,70 +65,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## Add storage kext notes
+## No Rebase Attempt, Changelog affected.
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By RoyalGraphX
 
-## [Version~Type] - 2024-09-14
+## [1.0.0~prerelease] - 2024-09-16
 
 ### Added
-- Additional notes for storage kexts
+-
 
 ### Changed
-- 
-
-### Fixed
--
-
-### Deprecated
--
-
-### Removed
--
-
-### Security
--
-
----
-
-## Added general plist editing informations & Added kernel patching guide 
-### Prerelease@CarnationsInternal
-#### By Tammo
-
-## [Version~Type] - 2024-09-15
-
-### Added
-- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
-- Added a guide for installing kernel patches on AMD systems using Corp's tool
-  
-### Changed
--
-
-### Fixed
--
-
-### Deprecated
--
-
-### Removed
--
-
-### Security
--
-
----
-
-## Add storage kext notes
-### Prerelease@CarnationsInternal
-#### By Tammo
-
-## [Version~Type] - 2024-09-14
-
-### Added
-- Additional notes for storage kexts
-
-### Changed
-- 
+- Reordered structure after no rebase git pull.
 
 ### Fixed
 -
@@ -171,6 +119,59 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added general plist editing informations & Added kernel patching guide 
+### Prerelease@CarnationsInternal
+#### By tammo03
+
+## [1.0.0~prerelease] - 2024-09-15
+
+### Added
+- General plist editing suggestions - Disclaimer for plist editors and configurators. To be expanded, a guide to install PT is needed.
+- Added a guide for installing kernel patches on AMD systems using Corp's tool
+  
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Add storage kext notes
+### Prerelease@CarnationsInternal
+#### By tammo03
+
+## [1.0.0~prerelease] - 2024-09-14
+
+### Added
+- Additional notes for storage kexts
+
+### Changed
+- 
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Repair Changelog Entry Convention
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
@@ -185,8 +186,8 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Fixed
 - Changelog entries that were missing any of the following correct information:
-    - [Version@Branch]
-    - [Version~Type]
+    - [Version@Branch] -> Please specify the current version and branch you are changing
+    - [Version~Type] -> Please specify the current version and type you are changing
     - [By] -> Use Github usernames for authoring changelog commits
 
 ### Deprecated
