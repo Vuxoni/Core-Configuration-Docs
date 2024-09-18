@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Edited wording in Introduction for KYH
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-09-18
+
+### Added
+-
+
+### Changed
+- Wording, commas, capitalization, periods in introduction page of Know your Hardware.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Added more unsupported cards to the list
 ### Prerelease@CarnationsInternal
 #### By tammo03
