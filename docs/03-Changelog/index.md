@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added more unsupported cards to the list
+### Prerelease@CarnationsInternal
+#### By tammo03
+
+## [Version~Type] - YYYY-MM-DD
+
+### Added
+- More RDNA3 based cards (Desktop, Mobile, Workstation)
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Added visual explanations for downloading recovery using gibMacRecovery
 ### Prerelease@CarnationsInternal
 #### By tammo03

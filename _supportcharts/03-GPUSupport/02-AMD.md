@@ -204,12 +204,22 @@ Several other GPUs deriving from the Tahiti/Pitcairn architecture can likely be 
 {: .note }
 While Navi 21, 22 and Navi 23 are supported, Navi 24 and Navi 3X based graphic cards are not at the time of writing. No guarantee can be made for future support. No Steam Deck for u.
 
-| Card | Initial Support | Latest Support | Notes |
-| --- | --- | --- | --- |
-| RX 6400 | None | None |  |
-| RX 6500 XT | None | None |  |
-| RX 7900 XT | None | None |  |
-| RX 7900 XTX | None | None |  |
+| Card             | Initial Support | Latest Support | Notes |
+| ---------------- | --------------- | -------------- | ----- |
+| RX 6300          | None            | None           |       |
+| RX 6400          | None            | None           |       |
+| RX 6500 XT       | None            | None           |       |
+| RX 7600 (XT)     | None            | None           |       |
+| RX 7700 (XT)     | None            | None           |       |
+| RX 7900 (XT(X))  | None            | None           |       |
+| RX 7600 M/S (XT) | None            | None           |       |
+| RX 7700 M/S      | None            | None           |       |
+| RX 7900 M        | None            | None           |       |
+| Pro W7500        | None            | None           |       |
+| Pro W7600        | None            | None           |       |
+| Pro W7700        | None            | None           |       |
+| Pro W7800        | None            | None           |       |
+| Pro W7900        | None            | None           |       |
 
 ## Phoenix
 
