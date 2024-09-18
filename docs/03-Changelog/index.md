@@ -37,11 +37,37 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added more unsupported cards to the list
+### Prerelease@CarnationsInternal
+#### By tammo03
+
+## [1.0.0~prerelease] - 2024-09-18
+
+### Added
+- More RDNA3 based cards (Desktop, Mobile, Workstation)
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Restructure Know Your Hardware Section.
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX
 
-## [1.0.0~prerelease] - 2024-09-18
+## [1.0.0~prerelease] - 2024-09-16
 
 ### Added
 -
