@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Using Linux
-parent: Audio Chipset + Codec
-nav_order: 2
-has_children: true
+title: Using Windows
+parent: Introduction
+nav_order: 1
+has_children: false
 has_toc: false
 ---
 
@@ -21,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../../../assets/Header-UsingLinux.png">
+  <img width="650" height="200" src="../../../../assets/Header-UsingWindows.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>

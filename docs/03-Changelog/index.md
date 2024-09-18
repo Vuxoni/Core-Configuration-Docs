@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Restructure Know Your Hardware Section.
+### Prerelease@CarnationsInternal
+#### By RoyalGraphX
+
+## [1.0.0~prerelease] - 2024-09-18
+
+### Added
+-
+
+### Changed
+- Know Your Hardware has been restructured to fit in more room and information about not only how to find and note down hardware, but has space for preliminary information such as BIOS Settings and any other notable details to set up prior to Hardware Support checks.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+- Various sections from Know Your Hardware
+
+### Security
+-
+
+---
+
 ## Added visual explanations for downloading recovery using gibMacRecovery
 ### Prerelease@CarnationsInternal
 #### By tammo03

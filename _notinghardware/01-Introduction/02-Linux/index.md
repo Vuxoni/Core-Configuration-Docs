@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Using Linux
-parent: CPU Name + Generation
+parent: Introduction
 nav_order: 2
-has_children: true
+has_children: false
 has_toc: false
 ---
 
@@ -29,7 +29,7 @@ has_toc: false
 <h2 align="center">
   <br>
   <div class="next-button-container">
-  <a class="next-button" href="../../../03-GPU/02-Linux/index/">Next Page &rarr;</a>
+  <a class="next-button" href="../../../08-BIOS/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Introduction
+description: The Introduction page for Know Your Hardware, with instructions for common Operating Systems on obtaining such information.
 nav_order: 1
-has_children: false
+has_children: true
 has_toc: false
 ---
 
@@ -17,25 +18,44 @@ has_toc: false
   .nav-button {
     margin: 10px;
   }
+
+  .windows-next-button-container {
+    text-align: right;
+  }
+
+  .windows-next-button {
+    margin: 10px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
 </style>
 
 <p align="center">
   <img width="650" height="200" src="../../../assets/Header-KnowYourHardware.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
-
-<h4 align="center">This page is a stub, with the ToC enabled temporarily, but this page should:</h4>
+<h2 align="center">Get ready to keep track of your info!</h2>
 <br>
 
-1. Help the user in taking note of their hardware, and learning about it
-2. Have emphasis on the importance of understanding their hardware, and explaining that because OS X / macOS is not meant to run on their hardware, they must do everything they can to check compatibility of such hardware, if it will even be viable for use.
+Welcome to the beginning of your journey. Like every journey, you must be prepared before embarking into unknown territory. We'd like to take a quick detour to explain the importance of being familiar with your hardware.
+
+The Mac operating system itself, was only ever intended to run on a specific set of hardware put together by Apple. This means, that for our purposes of running it on non Apple hardware, the responsibility that we must do lots of the work correcting how we present our hardware *to* macOS / OS X depending on our level of compatibility, falls on us.
+
+Before we even consider actually going through with the decision to run the Mac operating system on your intended target hardware, we must thoroughly be aware of all its individual components, especially if it is a Pre-Built machine, or a Laptop. After we run through various related topics, we can then verify the viablity of our hardware, by using Support Charts.
+
+<br>
+<h4 align="center">Please select the corresponding OS you are using below.</h4>
 
 <h2 align="center">
   <br>
+  <div class="windows-next-button-container">
+  <a class="windows-next-button" href="../01-Windows/index/">Windows &rarr;</a>
+  </div>
   <div class="navigation-container">
     <a class="nav-button" href="../../../docs/01-WelcomeArea/05-Instructs.html">&larr; Back Page</a>
-    <a class="nav-button" href="../../02-CPU/index/">Next Page &rarr;</a>
+    <a class="nav-button" href="../02-Linux/index/">Linux &rarr;</a>
   </div>
   <br>
 </h2>
