@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add HWiNFO64 explanations
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-22
+
+### Added
+- Added screenshots anbd explanations to the notinghardware/windows section - Screenshot will be replaced.
+- Added a placeholder for Linux
+
+### Changed
+- Changed the image code of the config.plist section to md - the images open on-click now
+
+### Fixed
+-
+
+### Deprecated
+- 
+
+### Removed
+- Removed unnecessary pages (e.g. Noting HW in Windows -> Windows/Linux)
+
+### Security
+-
+
+---
+
 ## Edited wording in Introduction for KYH
 ### Prerelease@CarnationsInternal
 #### By RoyalGraphX

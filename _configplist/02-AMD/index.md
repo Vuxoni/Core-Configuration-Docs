@@ -50,30 +50,30 @@ Maybe you've already noticed that there isn't a single Mac with an AMD CPU. Ther
 [AMDVanillaPatches](https://github.com/corpnewt/AMDVanillaPatches/) allows us to merge the required kernel patches without problems. It's pretty self-explanatory. However, you should read the ReadMe of the [kernel patches](https://github.com/AMD-OSX/AMD_Vanilla) to understand what is actually happening. 
 First of all, we have to get the tool itself. We can simply download the main branch or clone the repository.
 
-<p align="center">
-  <img width="1583" height="1279" src="/assets/KernelPatches/AMDVanillaPatchesRepo.png">
-</p>
+<div style="text-align: center;" markdown="1">
+  [![AMDVanillaPatchesRepository](/assets/KernelPatches/AMDVanillaPatchesRepo.png)](/assets/KernelPatches/AMDVanillaPatchesRepo.png)
+</div>
 
 Once we have the repository (you may need to unzip it), we should see the following files.
 
-<p align="center">
-  <img width="533" height="340" src="/assets/KernelPatches/AMDVanillaPatchesRepoFiles.png">
-</p>
+<div style="text-align: center;" markdown="1">
+  [![AMDVanillaPatchesRepository](/assets/KernelPatches/AMDVanillaPatchesRepoFiles.png)](/assets/KernelPatches/AMDVanillaPatchesRepoFiles.png)
+</div>
 
 You can now choose the appropriate script depending on your platform (Windows users should choose the ``.bat`` file).
 
 We should now be greeted something like this.
 
-<p align="center">
-  <img width="697" height="483" src="/assets/KernelPatches/AMDVanillaPatches.command.png">
-</p>
+<div style="text-align: center;" markdown="1">
+  [![AMDVanillaPatchesRepository](/assets/KernelPatches/AMDVanillaPatches.command.png)](/assets/KernelPatches/AMDVanillaPatches.command.png)
+</div>
 
 First we want to select option 1). We then choose option 2) and drag and drop our config.plist into it. We then confirm it with enter. 
 After that we choose option 3) - Here we have to enter the number of CPU cores of our target system (**NOT** threads).
 
-<p align="center">
-  <img width="697" height="483" src="/assets/KernelPatches/CPUCores.png">
-</p>
+<div style="text-align: center;" markdown="1">
+  <[![AMDVanillaPatchesRepository](/assets/KernelPatches/CPUCores.png)](/assets/KernelPatches/CPUCores.png)
+</div>
 
 Now we can close the program and continue with the platform-specific configuration.
 

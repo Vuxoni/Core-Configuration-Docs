@@ -60,15 +60,15 @@ Do **NOT** use configurators. Every conceivable reason, apart from laziness, spe
 ## Downloading ProperTree
 For those who want to use ProperTree, let's download it now. First of all, we have to get the tool itself. We can simply download the main branch or clone the repository.
 
-<p align="center">
-  <img width="1583" height="1279" src="/assets/ProperTree/ProperTreeRepo.png">
-</p>
+<div style="text-align: center;" markdown="1">
+[![Repository](/assets/ProperTree/ProperTreeRepo.png)](/assets/ProperTree/ProperTreeRepo.png)
+</div>
 
 Once we have downloaded ProperTree (and unpacked it if necessary), we will be greeted with the following files.
 
-<p align="center">
-  <img width="492" height="340" src="/assets/ProperTree/ProperTreeFiles.png">
-</p>
+<div style="text-align: center;" markdown="1">
+[![Files](/assets/ProperTree/ProperTreeFiles.png)](/assets/ProperTree/ProperTreeFiles.png)
+</div>
 
 We can now select the script according to our platform. Windows users should choose the ``.bat`` file, Mac users should choose the ``.command`` file. Users on all platforms, including Linux, can also use the ``.py`` file instead.
 
@@ -77,15 +77,15 @@ The difference between ``ProperTree.bat`` and ``ProperTreeQuiet.bat`` is that no
 
 When you open ProperTree, you will be greeted with the following window:
 
-<p align="center">
-  <img width="842" height="620" src="/assets/ProperTree/ProperTreeUntitled1.png">
-</p>
+<div style="text-align: center;" markdown="1">
+[![Blank file](/assets/ProperTree/ProperTreeUntitled1.png)](/assets/ProperTree/ProperTreeUntitled1.png)
+</div>
 
 Now we want to open our previously renamed ``config.plist`` file. From now on we will just call it “plist”. You can do that by pressing ``Cmd/Ctrl+O`` and selecting the file. If you did it correctly, it should look something like this:
 
-<p align="center">
-  <img width="1172" height="720" src="/assets/ProperTree/ProperTreePlist.png">
-</p>
+<div style="text-align: center;" markdown="1">
+[![config.plist](/assets/ProperTree/ProperTreePlist.png)](/assets/ProperTree/ProperTreePlist.png)
+</div>
 
 {: .note }
 You can remove the first 4 warning entries. They don't matter, we don't need them and they just don't look nice - Still, it is purely optional.
@@ -93,9 +93,10 @@ You can remove the first 4 warning entries. They don't matter, we don't need the
 ## Taking a snapshot
 CorpNewts [OCSnapshot](https://github.com/corpnewt/OCSnapshot) is able to transfer the structure of your EFI folder into your config.plist. The OCSnapshot function is already integrated in ProperTree. All you have to do is open ProperTree, press ``Ctrl+R`` (or ``Cmd+R``) and select the ``OC`` folder. However, when you take a snapshot for the first time, it is highly recommended to take a so-called "clean snapshot". To do this, press ``Ctrl/Cmd+Shift+R`` and select the ``OC`` folder.
 
-<p align="center">
-  <img width="310" height="418" src="/assets/ProperTree/ProperTreeSnapshot.png">
-</p>
+<div style="text-align: center;" markdown="1">
+  [![config.plist](/assets/ProperTree/ProperTreeSnapshot.png)](/assets/ProperTree/ProperTreeSnapshot.png)
+</div>
+
 
 Explained in more detail:
 **OC Snapshot** updates the current values in ``ACPI -> Add``, ``Kernel -> Add``, ``Misc -> Tools``, and ``UEFI -> Drivers`` by only adding or removing entries as needed. **OC Clean Snapshot** clears these four sections completely and adds all entries from scratch.
