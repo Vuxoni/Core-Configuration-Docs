@@ -36,10 +36,57 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Header-Tools-SSDTTime.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
+The following section explains how you can generate your SSDTs. That should save us a ton of time. To do this, we use another tool from [CorpNewt](https://github.com/corpnewt), SSDTTime[https://github.com/corpnewt/SSDTTime].
 
-<h2 align="center">To begin, select the operating system of choice:</h2>
-<br>
+## How do I use SSDTTime?
+
+First of all, we want to get the tool by downloading the entire main branch of the repository or cloning the repository as is. 
+
+<div style="text-align: center;" markdown="1">
+  [![SSDTTimeRepository](/assets/SSDTTime/SSDTTimeRepo.png)](/assets/SSDTTime/SSDTTimeRepo.png)
+</div>
+
+ As before, we have various scripts to select from, depending on our operating system. Choose the appropriate script for your OS.
+
+<div style="text-align: center;" markdown="1">
+  [![SSDTTimeFiles](/assets/SSDTTime/SSDTTimeFiles.png)](/assets/SSDTTime/SSDTTimeFiles.png)
+</div>
+
+Now we are able to open the program. Upon launching it, we are greeted with an interface that should look similar to the screenshot below. The program provides us with various options, that allow us to create SSDTs right away. 
+
+<div style="text-align: center;" markdown="1">
+  [![SSDTTimeBlank](/assets/SSDTTime/SSDTTime.png)](/assets/SSDTTime/SSDTTime.png)
+</div>
+
+In order to create SSDTs, SSDTTime requires us to provide our main ACPI table. As explained before, we call these DSDT (Differentiated System Description Table).
+Normally, the program should read this automatically from the computer on which you start the script. However, if this doesn't work or you want to create SSDTs for another system, you'll need to add the table manually. If SSDTTime loaded the correct table already, you can skip this step.
+
+## Dumping the DSDT
+
+In order to dump your DSDT, we need a few things. First of all, we want to grab an [UEFI shell](https://github.com/tianocore/edk2/blob/edk2-stable201903/ShellBinPkg/UefiShell/X64/Shell.efi). Then, we want to grap [ACPIDump.efi](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/acpidump.efi.zip), that will allow us to dump our ACPI tables.
+
+Now we need a USB stick. This stick must be formatted to ```FAT32``` - the size doesn't matter. We want to create a folder called ```EFI``` in the root directory of the stick. Then, create a subfolder called ```BOOT```. In this subfolder, we paste ```Shell.efi``` and rename it to ```Bootx64.efi```. We then also paste ACPIDump.efi - this file doesn't have to be renamed. We then boot this stick. In the terminal that we then see, we enter "```ACPIDump.efi -b -n```". This should create a bunch of files inside the root directory of the stick. We can now access the files from our stick.
+
+<div style="text-align: center;" markdown="1">
+  [![ACPIDump](/assets/SSDTTime/ACPIDump.png)](/assets/SSDTTime/ACPIDump.png)
+</div>
+
+Fortunately, SSDTTime is able to process .dat tables. So we don't need to rename the tables. If you still need .aml tables, you can simply rename the files; converting them is not necessary. We can simply select a folder containing our tables in SSDT using option ```D. Select ACPI table or folder containing tables```.
+
+## SSDTTime's options
+
+1. FixHPET
+Using the FixHPET option will create ```SSDT-HPET```. ```SSDT-HPET``` re-defines the HPET's _CRS method to claim IRQs (Individual Interupt Requests) that macOS expects the device to be assigned to it.  It requires several ACPI patches to remove conflicting IRQs from other devices, as well as renaming the HPET's _CRS method to XCRS in order to re-define it.
+Creating ```SSDT-HPET``` will also create several ACPI patches that we can find in the also generated ```patches_OC.plist```. ```SSDT-HPET``` will be useless if you dont merge them into your ```config.plist```.
+
+2. FakeEC
+Using the FakeEC option will generate SSDT-EC. This SSDT disables our existing embedded controller (EC) as it is not compatible with macOS. It automatically searches for the ACPI path of our chip and disables it if booting Apple's kernel.
+
+3. Laptop EC
+The laptop fake EC creates a companion EC named "EC" - it should leave the original untouched, and generate a patch to rename it if it's already named "EC" IIRC.  I'll look too - been awhile since I've waded through the nasty nonsense that script does.
+
+{: .note }
+Below you will find a list of all SSDTTime options. However, that does NOT mean you should select every one! To find out which option to choose, please see the corresponding Gathering files section.
 
 <h2 align="center">
   <br>

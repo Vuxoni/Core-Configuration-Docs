@@ -51,9 +51,8 @@ Unfortunately, macOS is very picky when it comes to the entries in the tables. W
 These changes can be made with an injection of an edited DSDT, as it was done under Clover. Another method is adding individual patches in our config.plist under ACPI -> Patch.
 
 ## ​What SSDTs do I need?
-First of all, there are three ways to get our SSDTs. You have the option to use pre-made SSDTs, generate them yourself, or do everything manually.
-Please note, however, that there are SSDTs that cannot be generated (e.g. SSDT-CPUR) or can only be generated (e.g. SSDT-HPET).
-If you have a desktop, prebuild SSDTs are completely sufficient. Self-created SSDTs are better in theory, but not really necessary. Laptops should use generated SSDTs as prebuilds can cause problems on mobile hardware.
+First of all, this guide covers two ways to get the SSDTs needed. You have the option to generate them yourself or do everything manually.
+Please note, however, that there are SSDTs that cannot be generated (e.g. SSDT-CPUR). In almost every case, it's recommended to generate the SSDTs. However, if you want to delve deeper into the subject or feel like it, you can also choose the manual approach.
 
 
 <h2 align="center">Placeholder Information</h2>

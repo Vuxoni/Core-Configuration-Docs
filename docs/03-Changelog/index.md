@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add SSDTTime explanations
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-24
+
+### Added
+- Added explainations for SSDTTime and ACPI dumping - to be expanded
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+- 
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add HWiNFO64 explanations
 ### Prerelease@CarnationsInternal
 #### By Tammo
