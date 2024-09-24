@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Edit ACPI Dumping
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-24
+
+### Added
+- Added a better screenshot for Loading tables into SSDTTime
+- Added additional notes for dumping ACPI tables with ACPIDump.efi
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add info for EC (Laptop and Desktop) and USBX
 ### Prerelease@CarnationsInternal
 #### By Tammo

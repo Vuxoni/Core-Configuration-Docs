@@ -55,17 +55,27 @@ First of all, we want to get the tool by downloading the entire main branch of t
 Now we are able to open the program. Upon launching it, we are greeted with an interface that should look similar to the screenshot below. The program provides us with various options, that allow us to create SSDTs right away. 
 
 <div style="text-align: center;" markdown="1">
-  [![SSDTTimeBlank](/assets/SSDTTime/SSDTTime.png)](/assets/SSDTTime/SSDTTime.png)
+  [![SSDTTimeBlank](/assets/SSDTTime/SSDTTimeLoadedTables.png)](/assets/SSDTTime/SSDTTimeLoadedtables.png)
 </div>
 
-In order to create SSDTs, SSDTTime requires us to provide our main ACPI table. As explained before, we call these DSDT (Differentiated System Description Table).
-Normally, the program should read this automatically from the computer on which you start the script. However, if this doesn't work or you want to create SSDTs for another system, you'll need to add the table manually. If SSDTTime loaded the correct table already, you can skip this step.
+In order to create SSDTs, SSDTTime requires us to provide ACPI tables found in our firmware. In the screenshot above, SSDTTime loaded all of our tables correctly.
+Normally, the program should read them automatically from the computer on which you're using the script on. However, if this doesn't work or if you want to create SSDTs for another system, you'll need to add the tables manually. If SSDTTime loads the correct tables, you can skip this step.
 
-## Dumping the DSDT
+## Dumping ACPI tables
 
-In order to dump your DSDT, we need a few things. First of all, we want to grab an [UEFI shell](https://github.com/tianocore/edk2/blob/edk2-stable201903/ShellBinPkg/UefiShell/X64/Shell.efi). Then, we want to grap [ACPIDump.efi](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/acpidump.efi.zip), that will allow us to dump our ACPI tables.
+In order to dump our tables, we need a few things. First of all, we want to grab an [UEFI shell](https://github.com/tianocore/edk2/blob/edk2-stable201903/ShellBinPkg/UefiShell/X64/Shell.efi). Then, we want to grap [ACPIDump.efi](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/acpidump.efi.zip), that will allow us to dump our ACPI tables.
 
-Now we need a USB stick. This stick must be formatted to ```FAT32``` - the size doesn't matter. We want to create a folder called ```EFI``` in the root directory of the stick. Then, create a subfolder called ```BOOT```. In this subfolder, we paste ```Shell.efi``` and rename it to ```Bootx64.efi```. We then also paste ACPIDump.efi - this file doesn't have to be renamed. We then boot this stick. In the terminal that we then see, we enter "```ACPIDump.efi -b -n```". This should create a bunch of files inside the root directory of the stick. We can now access the files from our stick.
+Now we need a USB stick. This stick must be formatted to ```FAT32``` - the size doesn't matter. We want to create a folder called ```EFI``` in the root directory of the stick. Then, create a subfolder called ```BOOT```. In this subfolder, we paste ```Shell.efi``` and rename it to ```Bootx64.efi```. We then also paste ACPIDump.efi - this file doesn't have to be renamed. As a result, our stick should have the following structure:
+
+<div style="text-align: center;" markdown="1">
+  [![ACPIDump stick structure](/assets/SSDTTime/ACPIStick.png)](/assets/SSDTTime/ACPIStick.png)
+</div>
+
+{: .note }
+Bootx64.efi is not the same file as the one provided inside OpenCorePkg! Do NOT confuse them. 
+
+
+We then boot this stick. In the terminal that we then see, we enter "```ACPIDump.efi -b -n```". This should create a bunch of files inside the root directory of the stick. We can now access the files from our stick. After we've dumped our tables, we wont need the stick anymore. However, make sure that you saved the tables somewhere.
 
 <div style="text-align: center;" markdown="1">
   [![ACPIDump](/assets/SSDTTime/ACPIDump.png)](/assets/SSDTTime/ACPIDump.png)
@@ -73,10 +83,10 @@ Now we need a USB stick. This stick must be formatted to ```FAT32``` - the size 
 
 Fortunately, SSDTTime is able to process .dat tables. So we don't need to rename the tables. If you still need .aml tables, you can simply rename the files; converting them is not necessary. We can simply select a folder containing our tables in SSDT using option ```D. Select ACPI table or folder containing tables```.
 
+## SSDTTime's options
+
 {: .note }
 Below you will find a list of all SSDTTime options. However, that does NOT mean you should select every one! To find out which option to choose, please see the corresponding Gathering files section.
-
-## SSDTTime's options
 
 - *1.* **FixHPET**
 Using the FixHPET option will create ```SSDT-HPET```. ```SSDT-HPET``` re-defines the HPET's _CRS method to claim IRQs (Individual Interupt Requests) that macOS expects the device to be assigned to it.  It requires several ACPI patches to remove conflicting IRQs from other devices, as well as renaming the HPET's _CRS method to XCRS in order to re-define it.
