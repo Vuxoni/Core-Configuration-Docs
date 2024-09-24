@@ -26,8 +26,35 @@ All notable changes to this project will be documented in this file. The format 
 ### Fixed
 -
 
-### Deprecated
+### Deprecated  
 -
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Add info for EC (Laptop and Desktop) and USBX
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-24
+
+### Added
+- Add info for EC (Laptop and Desktop) and USBX
+- Added images referring to the patches
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated
+- 
 
 ### Removed
 -
