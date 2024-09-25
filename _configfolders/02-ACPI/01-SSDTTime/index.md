@@ -101,10 +101,13 @@ SSDTTime will show us conflicting IRQs:
 We can now choose the default option ```C. Only Conflicting IRQs from Legacy Devices``` to resolve the existing conflicts.
 
 - *2.* **FakeEC**
-Using the FakeEC option will generate SSDT-EC. This SSDT disables our existing embedded controller (EC) as it is not compatible with macOS. The EC is usually responsible for system paths, sensors, etc - since using the EC is not an option for us, we will provide needed data directly to the kernel using kexts. It automatically searches for the ACPI path of our chip and disables it if booting Apple's kernel. FakeEC then creates a fake EC that is compatible with macOS.
+Using the FakeEC option will generate SSDT-EC. macOS is very picky about having an EC (Embedded Controller) inside ACPI tables. If you have a ```PNP0C09```  (the HID for embedded controller) device defined in your ACPI, macOS will stall on some versions. In addition, Desktop ECs are not compatible with macOS - renaming them is therefore not a solution. Further, ```AppleBusPowerController``` requires a device named "EC" to be present (while it doesn't have to be a ```PNP0C09``` device). 
+SSDT-EC does two things:
+1. It returns 0 for any ```PNP0C09``` devices ```_STA``` (status) method to disable it - it prevents macOS from using the incompatible EC.
+2. It creates a new device named "EC" without a ```PNP0C09``` HID to satisfy AppleBusPowerController.
 
 - *3.* **Laptop EC**
-Laptop EC creates a fake macOS-compatible companion EC named "EC" - it leaves the original untouched as the built-in EC is what manages battery statistics, brightness notifications, hotkeys, etc. Instead, it generates a patch to rename it if it's already named "EC". 
+Laptop EC leaves the built-in EC untouched - it is what manages battery statistics, brightness notifications, hotkeys, etc. on laptops. If there isn't a device called "EC", Laptop EC creates a fake one. However, if there is already a ```PNP0C09 device``` called "EC", Laptop EC won't create a SSDT as it's doesn't needed.
 
 - *4.* **USBX**
 Starting with Skylake, systems started to change the way they handle USB devices. Consequently, USBX defines USB power properties - it defines a top-level USBX device. When a high-powered USB device is plugged in, the operating system gets informed of the appropriate power level to provide. SSDT-USBX is only needed on SMBIOS (System Management BIOS) based on Skylake and newer.

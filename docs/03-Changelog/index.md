@@ -64,6 +64,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Correct EC section
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-25
+
+### Added
+- 
+
+### Changed
+-
+
+### Fixed
+- Corrected EC section of SSDTTime
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add info for EC (Laptop and Desktop) and USBX
 ### Prerelease@CarnationsInternal
 #### By Tammo
