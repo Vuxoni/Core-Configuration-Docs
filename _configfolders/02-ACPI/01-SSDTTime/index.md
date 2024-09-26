@@ -121,7 +121,14 @@ SSDTTime is going to show us our USBX device properties:
 In almost every case, we can use the default option ```B. Build SSDT-USBX```.
 
 - *5.* **PluginType**
+Using PluginType will either create SSDT-PLUG or SSDT-PLUG-ALT. Both SSDTs will inject ```PluginType = 1``` into the first CPU processor object. Some newer CPUs define their CPU cores/threads differently, therefore its needed to redefine them using SSDT-PLUG-ALT. It redefines existing ```ACPI0007``` devices as legacy ```Processor ()``` objects so macOS is able to recognize them. SSDTTime takes care of the decision whether you need SSDT-PLUG or SSDT-PLUG-ALT.
+
 - *6.* **PMC**
+Intel-300-series mainboards lack definitions for PMC/PPMC devices responsible for managing native NVRAM. Most likely Intel simply forgot about them. Apple defined a device called ```APP9876``` to access it with its AppleIntelPCHPMC driver. SSDT-PMC therefore defines such a device and disables it in every other OS than macOS. Without SSDT-PMC, NVRAM writes are not possible. 
+
+{: .note}
+Z370 does not require SSDT-PMC as its actually a [rebranded 200-series chipset](https://www.pcbuildersclub.com/en/2019/01/der8auer-proves-that-intels-lga-1151v2-z370-and-z390-are-pointless/amp/).
+
 - *7.* **RTCAWAC**
 - *8.* **USB Reset**
 - *9.* **PCI Bridge**

@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Added information about SSDT-PLUG(ALT) and PMC
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-26
+
+### Added
+- Added information about SSDT-PLUG(ALT) and PMC
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Edit ACPI Dumping
 ### Prerelease@CarnationsInternal
 #### By Tammo
