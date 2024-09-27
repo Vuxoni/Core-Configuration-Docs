@@ -18,10 +18,37 @@ All notable changes to this project will be documented in this file. The format 
 ## [Version~Type] - YYYY-MM-DD
 
 ### Added
--
+- 
 
 ### Changed
 -
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Edit kext section
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-09-27
+
+### Added
+- 
+
+### Changed
+- Reworked links in kext section - theyre using Kramdown syntax now.
+- Updated the max supported OS to Sonoma in the kext section
 
 ### Fixed
 -
