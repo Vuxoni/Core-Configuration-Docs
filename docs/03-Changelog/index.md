@@ -37,6 +37,35 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## [Commit Name]
+### Version@Branch
+#### By Commit Author
+
+## [Version~Type] - YYYY-MM-DD
+
+### Added
+- Added Goldfishs floppy kext
+- Added notes for Kryptonite
+- Added WIP nots to the kext section
+
+### Changed
+- Format of kext section to increase readability
+- Moved SMCSuperIO to the plugin section
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+- Mentioning of E1000e.kext in Ethernet section
+
+### Security
+-
+
+---
+
 ## Edit kext section
 ### Prerelease@CarnationsInternal
 #### By Tammo
