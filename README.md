@@ -1,9 +1,9 @@
 <p align="center">
-  <img width="40%" height="40%" src="./assets/Carnations_logo_1000px.png">
+  <img width="40%" height="40%" src="./assets/Carnations/Carnations_logo_1000px.png">
 </p>
 
 <p align="center">
-  <img width="60%" height="60%" src="./assets/Header-Title.png">
+  <img width="60%" height="60%" src="./assets/Headers/Header-Title.png">
 </p>
 
 <h3 align="center">An Advanced Guide for running Mac OS X / macOS on Non-Apple Hardware.</h3>
@@ -13,15 +13,15 @@
 </br>
 <h1 align="center">Need Help?</h1>
 <p align="center">
-  <img width="50%" height="50%" src="./assets/discord-logo-white.png">
+  <img width="50%" height="50%" src="./assets/Discord/discord-logo-white.png">
 </p>
-<h4 align="center">If you run into any issues, you can join the <a href="https://discord.gg/eDptbT9NcV">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within a help channel for support.</h4>
+<h4 align="center">If you run into any issues, you can join the <a href="https://discord.gg/DUzCmUjVQZ">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within a help channel for support.</h4>
 
 </br>
 </br>
 <h1 align="center">Contributing to the Documentation</h1>
 <p align="center">
-  <img width="30%" height="30%" src="./assets/GitHub_Logo_White.png">
+  <img width="30%" height="30%" src="./assets/GitHub/GitHub_Logo_White.png">
 </p>
 <h4 align="center">If you have any changes or improvements you'd like to contribute for review and merge, to update misinformation or outdated information, as well as maybe even adding whole new pages, you can follow the general outline below to get a local copy of the documentation running below.</h4>
 <h6 align="center">Instructions written for macOS hosts but is adoptable to other OS's.</h6>

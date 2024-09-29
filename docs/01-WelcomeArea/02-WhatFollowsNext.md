@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Outlining the Process
+title: What follows next?
+description: Placeholder
 parent: Welcome to the Botánica
-nav_order: 6
+nav_order: 2
 has_toc: false
 ---
 
@@ -20,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../assets/Header-OutliningTheProcess.png">
+  <img width="650" height="200" src="../../assets/Headers/Header-WhatFollowsNext.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
@@ -28,8 +29,8 @@ has_toc: false
 <h2 align="center">
   <br>
   <div class="navigation-container">
-    <a class="nav-button" href="04-GeneralTerms.html">&larr; Back Page</a>
-    <a class="nav-button" href="../../notinghardware/01-Introduction/index">Next Page &rarr;</a>
+    <a class="nav-button" href="01-AboutTheDocs.html">&larr; Back Page</a>
+    <a class="nav-button" href="03-SettingExpectations.html">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

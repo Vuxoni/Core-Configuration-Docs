@@ -21,7 +21,7 @@ has_toc: false
 </style>
 
 <p align="center">
-  <img width="650" height="200" src="../../assets/Header-SettingExpectations.png">
+  <img width="650" height="200" src="../../assets/Headers/Header-SettingExpectations.png">
 </p>
 
 <h2 align="center">Placeholder Information</h2>
@@ -30,8 +30,8 @@ has_toc: false
 <h2 align="center">
   <br>
   <div class="navigation-container">
-    <a class="nav-button" href="01-About.html">&larr; Back Page</a>
-    <a class="nav-button" href="03-GeneralConcepts.html">Next Page &rarr;</a>
+    <a class="nav-button" href="02-WhatFollowsNext.html">&larr; Back Page</a>
+    <a class="nav-button" href="04-FutureOfx86.html">Next Page &rarr;</a>
   </div>
   <br>
 </h2>
