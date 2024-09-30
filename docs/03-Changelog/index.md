@@ -37,11 +37,37 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Commit Name]
-### Version@Branch
-#### By Commit Author
+## Add WIP notes to kext section
+### Prerelease@CarnationsInternal
+#### By Tammo
 
-## [Version~Type] - YYYY-MM-DD
+## [Version~Type] - 2024-09-30
+
+### Added
+- A bunch of notes for kexts still needed in the guide.
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## [Commit Name]
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-09-29
 
 ### Added
 - Added Goldfishs floppy kext

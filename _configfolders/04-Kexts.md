@@ -127,6 +127,37 @@ NootRX is a kext providing patches for Navi21, -22 and -23 based GPUs. Just as N
 {: .note }
 If you want to use an eGPU, you should take a look at [Kryptonite](https://github.com/mayankk2308/kryptonite?tab=readme-ov-file){:target="_blank"}. However, the further process of using this kext is not covered in this guide.
 
+
+# Other CPU related kexts
+
+## General
+- RestrictEvents -> Not really CPU related, but should fit best in this category
+- AppleMCEReporterDisabler
+- CryptexFixup
+- Whatever this is https://github.com/benbaker76/HWPEnable
+- telemetrap
+- VoodooTSCSync
+- MouSSE https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/
+
+## Intel
+- CPUTopologyRebuild
+- CPUTscSync
+- CPUFriend
+
+## AMD
+- Seey6's CPUTSCSync
+- 
+
+# USB
+- USBMap
+- USBToolBox
+- USBInjectAll
+- GUX
+- RyzenGUX
+- XLNCUSBFIX
+- XHCIunsupported
+- USB3 legacy? https://applelife.ru/threads/nastrojka-usb-v-10-11-i-novee.627190/page-3#post-537459
+
 # Audio
 
 ## AppleALC
@@ -206,13 +237,13 @@ NullEthernet https://github.com/RehabMan/OS-X-Null-Ethernet
 ### [NVMeFix](https://github.com/acidanthera/NVMeFix){:target="_blank"}
 NVMeFix is a set of patches designed to improve the compatibility of non-Apple NVMe SSDs with macOS. It works by modifying the Apple NVMe storage driver, known as IONVMeFamily. 
 
-## [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext){:target="_blank"}
-A codeless kext adding a variety of SATA personalities to macOS.
-
 ## SATA
 
 ## [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip){:target="_blank"}
 Just as Sata-unsupported, this kext adds a variety of SATA controllers. Note that this kext contains needed binaries for some entirely unsupported controllers - if SATA-unsupported does not work on your system, you may want to try this kext.
+
+## [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext){:target="_blank"}
+A codeless kext adding a variety of SATA personalities to macOS.
 
 ## [RyzenSata](https://github.com/Carnations-Botanica/RyzenSata){:target="_blank"}
 Similar to SATA-unsupported, this kext adds SATA personalities to macOS. Corresponding SATA personalities are often found on AMD laptops. If you own an AMD laptop with a SATA interface, you will probably benefit from this kext.
@@ -227,6 +258,25 @@ ATA injector?
 
 ## Floppy
 Yes, for real. Theres a [floppy kext](https://github.com/Goldfish64/VoodooFloppy){:target="_blank"}. We don't know if the kext works - please let us know if you seriously have a floppy drive.
+
+## Card readers
+- Sinetek-rtsx
+- VoodooSDHC
+- RealtekCardReader
+- EmeraldSDHC
+
+# Laptop specific kexts
+## Sensor Data
+- SMCBatteryManager
+- ECEnabler
+
+## Input
+- Your time to shine Gwy
+
+# Misc
+- MacHyperVSupport.kext
+- FeatureUnlock
+- DebugEnhancer
 
 
 <h2 align="center">
