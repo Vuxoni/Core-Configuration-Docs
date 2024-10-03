@@ -126,6 +126,9 @@ Using PluginType will either create SSDT-PLUG or SSDT-PLUG-ALT. Both SSDTs will 
 - *6.* **PMC**
 Intel-300-series mainboards lack definitions for PMC/PPMC devices responsible for managing native NVRAM. Most likely Intel simply forgot about them. Apple defined a device called ```APP9876``` to access it with its AppleIntelPCHPMC driver. SSDT-PMC therefore defines such a device and disables it in every other OS than macOS. Without SSDT-PMC, NVRAM writes are not possible. 
 
+- *7.* **RTCAWAC**
+An AWAC (Alternate Wake-up and Clock) on a mainboard refers to a system clock configuration found on newer Intel motherboards. It is designed to replace the traditional Real-Time Clock (RTC) used in older systems. RTCAWAC disables the AWAC, enables or simulates the RTC, and checks and adjusts the RTC ranges as needed.
+
 {: .note}
 Z370 does not require SSDT-PMC as its actually a [rebranded 200-series chipset](https://www.pcbuildersclub.com/en/2019/01/der8auer-proves-that-intels-lga-1151v2-z370-and-z390-are-pointless/amp/).
 

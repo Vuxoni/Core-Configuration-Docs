@@ -37,6 +37,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Info about RTCAWAC
+### Prerelease@CarnationsInternal
+#### By Tammo
+
+## [Version~Type] - 2024-10-03
+
+### Added
+- Add explanations to RTCAWAC - Thanks Corp
+
+### Changed
+-
+
+### Fixed
+-
+
+### Deprecated  
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add WIP notes to kext section
 ### Prerelease@CarnationsInternal
 #### By Tammo
