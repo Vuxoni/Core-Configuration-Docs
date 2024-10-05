@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 <p align="center">
-  <img width="650" height="200" src="../../assets/Header-Gallery.png">
+  <img width="650" height="200" src="../../assets/Headers/Header-Gallery.png">
 </p>
 
-<h2 align="center">A Collection of Successful builds!</h2>
+<h2 align="center">A Collection of uniquely successful builds!</h2>

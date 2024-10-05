@@ -31,7 +31,7 @@ has_toc: false
   <br>
   <div class="navigation-container">
     <a class="nav-button" href="03-SettingExpectations.html">&larr; Back Page</a>
-    <a class="nav-button" href="">Next Page &rarr;</a>
+    <a class="nav-button" href="../../../hardware/01-Importance">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

@@ -37,9 +37,86 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Hardware Section has been filled out
+### Prerelease@CarnationsInternal
+#### By royalgraphx, tammo03, 1revenger1, cerbiscode
+
+## [1.0.0~prerelease] - 2024-10-05
+
+### Added
+- hardware section, Consequences of incompatible hardware
+
+### Changed
+- Compatibility Charts, Know Your Hardware
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+- All previous sections, for a clean start.
+
+### Security
+-
+
+---
+## Restructure the Welcome Area
+### Prerelease@CarnationsInternal
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-09-XX
+
+### Added
+- Future of x86 Page.
+
+### Changed
+- Wording on some pages, cleaned up general stuff. Changed some pages names.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+- General Terms page was removed.
+
+### Security
+-
+
+---
+
+## Restructure assets folder
+### Prerelease@CarnationsInternal
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-09-XX
+
+### Added
+-
+
+### Changed
+- assets folder to use folders for sorting categories of assets.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Edit kext section
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-27
 
@@ -66,7 +143,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Added information about SSDT-PLUG(ALT) and PMC
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-26
 
@@ -92,7 +169,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Edit ACPI Dumping
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-24
 
@@ -119,7 +196,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Correct EC section
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-25
 
@@ -145,7 +222,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add info for EC (Laptop and Desktop) and USBX
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-24
 
@@ -172,7 +249,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add SSDTTime explanations
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-24
 
@@ -198,7 +275,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add HWiNFO64 explanations
 ### Prerelease@CarnationsInternal
-#### By Tammo
+#### By tammo03
 
 ## [1.0.0~prerelease] - 2024-09-22
 
@@ -225,7 +302,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Edited wording in Introduction for KYH
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-18
 
@@ -277,7 +354,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Restructure Know Your Hardware Section.
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-16
 
@@ -356,7 +433,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Touch up Color Scheme
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-16
 
@@ -384,7 +461,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## No Rebase Attempt, Changelog affected.
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-16
 
@@ -410,7 +487,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Update README.md, index.md, and About page.
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-15
 
@@ -491,7 +568,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Repair Changelog Entry Convention
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-09-13
 
@@ -756,7 +833,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Fix a changelog typo
 ### Prerelease@CarnationsInternal
-#### By Zormeister
+#### By zormeister
 
 ## [1.0.0~prerelease] - 2024-09-1
 
@@ -782,7 +859,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Add more GPUs to the AMD support chart
 ### Prerelease@CarnationsInternal
-#### By Zormeister
+#### By zormeister
 
 ## [1.0.0~prerelease] - 2024-09-1
 
@@ -966,7 +1043,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Mitigate unintended effects from previous bump
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-08-27
 
@@ -993,7 +1070,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Bumped just-the-docs from 0.5.3 -> 0.9.0
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-08-27
 
@@ -1020,7 +1097,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Repaired connections between Pages and Images.
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-08-27
 
@@ -1205,7 +1282,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Connect Config.plist Section, Various Assets + Updates
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-07-17
 
@@ -1319,7 +1396,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Initial Push of bare bones layout.
 ### Prerelease@CarnationsInternal
-#### By RoyalGraphX
+#### By royalgraphx
 
 ## [1.0.0~prerelease] - 2024-07-01
 

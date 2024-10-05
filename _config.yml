@@ -2,7 +2,7 @@ title: Core Configuration
 description: An Advanced Guide for running Mac OS X / macOS on Non-Apple Hardware.
 theme: just-the-docs
 color_scheme: custom
-favicon_ico: "/assets/favicon.ico"
+favicon_ico: "/assets/Carnations/favicon.ico"
 nav_sort: case_sensitive
 
 url: https://Carnations-Botanica.github.io/Core-Configuration-Docs
@@ -27,88 +27,22 @@ callouts:
     title: Heads Up!
     color: carnations-pink
 
-# set up collections
-
 # Define Jekyll collections
 collections:
-  notinghardware:
-    permalink: "/:collection/:path/"
-    output: true
-  supportcharts:
-    permalink: "/:collection/:path/"
-    output: true
-  usbpreparations:
-    permalink: "/:collection/:path/"
-    output: true
-  configfolders:
-    permalink: "/:collection/:path/"
-    output: true
-  configplist:
-    permalink: "/:collection/:path/"
-    output: true
-  osinstall:
-    permalink: "/:collection/:path/"
-    output: true
-  troubleshooting:
-    permalink: "/:collection/:path/"
-    output: true
-  postinstall:
+  hardware:
     permalink: "/:collection/:path/"
     output: true
 
 just_the_docs:
   collections:
-    notinghardware:
-      name: Know your Hardware
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    supportcharts:
-      name: Hardware Support Check
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    usbpreparations:
-      name: OpenCore USB Preparation
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    configfolders:
-      name: Configuring Folders
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    configplist:
-      name: Configuring config.plist
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    osinstall:
-      name: Initial OS X / macOS Install
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    troubleshooting:
-      name: General Troubleshooting
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
-    postinstall:
-      name: Post Installation
-      nav_exclude: false
-      nav_fold: false
-      search_exclude: false
+    hardware:
+        name: Hardware Section
+        nav_exclude: false
+        nav_fold: false
+        search_exclude: false
 
 # Set up includes
 include:
-# - _configfolders
-# - _notinghardware
-# - _supportcharts
-# - _usbpreparations
-# - _configplist
-# - _osinstall
-# - _troubleshooting
-# - _postinstall
  - _sass
  - _layouts
  - _includes
