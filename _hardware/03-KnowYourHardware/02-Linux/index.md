@@ -27,7 +27,7 @@ has_toc: false
 <h2 align="center">Get ready to keep track of your info!</h2>
 <br>
 
-This is placeholder text for getting various hw info from Linux host.
+
 
 <br>
 <h2 align="center">

@@ -31,7 +31,10 @@ has_toc: false
 <h5 align="center">The information presented in these docs have the intention to be able to be read by any person no matter their skill level. This does not mean we enable people who do not read, if you intend to run an operating system that was never meant to be ran on your hardware, we expect you to have the willpower to read and educate yourself.</h5>
 
 <h2 align="center">This looks super long/complicated/difficult...</h2>
-<h5 align="center">As you read, you'll learn why it's so complicated. If you'd like an answer right now, the best and most straight forward answer is that the Mac operating system is nothing inherently special from other operating systems, but it is incredibly picky, limited in support for hardware, and was never meant to run on your computer. We take advantage of an amazing bootloader known as OpenCore to properly patch our system to present it to macOS / OS X in a way it can understand. Everyone's hardware is unique. You must take the time and effort to properly configure OpenCore for your system to boot the Mac operating system in it's purest, vanilla form.</h5>
+
+<h5 align="center">As you read, you'll learn why it's so complicated. If you'd like an answer right now, the best and most straight forward answer is that the Mac operating system is nothing inherently special from other operating systems, but it is incredibly picky, limited in support for hardware, and was never meant to run on your computer.</h5>
+
+<h5 align="center">We take advantage of an amazing bootloader known as OpenCore to properly patch our system to present it to OS X / macOS in a way it can understand. Everyone's hardware is unique. You must take the time and effort to properly configure OpenCore for your system to boot the Mac operating system in it's purest, vanilla form.</h5>
 
 <h2 align="center">
   <br>

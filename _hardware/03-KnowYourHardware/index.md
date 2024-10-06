@@ -38,7 +38,7 @@ has_toc: false
 <h2 align="center">Choose your current OS to continue.</h2>
 <br>
 
-This page is a stub.
+
 
 <h2 align="center">
   <br>

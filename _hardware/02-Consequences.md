@@ -26,7 +26,7 @@ has_toc: false
 <h2 align="center">What running non-compatible hardware entails.</h2>
 <br>
 
-This page is a stub.
+
 
 <br>
 <h2 align="center">

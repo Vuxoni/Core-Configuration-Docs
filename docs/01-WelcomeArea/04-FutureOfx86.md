@@ -25,7 +25,6 @@ has_toc: false
 </p>
 
 <h2 align="center">Placeholder Information</h2>
-<h5 align="center">Placeholder text for this information.</h5>
 
 <h2 align="center">
   <br>

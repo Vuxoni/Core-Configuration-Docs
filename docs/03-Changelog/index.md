@@ -48,6 +48,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Update various opening pages
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-05
+
+### Added
+-
+
+### Changed
+- Updated KYH, Consequences, and Welcome Area.
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Update Changelog Format
 ### Prerelease@restructure
 #### By royalgraphx
