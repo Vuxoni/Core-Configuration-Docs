@@ -63,7 +63,6 @@ As we can see, this Ethernet controller is called Realtek RTL8125. The WLAN chip
 
 Now that we've written that down, we can now go ahead and see if the hardware is supported.
 
-<br>
 <h2 align="center">
   <br>
   <div class="navigation-container">

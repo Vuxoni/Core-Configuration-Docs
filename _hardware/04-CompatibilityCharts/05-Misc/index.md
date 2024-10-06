@@ -37,7 +37,7 @@ has_toc: false
   <br>
   <div class="navigation-container">
     <a class="nav-button" href="../../04-Networking/index">&larr; Back Page</a>
-    <a class="nav-button" href="">Next Page &rarr;</a>
+    <a class="nav-button" href="../../../../opencore/01-Introduction">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

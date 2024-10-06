@@ -28,7 +28,8 @@ has_toc: false
 {: .note }
 AMD chips do not work without problems. Many programs use libraries that AMD CPUs cannot easily handle. Programs affected include, but are not limited to Discord Krisp and Adobe programms. Luckily, theres an easy way around it: <a href="https://github.com/NyaomiDEV/AMDFriend">AMDFriend</a>.
 
-# AMD Fusion / FX Chips (and maybe K10) to be added!
+{: .internalnote }
+AMD Fusion / FX Chips (and maybe K10) to be added!
 
 # Desktop Chips
 

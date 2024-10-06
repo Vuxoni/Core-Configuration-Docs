@@ -26,7 +26,35 @@ All notable changes to this project will be documented in this file. The format 
 ### Fixed
 -
 
-### Deprecated  
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Initial Installation of OpenCore section
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-05
+
+### Added
+- Installing OpenCore section
+- Platform Specific page
+
+### Changed
+- Formatting in Drivers, Kexts, Tools, Resources.
+- Link Color has been changed, resulting in new color look.
+
+### Fixed
+- Navigation buttons have properly been linked back again.
+
+### Deprecated
 -
 
 ### Removed
@@ -38,7 +66,7 @@ All notable changes to this project will be documented in this file. The format 
 ---
 
 ## Hardware Section has been filled out
-### Prerelease@CarnationsInternal
+### Prerelease@restructure
 #### By royalgraphx, tammo03, 1revenger1, cerbiscode
 
 ## [1.0.0~prerelease] - 2024-10-05
@@ -62,11 +90,12 @@ All notable changes to this project will be documented in this file. The format 
 -
 
 ---
+
 ## Restructure the Welcome Area
-### Prerelease@CarnationsInternal
+### Prerelease@restructure
 #### By royalgraphx
 
-## [1.0.0~prerelease] - 2024-09-XX
+## [1.0.0~prerelease] - 2024-09-29
 
 ### Added
 - Future of x86 Page.
@@ -89,10 +118,10 @@ All notable changes to this project will be documented in this file. The format 
 ---
 
 ## Restructure assets folder
-### Prerelease@CarnationsInternal
+### Prerelease@restructure
 #### By royalgraphx
 
-## [1.0.0~prerelease] - 2024-09-XX
+## [1.0.0~prerelease] - 2024-09-29
 
 ### Added
 -

@@ -42,7 +42,7 @@
    - Run ``gem install bundler`` in your terminal window.
 
 4. Fork Core-Configuration-Docs, git clone your fork, navigate to your local directory.
-   - ``git clone --recursive git@github.com:yourusername/Core-Configuration-Docs.git``
+   - ``git clone git@github.com:yourusername/Core-Configuration-Docs.git``
    - ``cd Core-Configuration-Docs/``
 
 5. Installing Docs dependencies, and running the server.

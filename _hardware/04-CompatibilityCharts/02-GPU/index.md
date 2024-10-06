@@ -37,11 +37,12 @@ has_toc: false
 <h4 align="center">This page is a stub temporarily, but this page should:</h4>
 <br>
 
+{: .internalnote }
+Reasoning for the order of options in the nav bar is due to people's typical first option available. For the most part, most users start with iGPU support, and then begin considering their dedicated graphics. As such, we then display AMD as the next "best" option, and followed finally by NVIDIA. The order is from top to bottom, not inversed. As such, do not assume NVIDIA is the best choice.
+
 1. Help the user find their GPU by Vendor.
 2. Go over general notes that affect all GPUs and iGPUs.
 
-{: .note }
-Reasoning for the order of options in the nav bar is due to people's typical first option available. For the most part, most users start with iGPU support, and then begin considering their dedicated graphics. As such, we then display AMD as the next "best" option, and followed finally by NVIDIA. The order is from top to bottom, not inversed. As such, do not assume NVIDIA is the best choice.
 
 <h2 align="center">
   <br>
