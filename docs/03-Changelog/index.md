@@ -6,10 +6,21 @@ has_children: false
 has_toc: false
 ---
 
-# Changelog
+<p align="center">
+  <img width="650" height="200" src="../../assets/Headers/Header-Changelog.png">
+</p>
 <br>
 
-All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Always maintain a temporary Commit entry at the top of this file. Maintain using Prerelease@BranchName and continue with using 1.0.0 while the Docs are still not released as 1.0.0 officially. This note will change in the future.
+{: .internalnote }
+Always maintain a temporary Commit entry at the top of this file. Maintain using Prerelease@BranchName and continue with using 1.0.0 while the Docs are still not released as 1.0.0 officially. This note will change in the future.
+
+<br>
+
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Below is the Template Entry.
+
+<br>
+
+---
 
 ## [Commit Name]
 ### Version@Branch
@@ -18,10 +29,36 @@ All notable changes to this project will be documented in this file. The format 
 ## [Version~Type] - YYYY-MM-DD
 
 ### Added
-- 
+-
 
 ### Changed
 -
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Update Changelog Format
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-05
+
+### Added
+-
+
+### Changed
+- Updated the style of Changelog.
 
 ### Fixed
 -
@@ -48,7 +85,7 @@ All notable changes to this project will be documented in this file. The format 
 - New Gallery entries for those of which on the Steam Deck's hardware Testers, have successfully booted macOS.
 
 ### Changed
-- 
+-
 
 ### Fixed
 -
@@ -177,7 +214,7 @@ All notable changes to this project will be documented in this file. The format 
 ## [1.0.0~prerelease] - 2024-09-27
 
 ### Added
-- 
+-
 
 ### Changed
 - Reworked links in kext section - theyre using Kramdown syntax now.
@@ -257,7 +294,7 @@ All notable changes to this project will be documented in this file. The format 
 ## [1.0.0~prerelease] - 2024-09-25
 
 ### Added
-- 
+-
 
 ### Changed
 -
@@ -293,7 +330,7 @@ All notable changes to this project will be documented in this file. The format 
 -
 
 ### Deprecated
-- 
+-
 
 ### Removed
 -
@@ -319,7 +356,7 @@ All notable changes to this project will be documented in this file. The format 
 -
 
 ### Deprecated
-- 
+-
 
 ### Removed
 -
@@ -346,7 +383,7 @@ All notable changes to this project will be documented in this file. The format 
 -
 
 ### Deprecated
-- 
+-
 
 ### Removed
 - Removed unnecessary pages (e.g. Noting HW in Windows -> Windows/Linux)
@@ -606,7 +643,7 @@ All notable changes to this project will be documented in this file. The format 
 - Additional notes for storage kexts
 
 ### Changed
-- 
+-
 
 ### Fixed
 -
