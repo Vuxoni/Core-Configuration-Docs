@@ -37,6 +37,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+
+## Updated Gallery to include successful Steam Deck Testers
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-05
+
+### Added
+- New Gallery entries for those of which on the Steam Deck's hardware Testers, have successfully booted macOS.
+
+### Changed
+- 
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Initial Installation of OpenCore section
 ### Prerelease@restructure
 #### By royalgraphx
