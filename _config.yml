@@ -1,0 +1,82 @@
+title: Core Configuration
+description: An Advanced Guide for running Mac OS X / macOS on Non-Apple Hardware.
+theme: just-the-docs
+color_scheme: custom
+favicon_ico: "/assets/Carnations/favicon.ico"
+nav_sort: case_sensitive
+
+url: https://Carnations-Botanica.github.io/Core-Configuration-Docs
+
+callouts_opacity: 0.4
+callouts:
+  highlight:
+    color: canary
+  important:
+    title: Important
+    color: blueish
+  new:
+    title: New
+    color: teal
+  note:
+    title: Note
+    color: grey-lt
+  warning:
+    title: Warning
+    color: reddish
+  headsup:
+    title: Heads Up!
+    color: heads-up
+  internalnote:
+    title: Note for CarnationsInternal
+    color: carnations-pink
+
+# Define Jekyll collections
+collections:
+  hardware:
+    permalink: "/:collection/:path/"
+    output: true
+  opencore:
+    permalink: "/:collection/:path/"
+    output: true
+  configplist:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    hardware:
+        name: Hardware Section
+        nav_exclude: false
+        nav_fold: false
+        search_exclude: false
+    opencore:
+        name: Installing OpenCore
+        nav_exclude: false
+        nav_fold: false
+        search_exclude: false
+    configplist:
+        name: Configuring OpenCore
+        nav_exclude: false
+        nav_fold: false
+        search_exclude: false
+
+# Set up includes
+include:
+ - _sass
+ - _layouts
+ - _includes
+
+# External navigation links
+nav_external_links:
+  - title: Support via Discord
+    url: https://discord.gg/DUzCmUjVQZ
+    hide_icon: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "View the Repo!":
+    - "//github.com/Carnations-Botanica/Core-Configuration-Docs/tree/main"
+
+# Makes Aux links open in a new tab. Default is false
+# This is required for smooth operation of interlinked pages for navigation
+aux_links_new_tab: false
