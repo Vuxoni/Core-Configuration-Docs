@@ -48,6 +48,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Reintroduce Configuration section, placeholder
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-11
+
+### Added
+- Configuring OpenCore section and header image
+- CNAME file
+
+### Changed
+- SSDTTime during Gathering Files, structural/cosmetic/wording changes
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Update various opening pages
 ### Prerelease@restructure
 #### By royalgraphx
