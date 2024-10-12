@@ -22,20 +22,21 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Commit Name]
-### Version@Branch
-#### By Commit Author
+## Add config.plist -> ACPI section
+### Prerelease@Main
+#### By Tammo
 
-## [Version~Type] - YYYY-MM-DD
+## [1.0.0~prerelease] - 2024-10-12
 
 ### Added
--
+- Information about ACPI
+- New assets folder
 
 ### Changed
--
+- 
 
 ### Fixed
--
+- Reintroduced the ACPI section in gathering files
 
 ### Deprecated
 -
