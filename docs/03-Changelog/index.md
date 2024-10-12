@@ -48,6 +48,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Structure the Configuring OC Section
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-10-12
+
+### Added
+- Assets in ProperTree and Headers
+
+### Changed
+- Configuring OpenCore section rearranged
+- Installing OpenCore section updated
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+- Old AMD and Intel structured pages, and children of pages
+
+### Security
+-
+
+---
+
 ## Reintroduce Configuration section, placeholder
 ### Prerelease@restructure
 #### By royalgraphx

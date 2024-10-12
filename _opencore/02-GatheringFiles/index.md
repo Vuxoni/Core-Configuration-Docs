@@ -68,7 +68,28 @@ Move the ``EFI`` folder within the architecture of choice, and drop it to the ro
   <img width="100%" height="100%" src="../../../assets/GatheringFiles/RootOfUSBDrive-NoRecoveryOS.png">
 </p>
 
-Before we can continue, we must do an initial runthrough of the contents of ``USB/EFI/OC`` to not only clean it up, but actually configure each folder. When you are ready to continue, press below.
+# **Using Sample.plist for configuration**
+
+{: .internalnote }
+Need screenshots of before and after placing ``Sample.plist`` and renaming it to ``config.plist``
+
+Now, you'll need to quickly browse for ``Sample.plist`` within ``Docs/`` folder of the OpenCore ZIP file you unpacked earlier.
+
+Copy and paste this ``Sample.plist`` onto ``USB/EFI/OC/Sample.plist`` like so:
+
+<div style="text-align: center;" markdown="1">
+  [![Sample.plist shown on USB](/assets/)](/assets/)
+</div>
+
+You must now rename the file to ``config.plist``, as this is the actual property list that OpenCore is looking for and will load as the configuration file.
+
+<div style="text-align: center;" markdown="1">
+  [![File is now config.plist](/assets/)](/assets/)
+</div>
+
+You now have a configuration file you can open later on in an appropriate property list editor.
+
+Before we can continue, we must do an initial run through the contents of ``USB/EFI/OC`` to actually configure each folder with attention. When you are ready to continue, press below.
 
 <h2 align="center">
   <br>

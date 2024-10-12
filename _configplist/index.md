@@ -17,18 +17,6 @@ has_toc: false
   .nav-button {
     margin: 10px;
   }
-
-  .intel-next-button-container {
-    text-align: right;
-  }
-
-  .intel-next-button {
-    margin: 10px;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-  }
 </style>
 
 <p align="center">
@@ -39,16 +27,18 @@ has_toc: false
 <br>
 
 {: .warning }
-Do **NOT** use Configurators. Every conceivable, and technical reason speaks against it. Configurators are not recommended because they do not conform to OpenCore's formatting and data. Other reasons to not use a configurator include: No Kext ordering logic based on dependencies of Kexts, Auto-saving changes without warning (especially damaging changes), Zero'ing out Data that is valid for OpenCore, but invalid by the configurators PLIST parser library, so its deemed to become "0", deleting important data such as AppleECID.
+Do **NOT** use Configurators. Every conceivable, and technical reason speaks against it. Configurators are not recommended because they do not conform to OpenCore's formatting and data. Other reasons to not use a configurator include: No Kext ordering logic based on dependencies of Kexts, Auto-saving changes without warning (especially damaging changes), Zero'ing out Data that is valid for OpenCore, but invalid by the configurators PLIST parser library, so its deemed to become "0", deleting important data such as ApECID.
 
 {: .headsup }
 Due to a bug with Xcode's plist editor that randomly trims your plist, along with incompatibilities with OpenCore's PLIST formatting it is not recommended for usage.
 
-Before we dive into configuring OpenCore, we should clarify a few things.
+Before we dive into configuring OpenCore, we should clarify a few things, as well as initialize our plist from ``Sample.plist``.
 
-The .plist file format is an Apple crafted XML-type document. In theory, you can use any program you can edit plain text with, but if you don't want to waste years in Microsoft Word, Nano or TextEdit, it is advisable to use a adequate plist editor that properly reads the XML tags and displays them in a properly human-editable format.
+The .plist file format is an Apple crafted XML-type document. In theory, you can use any program you can edit plain text with, but if you don't want to waste years in Microsoft Word, Nano or TextEdit, it's highly recommended you use a plist editor that properly reads the XML tags and displays them in a human-editable format.
 
-It's recommended to use [CorpNewt](https://github.com/corpnewt)'s [ProperTree](https://github.com/corpnewt/ProperTree) for various reasons. ProperTree is a versatile, cross-platform PLIST editor that works across Python versions. Since it’s built with Python, it can theoretically run on any system that supports Python 2 or newer. One of its standout features is the array of built-in functions specifically designed for OpenCore, making it highly convenient.
+It's recommended to use [CorpNewt](https://github.com/corpnewt)'s [ProperTree](https://github.com/corpnewt/ProperTree) for various reasons. ProperTree is a versatile, cross-platform PLIST editor that works across Python versions.
+
+Since it’s built with Python, it can theoretically run on any system that supports Python 2 or newer. One of its standout features is the array of built-in functions specifically designed for OpenCore, making it highly convenient.
 
 ## **Fetching ProperTree**
 
@@ -124,16 +114,17 @@ To do this, press ``Ctrl/Cmd+Shift+R`` and select the ``OC`` folder.
 
 At this point in the Docs, you should now do an ``Clean OC Snapshot``, to initialize your plists content.
 
-<h3 align="center">When you are ready to continue, please select your CPU Brand below.</h3>
+<div style="text-align: center;" markdown="1">
+  [![Freshly OC Snapshotted Example](/assets/ProperTree)](/assets/ProperTree/)
+</div>
+
+As you can see, several sections have been filled out. For example, the ACPI dictionary has now been properly filled out to reflect the contents of your USB's OC folder.
 
 <h2 align="center">
   <br>
-  <div class="intel-next-button-container">
-  <a class="intel-next-button" href="../01-Intel/index/">Intel &rarr;</a>
-  </div>
   <div class="navigation-container">
-    <a class="nav-button" href="../../configfolders/06-Tools/">&larr; Back Page</a>
-    <a class="nav-button" href="../02-AMD/index/">AMD &rarr;</a>
+    <a class="nav-button" href="../../opencore/03-EFISanityCheck">&larr; Back Page</a>
+    <a class="nav-button" href="../01-OCCExplained/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

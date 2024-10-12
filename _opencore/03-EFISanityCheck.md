@@ -20,7 +20,6 @@ has_toc: false
   }
 </style>
 
-
 <p align="center">
   <img width="650" height="200" src="../../../assets/Headers/Header-SanityCheck.png">
 </p>
@@ -35,7 +34,7 @@ This is a work in progress page that will include screenshots of an Intel platfo
   <br>
   <div class="navigation-container">
     <a class="nav-button" href="../02-GatheringFiles/03-recoveryOS/index/">&larr; Back Page</a>
-    <a class="nav-button" href="">Next Page &rarr;</a>
+    <a class="nav-button" href="../../configplist/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

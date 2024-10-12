@@ -28,7 +28,47 @@ has_toc: false
 <h2 align="center">How to prepare a USB with OpenCore</h2>
 <br>
 
-We'll be going over the folders that exist on your newly created OpenCore USB. When you are ready for initial clean-up and setup of your folders, you can continue below.
+{: .internalnote }
+This is essentially the explaination page where we describe what every folder is for, similar to SSDTTime's page of options, and how that is structured.
+
+We'll be going over the folders that exist on your newly created OpenCore USB.
+
+## **ACPI**
+
+{: .internalnote }
+This has not been filled out yet.
+
+<hr>
+
+## **Drivers**
+
+{: .internalnote }
+This has not been filled out yet.
+
+<hr>
+
+## **Kexts**
+
+{: .internalnote }
+This has not been filled out yet.
+
+<hr>
+
+## **Tools**
+
+{: .internalnote }
+This has not been filled out yet.
+
+<hr>
+
+## **Resources**
+
+{: .internalnote }
+This has not been filled out yet.
+
+<hr>
+
+Now that you are aware of all of the folders and their purpose, you can now begin configuring the contents of each.
 
 <h2 align="center">
   <br>

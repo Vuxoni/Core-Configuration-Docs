@@ -37,7 +37,7 @@ As .efi files are simply bootable by most UEFI firmwares via a USB, we can use a
 To continue in this guide you will require:
 
 - USB Flash Drive (4GB+)
-- 10GB Free Space on Disk
+- 10GB Free Space on current Disk
 
 <br>
 Begin by formatting your USB to FAT32, when you are ready please continue.
