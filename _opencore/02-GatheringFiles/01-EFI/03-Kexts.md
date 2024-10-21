@@ -132,18 +132,18 @@ SMCRadeonSensors supports macOS 10.14 Mojave up to macOS 15 Sequoia.
 
 # **Graphics Related**
 
-## [WhateverGreen](https://github.com/acidanthera/WhateverGreen/){:target="_blank"}
+### [WhateverGreen](https://github.com/acidanthera/WhateverGreen/){:target="_blank"}
 Whatevergreen (known years ago as NvidiaGraphicsFixup, IntelGraphicsFixup, IntelGraphicsDVMTFixup, CoreDisplayFixup and Shiki) provides a [range of patches and fixes](https://github.com/acidanthera/WhateverGreen/?tab=readme-ov-file#features) for GPUs from all manufacturers (ATI/AMD, Intel, Nvidia). The primary purpose of WhateverGreen is to address issues that arise when macOS does not natively support certain GPUs. Almost all GPUs (apart from completely unsupported cards as well as AMD APUs and Navi22) benfit from it. 
 WhateverGreen supports OS X 10.6 Snow Leopard to macOS 15 Sequoia.
 
 ---
 
-## [NootedRed](https://github.com/ChefKissInc/NootedRed){:target="_blank"}
+### [NootedRed](https://github.com/ChefKissInc/NootedRed){:target="_blank"}
 NootedRed provides support for Vega-based APUs. Oversimplified, it patches existing Vega drivers that exist for dGPUs. This is possible because APUs and dGPUs are designed very similarly. However, NootedRed comes with several issues that make smooth operation not always possible. Furthermore, the author of the kext does not accept issues anymore - you're on your own using this kext.
 
 ---
 
-## [NootRX](https://github.com/ChefKissInc/NootRXNootedRX){:target="_blank"}
+### [NootRX](https://github.com/ChefKissInc/NootRXNootedRX){:target="_blank"}
 NootRX is a kext providing patches for Navi21, -22 and -23 based GPUs. Just as NootedRed, NootRX comes with issues. WhateverGreen is able to provide patches for Navi21 and -23, NootRX is only necessary for Navi22. Just as for NootedRed, the author of the kext disabled the issue section - you're on your own using this kext.
 
 {: .note }
@@ -167,8 +167,20 @@ If you want to use an eGPU, you should take a look at [Kryptonite](https://githu
 - CPUFriend
 
 ## AMD
-- Seey6's CPUTSCSync
-- 
+
+{: .note }
+There are multiple TSC synchronisation kexts for AMD systems. However, most systems shouldnt need it. MMake sure you only use it when you need it. TSC kexts interfere with each other - don't use more than one kext. Its not really possible to give a recommendation for a specific kext. It varies from system to system which kext works better. Just try it out and see what works better.
+
+### [Seey6's CPUTSCSync](https://github.com/Seey6/CpuTscSync){:target="_blank"}
+Seey6's fork of CPUTSCSync is optimized for AMD mobile CPUs. Don't mix it with other TSC synchronisation kexts.
+
+### [AMDTSCSync](https://github.com/naveenkrdy/AmdTscSync){:target="_blank"}
+AMDTSCSync is a fork of denskop's [VoodooTSCSync](https://github.com/denskop/VoodooTSCSync){:target="_blank"}. It is modified to work for AMD CPUs. Don't mix it with other TSC synchronisation kexts.
+This kext requires customisation - To customize this kext, open the info.plist file located inside the kext bundle. Locate the child element named IOCPUNumber and adjust its value to your thread count minus one.
+
+### [IntelMKLFixup](https://github.com/Carnations-Botanica/IntelMKLFixup){:target="_blank"}
+IntelMKLFixup fixes issues on software that relies on Intels MathKernelLibrary that is missing on AMD CPUs. This includes, but is not limited to: Krisp, Adobe Photoshop, After Effects, Mathematica, etc.
+It attaches to DYLD, performs a signature scan for any IMKL functions, and applies patches directly in memory. Compared to AMDFriend, this approach requires no file patching or disabling SIP.
 
 # USB
 - USBMap

@@ -22,6 +22,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Add AMD specific kext informations
+### Prerelease@Main
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-10-21
+
+### Added
+- Add info for AMD specific TSC sync kexts and IMKLPatcher
+
+### Changed
+- Headers for graphic kexts
+
+### Fixed
+- 
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Push Booter informations
 ### Prerelease@Main
 #### By Tammo
