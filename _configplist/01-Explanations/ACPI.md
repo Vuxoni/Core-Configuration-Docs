@@ -48,22 +48,22 @@ In the ``Patch`` section, you can apply binary patches to existing ACPI tables. 
 
 [![ACPI->Patch](/assets/config.plist/ACPI->Patch.png)](/assets/config.plist/ACPI->Patch.png)
 
-| Key            | Type    | Description                                |
-| -------------- | ------- | ------------------------------------------ |
-| Base           | String  | Base path                                  |
-| BaseSkip       | Integer |                                            |
-| Comment        | String  |                                            |
-| Count          | Integer |                                            |
-| Enabled        | Boolean | Enables the removal of the selected table. |
-| Find           | Data    |                                            |
-| Limit          | Integer |                                            |
-| Mask           | Data    |                                            |
-| OemTableId     | Data    |                                            |
-| Replace        | Data    |                                            |
-| ReplaceMask    | Data    |                                            |
-| Skip           | Integer |                                            |
-| TableLength    | Integer |                                            |
-| TableSignature | Data    |                                            |
+| Key            | Type    | Description |
+| -------------- | ------- | ----------- |
+| Base           | String  | Base path   |
+| BaseSkip       | Integer |             |
+| Comment        | String  |             |
+| Count          | Integer |             |
+| Enabled        | Boolean | Enables     |
+| Find           | Data    |             |
+| Limit          | Integer |             |
+| Mask           | Data    |             |
+| OemTableId     | Data    |             |
+| Replace        | Data    |             |
+| ReplaceMask    | Data    |             |
+| Skip           | Integer |             |
+| TableLength    | Integer |             |
+| TableSignature | Data    |             |
 
 # Info needs to be added.
 

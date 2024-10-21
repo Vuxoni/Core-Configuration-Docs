@@ -22,6 +22,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Push Booter informations
+### Prerelease@Main
+#### By Tammo
+
+## [1.0.0~prerelease] - 2024-10-21
+
+### Added
+- structure for the new booter section - not done yet, almost every bit of information is missing
+
+### Changed
+- Typo in folder name
+
+### Fixed
+- 
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Add config.plist -> ACPI section
 ### Prerelease@Main
 #### By Tammo

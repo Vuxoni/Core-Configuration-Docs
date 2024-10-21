@@ -6,16 +6,91 @@ parent: Explanations
 ---
 
 ## MmioWhitelist
+Memory-Mapped Input/Output (MMIO) is a method used by computer systems to communicate with peripheral devices (like keyboards, mice, and printers). Instead of using separate I/O instructions, MMIO allows the CPU to interact with devices by reading from and writing to specific memory addresses that are reserved for those devices. In other words: Instead of using special commands to talk to these devices, the CPU treats them like parts of its own memory.
 
-This section defines memory regions for when the DevirtualiseMmio quirk is enabled.
+When using MMIO, certain memory addresses are mapped to hardware devices, and these addresses must be protected to ensure that only trusted processes can interact with them. 
 
--- Needed -- 
+In OpenCore, MmioWhitelist allows you to specify which memory addresses are safe for access. To put it simply, Mmio WhiteList allows devices to be passed on to macOS. This is particularly important for systems like (but not limited to) AMD Threadripper or Intel Ice Lake, where improper access can prevent macOS from booting correctly.
+
+[![Booter->MmioWhitelist](/assets/config.plist/Booter->MmioWhitelist.png)](/assets/config.plist/Booter->MmioWhitelist.png)
+
+| Key     | Type    | Description                                                                                                                                                                                                                        |
+| ------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Address | Integer | This defines the starting address for the MMIO region that is going to be whitelisted. In theory - Opencore will also attempt to find root addresses of mid-region addresses, however, it's not considered a safe/stable solution. |
+| Comment | String  |                                                                                                                                                                                                                                    |
+| Enabled | Boolean | Enables whitelisting of the specified regions.                                                                                                                                                                                     |
+
+{: .note }
+Finding the regions may be a little bit tricky. In order to display every region that can be devirtualized, OpenCore debug logs are required. -- Add more info later --
 
 ## Patch
 
-As the name implies, this section is used to adapt OpenCore to whatever quirks your motherboard's firmware has to achieve a successful boot of macOS.
+The Patch subsection is used to apply various patches during the boot process. These patches can address specific memory addresses or fix issues related to your hardware configuration.
 
 ## Quirks
+
+### AllowRelocationBlock
+###### Type: Boolean
+
+### AvoidRuntimeDefrag
+###### Type: Boolean
+
+### DevirtualiseMmio
+###### Type: Boolean
+
+### DisableSingleUser
+###### Type: Boolean
+
+### DisableVariableWrite
+###### Type: Boolean
+
+### DiscardHibernateMap
+###### Type: Boolean
+
+### EnableSafeModeSlide
+###### Type: Boolean
+
+### EnableWriteUnprotector
+###### Type: Boolean
+
+### FixupAppleEfiImages
+###### Type: Boolean
+
+### ForceBooterSignature
+###### Type: Boolean
+
+### ForceExitBootServices
+###### Type: Boolean
+
+### ProtectMemoryRegions
+###### Type: Boolean
+
+### ProtectSecureBoot
+###### Type: Boolean
+
+### ProtectUefiServices
+###### Type: Boolean
+
+### ProvideCustomSlide
+###### Type: Boolean
+
+### ProvideMaxSlide
+###### Type: Integer
+
+### RebuildAppleMemoryMap
+###### Type: Boolean
+
+### ResizeAppleGpuBars
+###### Type: Integer
+
+### SetupVirtualMap
+###### Type: Boolean
+
+### SignalAppleOS
+###### Type: Boolean
+
+### SyncRuntimePermissions
+###### Type: Boolean
 
 | Quirk                  | Value | Description                                                                                                                                                                                  |
 | ---------------------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
