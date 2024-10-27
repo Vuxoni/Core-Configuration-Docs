@@ -48,6 +48,33 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## [Commit Name]
+### Prerelease@restructure
+#### By royalgraphx
+
+## [Version~Type] - 2024-10-27
+
+### Added
+
+### Changed
+- About the Docs page
+- Gallery page structure
+- Gallery assets structure
+
+### Fixed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Structure the Configuring OC Section
 ### Prerelease@restructure
 #### By royalgraphx

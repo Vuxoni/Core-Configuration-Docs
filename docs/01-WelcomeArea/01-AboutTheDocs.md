@@ -36,6 +36,11 @@ has_toc: false
 
 <h5 align="center">We take advantage of an amazing bootloader known as OpenCore to properly patch our system to present it to OS X / macOS in a way it can understand. Everyone's hardware is unique. You must take the time and effort to properly configure OpenCore for your system to boot the Mac operating system in it's purest, vanilla form.</h5>
 
+<h2 align="center">Why?</h2>
+<h5 align="center">Because you're interested, and people have given up their free time to writing and documenting information down for others to learn and properly create their own Hacs from scratch to ensure the most purest form of the operating system experience, preserving Security, Integrity of installation media, safely singing in to iServies, and so on.</h5>
+
+<h5 align="center">When you understand, you have the potential to fix any issues (big or small) that you are dealing with. With Prebuilt EFI's, there is 0 learning involved, and you will simply end up bothering Helpers with issues you cannot describe in detail for appropriate help. It's better for everyone, if we share the information freely, and teach eachother, please be willing to learn.</h5>
+
 <h2 align="center">
   <br>
   <div class="navigation-container">
