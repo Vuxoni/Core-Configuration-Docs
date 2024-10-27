@@ -48,7 +48,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Commit Name]
+## Update Gallery and ATD Pages
 ### Prerelease@restructure
 #### By royalgraphx
 
@@ -60,6 +60,7 @@ All notable changes to this project will be documented in this file. The format 
 - About the Docs page
 - Gallery page structure
 - Gallery assets structure
+- Changelog fixed for this entry
 
 ### Fixed
 -
