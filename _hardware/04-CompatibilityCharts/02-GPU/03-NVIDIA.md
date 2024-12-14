@@ -25,11 +25,8 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Headers/Header-NVGPUSupport.png">
 </p>
 
-{: .warning }
-If your card falls under the Hopper, Ada Lovelace, Ampere or Turing generations, your card is completely unsupported (get a Navi card instead).
-
 {: .important }
-We know. Most of the cards listed can use OCLP to get them running on Big Sur/Monterey and newer, but directly from the developers, no support is provided for Hackintoshes. Understand that the software is meant for real Macs, and that using OpenGL only dGPUs when the operating system relies on Metal, is simply not a worthwhile solution. You are on your own.
+As previously mentioned, most of the cards listed can use OpenCore Legacy Patcher to get them running on Big Sur/Monterey and newer, although no support is provided for Hacs. Understand that the software is meant for real Macs, and that using OpenGL on Graphics Cards when the operating system relies on Metal, is simply not a longterm solution. You are on your own.
 
 ## Volta
 

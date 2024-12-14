@@ -34,8 +34,6 @@ has_toc: false
 <h2 align="center">Everything you need to know.</h2>
 <br>
 
-# **What are Kexts?**
-
 A kext is short for kernel extension. These extensions make it possible to extend the functionality of the operating system without having to recompile the kernel itself. Kexts are similar to drivers in Windows because they allow the kernel to communicate with the computer's hardware and are often used to add support for new hardware or improve existing hardware features.
 
 Kext files are actually bundles that contain multiple files, similar to ZIP archives, but are not compressed - that's why they appear as folders in Windows or Linux. In OS X / macOS, you can view the contents of a kext file by right-clicking it and selecting “Show Package Contents”, in other OS, you can simply treat them like folders.
@@ -46,9 +44,11 @@ We want to make sure we're always grabbing the most minimal amount of kexts for 
 
 - [Lilu](https://github.com/acidanthera/Lilu/)
 
-It is the patching engine that most basic kexts will use. From the charts below, you will be able to determine what else you will require to boot your system.
+- [VirtualSMC](https://github.com/acidanthera/VirtualSMC/)
 
-The rest of this page documents all known Kexts and their purpose for safe keeping.
+Lilu is a patching engine that plugin kexts will use. Many popular hackintosh kernel extensions are Lilu plug-ins meaning it is a requirement, while VirtualSMC provides your system with the SMC device of a real Mac computer, which is required to pass the [DSMOS]() test during boot. From the charts below, you will be able to determine what else you will require to boot your system.
+
+The rest of this page documents all known Kexts and their purpose for safe keeping. You will NOT need every single kext, and again, focus on maintaining the minimal amount to boot the recoveryOS environment.
 
 <h2 align="center">
   <br>

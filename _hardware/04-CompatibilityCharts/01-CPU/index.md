@@ -36,12 +36,21 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Headers/Header-CPUSupportChart.png">
 </p>
 
-<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<p align="center">You will now check your CPU's compatibility for OS X / macOS.</p>
 <br>
 
-1. Help the user find their CPU or similar.
+<p align="center">The following charts include the following information:</p>
 
-2. Start by guiding by CPU Brand
+- CPU Product Name (i.e AMD Ryzen X XXXX or Intel Core iX XXXX/Y)
+
+- Initial Support (The first version of OS X / macOS that the CPU can run)
+
+- Latest Support (The maximum version of OS X / macOS that the CPU can run)
+
+- Integrated Graphics Notes (i.e Requires a dGPU or, can use the named iGPU in Notes)
+
+<br>
+<p align="center">To learn more about your CPU's compatibility, start by selecting by Brand.</p>
 
 <h2 align="center">
   <br>

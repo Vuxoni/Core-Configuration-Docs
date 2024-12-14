@@ -26,7 +26,7 @@ has_toc: false
 <h2 align="center">Time to check compatibility!</h2>
 <br>
 
-This is one of those, placeholder text, things kwk.
+<p align="center">Thanks for taking the time to note down all of your hardware! You'll need that information in these next pages, as you will now begin to reference the Support Charts to learn about that specific components support in OS X / macOS!</p>
 
 <br>
 <h2 align="center">

@@ -41,8 +41,11 @@ has_toc: false
 <h2 align="center">How to provide OpenCore the proper SSDTs for your system</h2>
 <br>
 
-{: .internalnote }
-This is to go over what ACPI is, what it does, why we need to sometimes patch ACPI, and any other relevent information, We end up by leading the user to using SSDTTime, but also provide a Manual section for future reference when we write information about specific SSDTs and how they work/are made, can be made by hand.
+So, what's this talk about SSDTs? What even are they? and what the heck is a DSDT?
+
+Your firmware (BIOS) contains Tables that hold information that describe the hardware on your system, in a very deep level. For future reference, the DSDT (Differentiated System Description Table) is the direct outline given to an OS by your motherboard. Whereas, an SSDT (Secondary System Description Table) tells the OS extra information and definitions for a specific bit of hardware and how it's being dealt with on the system. 
+
+
 
 <h2 align="center">
   <br>

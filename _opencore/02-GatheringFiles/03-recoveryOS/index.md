@@ -20,11 +20,11 @@ has_toc: false
     margin: 10px;
   }
 
-  .gibMacRecovery-next-button-container {
+  .macrecoverypy-next-button-container {
     text-align: right;
   }
 
-  .gibMacRecovery-next-button {
+  .macrecoverypy-next-button {
     margin: 10px;
   }
 </style>
@@ -46,12 +46,12 @@ has_toc: false
 
 <h2 align="center">
   <br>
-  <div class="gibMacRecovery-next-button-container">
-    <a class="gibMacRecovery-next-button" href="../01-gibMacRecovery">gibMacRecovery &rarr;</a>
+  <div class="macrecoverypy-next-button-container">
+    <a class="macrecoverypy-next-button" href="../02-macrecoverypy">macrecovery.py &rarr;</a>
   </div>
   <div class="navigation-container">
     <a class="nav-button" href="../../02-PlatformSpecific/index">&larr; Back Page</a>
-    <a class="nav-button" href="../02-DarwinFetch">DarwinFetch &rarr;</a>
+    <a class="nav-button" href="../01-gibMacRecovery">gibMacRecovery &rarr;</a>
   </div>
   <br>
 </h2>

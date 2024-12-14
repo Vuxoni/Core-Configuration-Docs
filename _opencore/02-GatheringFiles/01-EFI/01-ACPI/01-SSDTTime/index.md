@@ -205,7 +205,7 @@ This information is to be filled out.
 
 ## **Dumping ACPI tables for a secondary machine**
 
-If you need to generate SSDTs for a secondary machine, you must still dump the ACPI Tables from said secondary machine.
+If you need to generate SSDTs for a secondary machine, you must still dump the ACPI Tables from said secondary machine to select them in SSDTTime.
 
 In order to dump our tables, we need a few things. First of all, we want to grab [UEFI shell](https://github.com/tianocore/edk2/blob/edk2-stable201903/ShellBinPkg/UefiShell/X64/Shell.efi). Then, we want to grab [ACPIDump.efi](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/acpidump.efi.zip), that will allow us to dump our ACPI tables.
 

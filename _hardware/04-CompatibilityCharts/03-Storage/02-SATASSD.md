@@ -26,8 +26,8 @@ has_toc: false
 </p>
 <br>
 
-{: .warning }
-This sections is currently a work in progress, and information here may be incorrect.
+{: .internalnote }
+This sections is currently a work in progress, and information here may be incorrect. The intended layout is: Recommended SSDs known to work extremely well, Various Brands and associated known working SSDs, finally the Unsupported SSDs section, which is used to keep track with community support.
 
 # Recommended SATA SSDs
 

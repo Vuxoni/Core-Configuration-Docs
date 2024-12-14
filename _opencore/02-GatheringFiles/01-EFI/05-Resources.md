@@ -75,28 +75,30 @@ The following are standard themes that can be downloaded by Acidanthera:
 
 <div class="image-container">
   <div class="image-item">
+    <h3>Chardonnay (Old)</h3>
+    <a href="../../../../assets/OpenCore/OpenCanopyChardonnay.png" target="_blank">
+      <img src="../../../../assets/OpenCore/OpenCanopyChardonnay.png" alt="Chardonnay (Old)">
+    </a>
+  </div>
+  <div class="image-item">
     <h3>Syrah (Default)</h3>
-    <a href="../../../../assets/Dortania/gui.a10019ae.png" target="_blank">
-      <img src="../../../../assets/Dortania/gui.a10019ae.png" alt="Syrah (Default)">
+    <a href="../../../../assets/OpenCore/OpenCanopySyrah.png" target="_blank">
+      <img src="../../../../assets/OpenCore/OpenCanopySyrah.png" alt="Syrah (Default)">
     </a>
   </div>
   <div class="image-item">
     <h3>GoldenGate (Modern)</h3>
-    <a href="../../../../assets/Dortania/gui-nouveau.8ad4a7b4.png" target="_blank">
-      <img src="../../../../assets/Dortania/gui-nouveau.8ad4a7b4.png" alt="GoldenGate (Modern)">
-    </a>
-  </div>
-  <div class="image-item">
-    <h3>Chardonnay (Old)</h3>
-    <a href="../../../../assets/Dortania/gui-old.53c75c16.png" target="_blank">
-      <img src="../../../../assets/Dortania/gui-old.53c75c16.png" alt="Chardonnay (Old)">
+    <a href="../../../../assets/OpenCore/OpenCanopyGoldenGate.png" target="_blank">
+      <img src="../../../../assets/OpenCore/OpenCanopyGoldenGate.png" alt="GoldenGate (Modern)">
     </a>
   </div>
 </div>
 
-To install these themes, visit the [OcBinaryData](https://github.com/acidanthera/OcBinaryData) and download it as a ZIP. This will provide you with the 3 default themes for Resources.
+To install these themes, visit the [OcBinaryData](https://github.com/acidanthera/OcBinaryData) repository on Github and download it as a ZIP. This will provide you with the 3 default themes for Resources.
 
 Unpack the following data into your own EFI's ``Resources`` folder.
+
+When configuring the ``Chardonnay`` theme, it's advised to set the ``DefaultBackgroundColor`` to ``BFBFBF00``
 
 ## **Installing third-party themes**
 

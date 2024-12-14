@@ -48,11 +48,69 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## Massive Local Changes
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-12-14
+
+### Added
+- Asset images for various sections
+
+### Changed
+- Configuration of Property List structure
+- Welcome Area has now been filled out
+- Hardware Section has now been filled out
+- Installation of OpenCore to a USB has now ben filled out
+
+### Fixed
+- Various Navigation buttons
+
+### Deprecated
+- Old configuration format in favor of the new reworked generalized format ([@tammo03](https://github.com/tammo03))
+
+### Removed
+-
+
+### Security
+-
+
+---
+
+## Filling in Initial information
+### Prerelease@restructure
+#### By royalgraphx
+
+## [1.0.0~prerelease] - 2024-11-09
+
+### Added
+- HWiNFO screenshots and assets
+
+### Changed
+- Welcome Area pages
+- Hardware Area pages
+- Compatibility Charts, extended by request of [@irlbunny](https://github.com/irlbunny)
+- Assets updated
+
+### Fixed
+- Config.plist area
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Security
+-
+
+---
+
 ## Update Gallery and ATD Pages
 ### Prerelease@restructure
 #### By royalgraphx
 
-## [Version~Type] - 2024-10-27
+## [1.0.0~prerelease] - 2024-10-27
 
 ### Added
 

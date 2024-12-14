@@ -38,7 +38,7 @@ has_toc: false
 <h2 align="center">Choose your current OS to continue.</h2>
 <br>
 
-
+<p align="center">We're going to start by helping you write down <i>specifically</i> what hardware you have.</p>
 
 <h2 align="center">
   <br>

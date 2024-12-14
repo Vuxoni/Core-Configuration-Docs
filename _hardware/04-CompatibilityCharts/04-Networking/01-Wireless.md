@@ -25,8 +25,8 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Headers/Header-Wireless.png">
 </p>
 
-{: .warning }
-This sections is currently a work in progress, and information here may be incorrect.
+{: .internalnote }
+This sections is currently a work in progress, and information here may be incorrect. The intended layout is: Recommended Wi-Fi chipsets known to work extremely well, Various Brands and associated known working Wi-Fi chipsets, finally the Unsupported Wi-Fi chipsets section, which is used to keep track with community support.
 
 # Recommended Wireless Devices
 

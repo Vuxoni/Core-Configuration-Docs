@@ -49,7 +49,7 @@ This information has not yet been filled out.
   <a class="intel-next-button" href="../01-Intel/">Intel &rarr;</a>
   </div>
   <div class="navigation-container">
-    <a class="nav-button" href="../../configfolders/06-Tools/">&larr; Back Page</a>
+    <a class="nav-button" href="../../02-ConfigPlist/index">&larr; Back Page</a>
     <a class="nav-button" href="../02-AMD/">AMD &rarr;</a>
   </div>
   <br>

@@ -33,9 +33,13 @@ has_toc: false
 <p align="center">
   <img width="650" height="200" src="../../../../assets/Headers/Header-NetSupportChart.png">
 </p>
-
-<h4 align="center">Some sort of internet connection is required for recoveryOS.</h4>
 <br>
+
+<p align="center">It is a requirement to have a working internet connection provided by a supported Networking Card or Chipset. We do not redistribute any files for the installation portion of OS X / macOS, and you will be using Base System / recoveryOS which uses an active internet connection to download the full installation from Apple directly, like a normal Mac machine would do.</p>
+
+<p align="center">If you already have a real Mac machine near you, and you make an offline installer, you can negate the requirement of a working NIC, but then how would you enjoy using OS X / macOS after? Even if you resolve the installation issue, you will need a form of networking in some capacity eventually.</p>
+
+<p align="center">You can continue by selecting the appropriate button below for your Type of NIC.</p>
 
 <h2 align="center">
   <br>

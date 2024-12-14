@@ -129,7 +129,7 @@ Now that you understand the basics of navigating and understanding what you are 
   <br>
   <div class="navigation-container">
     <a class="nav-button" href="../index/">&larr; Back Page</a>
-    <a class="nav-button" href="../02-Dictionaries/index/">Next Page &rarr;</a>
+    <a class="nav-button" href="../02-ConfigPlist/index/">Next Page &rarr;</a>
   </div>
   <br>
 </h2>

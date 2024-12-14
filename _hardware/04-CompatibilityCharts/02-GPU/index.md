@@ -34,15 +34,27 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Headers/Header-GPUSupportChart.png">
 </p>
 
-<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<h2 align="center">Important Notes for everyone!</h2>
+<h2 align="center">Please make sure you read these.</h2>
 <br>
 
-{: .internalnote }
-Reasoning for the order of options in the nav bar is due to people's typical first option available. For the most part, most users start with iGPU support, and then begin considering their dedicated graphics. As such, we then display AMD as the next "best" option, and followed finally by NVIDIA. The order is from top to bottom, not inversed. As such, do not assume NVIDIA is the best choice.
+{: .warning }
+If your card falls under the Hopper, Ada Lovelace, Ampere or Turing generations of NVIDIA RTX, your card is completely unsupported. Your options are using a supported Intel iGPU, or purchasing an AMD dedicated Graphics Card if you are on an AMD CPU. OpenCore Legacy Patcher will not solve this issue, RTX has never had support.
 
-1. Help the user find their GPU by Vendor.
-2. Go over general notes that affect all GPUs and iGPUs.
+{: .important }
+The Intel iGPU chart page is currently a work in progress, and information may be incorrect. If you seem to spot an error or have better information, please feel free to make a pull request for the Intel Support Chart page! Intel experts needed for validity of Initial and Latest support. This note should go away sooner or later.
 
+{: .note }
+The NVIDIA support charts are mainly here for legacy OS X users for preservation, such cases include but are not limited to: Audio Engineers, Film Editors, and Photographers using legacy licensed software. As of High Sierra (10.13), all NVIDIA GPUs (except for Kepler, dropped in Big Sur due to Metal 1 support) were dropped from Mac OS X. High Sierra is no longer viable as an operating system, and if you only have NVIDIA graphics, you cannot use modern macOS.
+
+{: .note }
+The importance of these charts are to quickly reference what Graphics Processing Units are supported, what version they first began their support on, and the latest release that still have kernel extensions for said GPU. We also keep track of non supported GPUs to quickly reference they are not supported. This area is a major point of Pull Requests, help out if you can! We're interested in learning what GPUs work when spoofed as their supported counterparts.
+
+{: .note }
+When reading these support charts, keep in mind that the most powerful card of the generation is at the top, and it's sorted down by boost clock speed. When it comes to Intel iGPUs, it is similarly sorted. NVIDIA charts are also sorted by card number. This makes it really easy to quickly scroll down until you find your device.
+
+<br>
+<p align="center">Start by choosing the Brand for your GPU/iGPU</p>
 
 <h2 align="center">
   <br>

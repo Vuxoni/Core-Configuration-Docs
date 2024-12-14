@@ -33,13 +33,11 @@ has_toc: false
 <p align="center">
   <img width="650" height="200" src="../../../../assets/Headers/Header-StorageSupportChart.png">
 </p>
-
-<h4 align="center">We'll start by choosing the Type of storage you will install to.</h4>
 <br>
 
-For OS X / macOS to be installed, we need to ensure that recoveryOS or the full offline installer will recognize your intended storage device.
+<p align="center">For OS X / macOS to be installed, we need to ensure that recoveryOS or the full offline installer will recognize your intended storage device, but will also work correctly under normal usage.</p>
 
-You can continue by selecting the appropriate button below.
+<p align="center">You can continue by selecting the appropriate button below for your Type of storage.</p>
 
 <h2 align="center">
   <br>

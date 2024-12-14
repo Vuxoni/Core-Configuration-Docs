@@ -27,7 +27,7 @@ has_toc: false
 <h2 align="center">Where to source OpenCore, Where to install it to.</h2>
 <br>
 
-# **Fetching OpenCorePkg**
+## **Fetching OpenCorePkg**
 
 To begin, you will want to go to the **[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)** Github page. On the right side, you will see a ``Releases`` tab. This will take you to the latest version that is available for download. We recommend downloading the ``DEBUG`` variant so you can get the best logs when requesting support.
 
@@ -58,38 +58,65 @@ The contents of the zip will contain roughly the following files:
             └── Tools
 ```
 
-# **Preparing the USB Drive**
+## **Preparing the USB Drive**
 
 What you'll want to do, is begin by selecting the appropriate folder for your systems architecture. For this example, we will be using ``X64`` instead of ``IA32``.
 
-Move the ``EFI`` folder within the architecture of choice, and drop it to the root of your recently freshly formatted USB drive.
+Move the ``EFI`` folder that exists within the architecture of choice, and drop it to the root of your recently freshly formatted USB drive. This is what your two windows would look like in preparation to copy it over:
 
+<br>
 <p align="center">
-  <img width="100%" height="100%" src="../../../assets/GatheringFiles/RootOfUSBDrive-NoRecoveryOS.png">
+  <img width="100%" height="100%" src="../../../assets/OpenCore/OpenCoreEFIToUSBInitial.png">
+  <p align="center"><i>LEFT: OpenCore ZIP opened in X64 folder, RIGHT: Root of Freshly formatted USB stick.</i></p>
 </p>
 
-# **Using Sample.plist for configuration**
+<br>
+Once you're done, this is what the root of your USB should look like:
 
-{: .internalnote }
-Need screenshots of before and after placing ``Sample.plist`` and renaming it to ``config.plist``
+<br>
+<p align="center">
+  <img width="100%" height="100%" src="../../../assets/OpenCore/InitialUSBPostEFIDrop.png">
+</p>
+<br>
+
+Don't worry if you don't have hidden folders/items enabled as it won't affect the USBs ability to boot. We'll now need to navigate to the following path:
+
+{: .important }
+``USB`` is how your flash drive will be referenced from now on.
+
+```bash
+USB/EFI/OC/
+```
+
+## **Using Sample.plist for configuration**
 
 Now, you'll need to quickly browse for ``Sample.plist`` within ``Docs/`` folder of the OpenCore ZIP file you unpacked earlier.
 
+<br>
+<p align="center">
+  <img width="100%" height="100%" src="../../../assets/OpenCore/OpenCoreZIPSampleHIghlighted.png" alt="">
+</p>
+<br>
+
 Copy and paste this ``Sample.plist`` onto ``USB/EFI/OC/Sample.plist`` like so:
 
-<div style="text-align: center;" markdown="1">
-  [![Sample.plist shown on USB](/assets/)](/assets/)
-</div>
+<br>
+<p align="center">
+  <img width="100%" height="100%" src="../../../assets/OpenCore/OpenCoreUSBSampleInitial.png" alt="">
+</p>
+<br>
 
 You must now rename the file to ``config.plist``, as this is the actual property list that OpenCore is looking for and will load as the configuration file.
 
-<div style="text-align: center;" markdown="1">
-  [![File is now config.plist](/assets/)](/assets/)
-</div>
+<br>
+<p align="center">
+  <img width="100%" height="100%" src="../../../assets/OpenCore/USBEFIConfigurationFileRename.png">
+</p>
+<br>
 
-You now have a configuration file you can open later on in an appropriate property list editor.
+You now have a configuration file that OpenCore can load and use. You can open this properly list file later on in an appropriate property list editor.
 
-Before we can continue, we must do an initial run through the contents of ``USB/EFI/OC`` to actually configure each folder with attention. When you are ready to continue, press below.
+Before we can continue, we must do an initial run through the contents of ``USB/EFI/OC`` to actually configure each folder with attention, as we won't begin modifying the OpenCore configuration itself until we're done preparing. When you are ready to continue, press below.
 
 <h2 align="center">
   <br>

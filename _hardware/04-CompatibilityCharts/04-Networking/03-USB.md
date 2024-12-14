@@ -27,8 +27,8 @@ has_toc: false
 
 <h2 align="center">Placeholder Information</h2>
 
-{: .warning }
-This sections is currently a work in progress, and information here may be incorrect.
+{: .internalnote }
+This sections is currently a work in progress, and information here may be incorrect. The intended layout is: Recommended USB Dongles known to work extremely well, Various Brands and associated known working USB Dongles, finally the Unsupported USB Dongles section, which is used to keep track with community support.
 
 # Recommended USB Dongles
 

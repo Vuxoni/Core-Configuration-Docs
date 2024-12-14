@@ -24,14 +24,11 @@ has_toc: false
   <img width="650" height="200" src="../../../../assets/Headers/Header-MiscSupportChart.png">
 </p>
 
-<h2 align="center">Placeholder Information</h2>
-
-<h4 align="center">This page is a stub temporarily, but this page should:</h4>
+<h2 align="center">An info dump of obscure hardware support</h2>
 <br>
 
-1. Help aid in non-standard help that would otherwise not fit in the above sections.
-
-2. Have a nice list with links directly to specific issues if required.
+<p align="center">This section is currently a placeholder, and may even be removed!</p>
+<p align="center">You can continue below using the Nav Bar.</p>
 
 <h2 align="center">
   <br>

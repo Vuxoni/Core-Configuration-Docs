@@ -26,11 +26,11 @@ has_toc: false
 <h2 align="center">The importance of using natively compatible hardware.</h2>
 <br>
 
-Welcome to the beginning of your journey. Like every journey, you must be prepared before embarking into unknown territory. We’d like to take a quick detour to explain the importance of being familiar with your hardware and what it means to be limited by it.
+<p align="center">Welcome to the beginning of your journey. Like every journey, you must be prepared before embarking into unknown territory. We’d like to take a quick detour to explain the importance of being familiar with your hardware and what it means to be limited by it.</p>
 
-The Mac operating system was only ever intended to run on a specific set of hardware put together by Apple. This means that for our purposes—running it on non-Apple hardware—the responsibility of correcting how we present our hardware to macOS / OS X, depending on our level of compatibility, falls on us.
+<p align="center">The Mac operating system was only ever intended to run on a specific set of hardware put together by Apple. This means that for our purposes—running it on non-Apple hardware—the responsibility of correcting how we present our hardware to macOS / OS X, depending on our level of compatibility, falls on us.</p>
 
-Before we even consider proceeding with the decision to run the Mac operating system on your intended target hardware, we must thoroughly understand all its individual components, especially if it is a pre-built machine or a laptop. After we run through various related topics, we can then verify the viability of your hardware using the support charts.
+<p align="center">Before we even consider proceeding with the decision to run the Mac operating system on your intended target hardware, we must thoroughly understand all its individual components, especially if it is a pre-built machine or a laptop and you are unaware what kind of hardware you have. After we run through various related topics, we can then verify the viability of your hardware using the support charts provided later in this section.</p>
 
 <br>
 <h2 align="center">

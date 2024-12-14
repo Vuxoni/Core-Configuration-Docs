@@ -67,7 +67,7 @@ permalink: /
 </p>
 
 <h3 class="tagline">An Advanced Guide for running Mac OS X / macOS on Non-Apple Hardware.</h3>
-<h5 class="help-text">If you run into any issues, you can join <a href="https://discord.gg/DUzCmUjVQZ">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within an appropriate help channel for support on your matter.</h5>
+<h5 class="help-text">If you run into any issues, you can join <a href="">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within an appropriate help channel for support on your matter.</h5>
 <div style="display: flex; justify-content: center; align-items: center;">
     <iframe src="https://discord.com/widget?id=1256314323240882236&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </div>
