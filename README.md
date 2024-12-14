@@ -15,7 +15,7 @@
 <p align="center">
   <img width="50%" height="50%" src="./assets/Discord/discord-logo-white.png">
 </p>
-<h4 align="center">If you run into any issues, you can join the <a href="https://discord.gg/DUzCmUjVQZ">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within a help channel for support.</h4>
+<h4 align="center">If you run into any issues, you can join the <a href="">The Botánica</a> Discord server! Feel free to ping the <span style="color: #ffe875;">@Dandelions (Helper)</span> role within a help channel for support.</h4>
 
 </br>
 </br>
@@ -24,7 +24,7 @@
   <img width="30%" height="30%" src="./assets/GitHub/GitHub_Logo_White.png">
 </p>
 <h4 align="center">If you have any changes or improvements you'd like to contribute for review and merge, to update misinformation or outdated information, as well as maybe even adding whole new pages, you can follow the general outline below to get a local copy of the documentation running below.</h4>
-<h6 align="center">Instructions written for macOS hosts but is adoptable to other OS's.</h6>
+<h6 align="center">Instructions written for macOS hosts but is adoptable to other OSs like Linux.</h6>
 
 </br>
 
