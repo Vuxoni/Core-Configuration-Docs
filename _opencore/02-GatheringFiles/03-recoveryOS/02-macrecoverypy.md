@@ -74,11 +74,9 @@ Once the recoveryOS is fetched, the output will be similar to this:
   <img width="1275" height="1236" src="/assets/macrecovery/MacRecoveryOS-W.png">
 </p>
 
-# Preparing your UBS
+# Preparing your USB
 
-Once you fetch the files for recoveryOS, you need to format your USB as FAT32 (MS-DOS (FAT)) with GUID scheme.
-
-After you format your USB, you should move your ``com.apple.recovery.boot`` file to the root of your USB.
+After fetching recoveryOS, you should move your ``com.apple.recovery.boot`` folder to the root of your USB.
 
 <p align="center">
   <img width="1275" height="1236" src="/assets/macrecovery/MacRecoveryUSB-W.png">
